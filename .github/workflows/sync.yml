@@ -29,7 +29,7 @@ jobs:
 
       - name: Sync the website content
         run: |
-          rsync -av --delete scipy.org/content/en scipy.org-translations/content/en/
+          rsync -av --delete scipy.org/content/en scipy.org-translations/content/
           cd scipy.org-translations
           git checkout -b ${{ env.BRANCH_NAME }}
           git config --global user.email "actions@github.com"
