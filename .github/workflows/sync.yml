@@ -50,5 +50,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run:
-          gh pr create --base main --head ${{ env.BRANCH_NAME }} --title "Update source content" --body "Automated update of Pandas content."
+          gh pr create --base main --head ${{ env.BRANCH_NAME }} --title "Update source content" --body "Automated update of scipy.org content."
         working-directory: ./scipy.org-translations
