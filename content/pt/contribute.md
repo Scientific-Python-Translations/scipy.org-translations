@@ -11,9 +11,9 @@ If you're unsure where to start or how your skills fit in, _reach out!_
 See the [community](/community) page.
 
 Our community aspires to treat everyone equally and to value all contributions.
-We have a
-[Code of Conduct](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
-to foster an open and welcoming environment.
+Temos um
+[Código de Conduta](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
+para promover um ambiente aberto e inclusivo.
 
 ### Writing code
 
