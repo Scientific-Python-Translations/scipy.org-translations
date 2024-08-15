@@ -6,16 +6,16 @@ title: null
 
 [[item]]
 type = 'card'
-title = 'Fundamental algorithms'
+title = 'Algorismes fonamentals'
 body = '''
-SciPy provides algorithms for optimization, integration, interpolation, eigenvalue problems, algebraic equations, differential equations, statistics and many other classes of problems.
+SciPy proporciona algorismes d'optimització, integració, interpolació, problemes de valor propi, equacions algebraiques, equacions diferencials, estadístic i moltes altres classes de problemes.
 '''
 
 [[item]]
 type = 'card'
-title = 'Broadly applicable'
+title = 'Aplicable a tots els dominis'
 body = '''
-The algorithms and data structures provided by SciPy are broadly applicable across domains.
+Els algorismes i les estructures de dades proporcionades per SciPy són àmpliament aplicables a tots els dominis.
 '''
 
 [[item]]
