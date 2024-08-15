@@ -20,16 +20,16 @@ Els algorismes i les estructures de dades proporcionades per SciPy són àmpliam
 
 [[item]]
 type = 'card'
-title = 'Foundational'
+title = 'Fundacional'
 body = '''
-Extends NumPy providing additional tools for array computing and provides specialized data structures, such as sparse matrices and k-dimensional trees.
+Amplia NumPy proporcionant eines addicionals per a la computació de matrius i proporciona estructures de dades especialitzades, com matrius disperses i arbres de dimensió k.
 '''
 
 [[item]]
 type = 'card'
-title = 'Performant'
+title = 'Rendiment òptim'
 body = '''
-SciPy wraps highly-optimized implementations written in low-level languages like Fortran, C, and C++. Enjoy the flexibility of Python with the speed of compiled code.
+SciPy embolcalla implementacions altament optimitzades escrites en llenguatges de baix nivell com Fortran, C i C++. Gaudeix de la flexibilitat de Python amb la velocitat del codi compilat.
 '''
 
 [[item]]
