@@ -34,16 +34,16 @@ SciPy embolcalla implementacions altament optimitzades escrites en llenguatges d
 
 [[item]]
 type = 'card'
-title = 'Easy to use'
+title = 'Fàcil d'utilitzar'
 body = '''
-SciPy's high level syntax makes it accessible and productive for programmers from any background or experience level.
+La sintaxi d'alt nivell de SciPy el fa accessible i productiu per a qualsevol programador, independentment del seu coneixement previ o nivell d'experiència.
 '''
 
 [[item]]
 type = 'card'
-title = 'Open source'
+title = 'Programari lliure'
 body = '''
-Distributed under a liberal [BSD license](https://github.com/scipy/scipy/blob/main/LICENSE.txt), SciPy is developed and maintained [publicly on GitHub](https://github.com/scipy/scipy) by a vibrant, responsive, and diverse [community](/community).
+Distribuït sota la [llicència liberal BSD](https://github.com/scipy/scipy/blob/main/LICENSE.txt), SciPy és desenvolupat i mantingut [públicament a GitHub](https://github.com/scipy/scipy) per una [comunitat](/community) vibrant, atenta i diversa.
 '''
 
 {{< /grid >}}
