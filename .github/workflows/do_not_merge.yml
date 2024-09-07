@@ -11,17 +11,8 @@ jobs:
     steps:
       - name: Check for "do-not-merge" Label
         id: check_label
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # https://stackoverflow.com/a/71510189/992102
+        if: contains(github.event.pull_request.labels.*.name, 'do-not-merge')
         run: |
-          labels=$(gh pr view ${{ github.event.pull_request.number }} --json labels --jq '.labels[].name')
-
-          if [[ $? -ne 0 ]]; then
-            echo "Failed to retrieve PR labels."
-            exit 1
-          fi
-
-          if echo "$labels" | grep -qw do-not-merge; then
-            echo "DO NOT MERGE"
-            exit 1
-          fi
+          echo "Failed to retrieve PR labels."
+          exit 1
