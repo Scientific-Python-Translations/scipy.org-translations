@@ -54,7 +54,7 @@ _May 10, 2023_ -- Fostering an Inclusive Culture: Call for Participation
 
 How can we be better when it comes to diversity and inclusion?
 Read the report and find out how to get involved here
-https://contributor-experience.org/docs/posts/dei-report/
+<https://contributor-experience.org/docs/posts/dei-report/>
 
 ### SciPy 1.10.1 released
 
@@ -69,7 +69,7 @@ _January 3, 2023_ -- SciPy 1.10.0 has been released!
 _November, 2022_ -- SciPy received a grant from the Chan Zuckerberg
 Initiative!
 
-See https://chanzuckerberg.com/eoss/proposals/scipy-fundamental-tools-for-biomedical-research/
+See <https://chanzuckerberg.com/eoss/proposals/scipy-fundamental-tools-for-biomedical-research/>
 
 ### SciPy 1.9.3 released
 
@@ -113,13 +113,13 @@ _August 1, 2021_ -- SciPy 1.7.1 is a bug-fix release with no new features compar
 
 ### NumPy survey
 
-_2020-07-02_ -- The first-ever NumPy community survey is LIVE! See https://numpy.org/news/
+_2020-07-02_ -- The first-ever NumPy community survey is LIVE! See <https://numpy.org/news/>
 
 ### SciPy funding
 
 _2019-11-15_ SciPy, NumPy, Matplotlib, Pandas, scikit-learn, scikit-image, Dask,
 Zarr and others received functions from the Chan Zuckerberg
-Initiative! See https://chanzuckerberg.com/eoss/
+Initiative! See <https://chanzuckerberg.com/eoss/>
 
 ### SciPy user survey results
 
