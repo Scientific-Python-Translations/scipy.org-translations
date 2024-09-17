@@ -27,7 +27,7 @@ Amplia NumPy proporcionando herramientas adicionales para la computación de mat
 
 [[item]]
 type = 'card'
-title = 'Rendimiento óptimo'
+title = 'Alto Rendimiento'
 body = '''
 SciPy envuelve implementaciones altamente optimizadas escritas en lenguajes de bajo nivel como Fortran, C y C++. Disfruta de la fexibilidad de Pyhton con la velocidad del código compilado.
 '''
