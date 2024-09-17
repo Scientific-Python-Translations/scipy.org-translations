@@ -29,7 +29,7 @@ the terms of the BSD license
 
 Actually, the time-critical loops are usually implemented in C, C++, or
 Fortran. Parts of SciPy are thin layers of code on top of the scientific
-routines that are freely available at https://www.netlib.org/. Netlib
+routines that are freely available at <https://www.netlib.org/>. Netlib
 is a huge repository of incredibly valuable and robust scientific
 algorithms written in C and Fortran. It would be silly to rewrite these
 algorithms and would take years to debug them. SciPy uses a variety of
