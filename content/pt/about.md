@@ -3,16 +3,12 @@ title: Quem Somos
 sidebar: false
 ---
 
-A SciPy é desenvolvida publicamente no GitHub, através do consenso das comunidades da SciPy e, mais amplamente, do Python científico. For more information on our governance
-approach, please see our
-[Governance Document](https://docs.scipy.org/doc/scipy/dev/governance.html).
+A SciPy é desenvolvida publicamente no GitHub, através do consenso das comunidades da SciPy e, mais amplamente, do Python científico. Para mais informações sobre nosso modelo de governança, por favor veja nosso
+[Documento de Governança](https://docs.scipy.org/doc/scipy/dev/governance.html).
 
-## Steering Council
+## Conselho Diretor (Steering Council)
 
-The role of the SciPy Steering Council is to ensure, through working with and
-serving the broader SciPy community, the long-term well-being of the project,
-both technically and as a community. The SciPy Steering Council currently
-consists of the following members (in alphabetical order):
+O papel do Conselho Diretor da SciPy é trabalhar com a comunidade e servi-la para garantir a saúde do projeto a longo prazo, tanto tecnicamente quanto no contexto da comunidade. O Conselho Diretor da SciPy atualmente consiste nos seguintes membros: (em ordem alfabética):
 
 - Andrew Nelson
 - Charles Harris
@@ -28,40 +24,40 @@ consists of the following members (in alphabetical order):
 - Nikolay Mayorov
 - Paul van Mulbregt
 - Pauli Virtanen (BDFL)
-- Ralf Gommers (Chair)
-- Tyler Reddy (Release manager)
+- Ralf Gommers (Presidente)
+- Tyler Reddy (Release manager - responsável pelo lançamento de novas versões)
 - Warren Weckesser
 
-Emeritus:
+Membros eméritos:
 
 - Anne Archibald
-- Eric Jones (co-creator of SciPy)
+- Eric Jones (co-criador da SciPy)
 - Eric Moore
 - Eric Quintero
 - Jaime Fernández del Río
 - Jarrod Millman
-- Pearu Peterson (co-creator of SciPy)
+- Pearu Peterson (co-criador da SciPy)
 - Robert Kern
 - Stéfan van der Walt
-- Travis Oliphant (co-creator of SciPy)
+- Travis Oliphant (co-criador da SciPy)
 
-## Teams
+## Equipes
 
-The SciPy project is growing; we have teams for
+O projeto SciPy está crescendo; nós temos equipes para
 
-- code
+- código
 - website
-- triage
+- triagem
 
-See the [Teams](/teams) page for individual team members.
+Veja a página [Teams](/teams) para os membros individuais de cada equipe.
 
-## Sponsors
+## Patrocinadores
 
-SciPy receives direct funding from the following sources:
+A SciPy recebe financiamento direto das seguintes fontes:
 
 {{< sponsors >}}
 
-## Institutional Partners
+## Parceiros Institucionais
 
 Institutional Partners are organizations that support the project by employing
 people that contribute to SciPy as part of their job. Current Institutional
