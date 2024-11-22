@@ -3,18 +3,18 @@ title: Teams
 sidebar: false
 ---
 
-### Maintainers
+### Mantenedores
 
 {{< grid file="maintainers.toml" columns="2 3 4 5" />}}
 
-### Triage team
+### Equipe de Triagem
 
 {{< grid file="triage-team.toml" columns="2 3 4 5" />}}
 
-### Web team
+### Equipe Web
 
 {{< grid file="web-team.toml" columns="2 3 4 5" />}}
 
-### Emeritus maintainers
+### Mantenedores Eméritos
 
 {{< grid file="emeritus-maintainers.toml" columns="2 3 4 5" />}}
