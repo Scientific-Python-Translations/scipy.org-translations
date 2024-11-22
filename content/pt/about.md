@@ -59,9 +59,7 @@ A SciPy recebe financiamento direto das seguintes fontes:
 
 ## Parceiros Institucionais
 
-Institutional Partners are organizations that support the project by employing
-people that contribute to SciPy as part of their job. Current Institutional
-Partners include:
+Parceiros Institucionais são organizações que apoiam o projeto ao empregar pessoas que contribuem para a SciPy como parte do seu trabalho. Parceiros Institucionais atuais incluem:
 
 - Quansight (Ralf Gommers, Peter Bell, Melissa Weber Mendonça,
   Evgeni Burovski, Albert Steppi)
@@ -70,54 +68,40 @@ Partners include:
 
 - Los Alamos National Laboratory (Tyler Reddy)
 
-## Donate
+## Doações
 
-SciPy will always be 100% open source software, free for all to use and
-released under the liberal terms of the modified BSD license. While we
-have a large number of
-[contributors](https://github.com/scipy/scipy/graphs/contributors)
-who volunteer their time to improve SciPy, financial resources are
-needed to run the project and accelerate its development. If you have
-found SciPy useful in your work, research, or company, please consider
-making a donation to the project commensurate with your resources. Any
-amount helps!
+A SciPy sempre será 100% open source, livre e gratuita para todos usarem e será lançada nos termos liberais da licença BSD modificada. Mesmo que a SciPy tenha um grande número de
+[contribuidores](https://github.com/scipy/scipy/graphs/contributors)
+oferecendo seu tempo para melhorias da SciPy, precisamos de recursos financeiros para gerenciar o projeto e acelerar o seu desenvolvimento. Se você considera que a SciPy é útil no seu trabalho, ou empresa, por favor considere fazer uma doação para o projeto compatível com seus recursos. Qualquer quantidade ajuda!
 
-Donations are managed by the [NumFOCUS](https://numfocus.org)
-foundation, which passes your contribution to the SciPy project,
-and provides the SciPy development team with basic administrative and
-legal services. NumFOCUS is a 501(c)3 non-profit
-foundation, so if you are subject to the US Tax law, your contributions
-are tax-deductible.
+Doações são gerenciadas pela fundação [NumFOCUS](https://numfocus.org), que passa a sua contribuição para o projeto SciPy,
+e fornece serviços legais e administrativos básicos
+à equipe de desenvolvimento da SciPy. A NumFOCUS é uma fundação 501(c)3 sem fins lucrativos, então se você estiver sujeito à lei fiscal dos EUA, suas contribuições
+são dedutíveis de imposto.
 
 {{<opencollective>}}
 
-## Acknowledgements
+## Agradecimentos
 
-The SciPy development team would like to thank the following companies
-and organizations for providing financial support, services, or
-development infrastructure:
+A equipe de desenvolvimento da SciPy gostaria de agradecer às seguintes empresas
+e organizações por prestarem suporte financeiro, serviços ou
+infraestrutura de desenvolvimento:
 
-- [JetBrains](https://jb.gg/OpenSourceSupport): licenses of all their
-  products for all active maintainers
+- [JetBrains](https://jb.gg/OpenSourceSupport): licenças de todos os seus produtos
+  para todos os mantenedores ativos
 - [Tidelift](https://tidelift.com/subscription/pkg/pypi-scipy?utm_source=pypi-scipy\&utm_medium=referral\&utm_campaign=readme):
-  financial support for SciPy through the Tidelift open source
-  subscription
-- [CircleCI](https://circleci.com): continuous integration credit
-- [TravisCI](https://travis-ci.com): continuous integration credit
-- [Appveyor](https://ci.appveyor.com): continuous integration credit
-- [Azure](https://dev.azure.com): continuous integration credit
-- [Enthought](https://www.enthought.com): scipy.org and mailing lists
-  hosting, holding the SciPy trademark
-- [NumFOCUS](https://numfocus.org): several small development grants,
-  and a hosted Mac Mini build machine
-- [Google](https://google.com): support for many Google Summer of Code
-  students
-- [Intel](https://www.intel.com): Intel
-  [MKL](https://software.intel.com/en-us/intel-mkl/) licenses
-- [BYU](https://www.byu.edu): employed Travis Oliphant while working
-  on SciPy
-- [Mayo Clinic](https://www.mayoclinic.org): employed Travis Oliphant
-  while working on SciPy
+  suporte financeiro para SciPy através da assinatura do Tidelift open source
+- [CircleCI](https://circleci.com): crédito para serviços de integração contínua (CI)
+- [TravisCI](https://travis-ci.com): crédito para serviços de integração contínua (CI)
+- [Appveyor](https://ci.appveyor.com): crédito para serviços de integração contínua (CI)
+- [Azure](https://dev.azure.com): crédito para serviços de integração contínua (CI)
+- [Enthought](https://www.enthought.com): Hospedagem para o domínio scipy.org e listas de email, responsável pela marca SciPy
+- [NumFOCUS](https://numfocus.org): vários <i>small development grants</i>,
+  e um Mac Mini
+- [Google](https://google.com): apoio para vários estudantes com o programa Google Summer of Code
+- [Intel](https://www.intel.com): Licenças Intel
+  [MKL](https://software.intel.com/en-us/intel-mkl/)
+- [BYU](https://www.byu.edu): vínculo empregatício enquanto Travis Oliphant trabalhava na SciPy
+- [Mayo Clinic](https://www.mayoclinic.org): vínculo empregatício enquanto Travis Oliphant trabalhava na SciPy
 
-_This list is ordered by time (most recent contributions first) and was
-last updated in January 2022._
+_Esta lista é ordenada pelo tempo (contribuições mais recentes primeiro) e foi atualizada pela última vez  em janeiro de 2022._
