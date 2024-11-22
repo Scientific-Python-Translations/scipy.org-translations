@@ -6,44 +6,44 @@ title: null
 
 [[item]]
 type = 'card'
-title = 'Fundamental algorithms'
+title = 'Algoritmos Fundamentais'
 body = '''
-SciPy provides algorithms for optimization, integration, interpolation, eigenvalue problems, algebraic equations, differential equations, statistics and many other classes of problems.
+SciPy disponibiliza algoritmos para otimização, integração numérica, interpolação, problemas de autovalores, equações algébricas, equações diferenciais, estatística e muitas outras classes de problemas.
 '''
 
 [[item]]
 type = 'card'
-title = 'Broadly applicable'
+title = 'Aplicações amplas'
 body = '''
-The algorithms and data structures provided by SciPy are broadly applicable across domains.
+Os algoritmos e estruturas de dados disponibilizados pela SciPy são amplamente aplicáveis a vários domínios.
 '''
 
 [[item]]
 type = 'card'
-title = 'Foundational'
+title = 'Fundamental'
 body = '''
-Extends NumPy providing additional tools for array computing and provides specialized data structures, such as sparse matrices and k-dimensional trees.
+Extende a NumPy, adicionando ferramentas para computação com arrays e disponibiliza estruturas de dados especializadas, tais como matrizes esparsas e árvores k-dimensionais.
 '''
 
 [[item]]
 type = 'card'
-title = 'Performant'
+title = 'Alto desempenho'
 body = '''
-SciPy wraps highly-optimized implementations written in low-level languages like Fortran, C, and C++. Enjoy the flexibility of Python with the speed of compiled code.
+A SciPy empacota implementações altamente otimizadas escritas em linguagens de baixo nível tais como Fortran, C, and C++. Aproveite a flexibilidade do Python com a velocidade de código compilado.
 '''
 
 [[item]]
 type = 'card'
-title = 'Easy to use'
+title = 'Fácil de usar'
 body = '''
-SciPy's high level syntax makes it accessible and productive for programmers from any background or experience level.
+A sintaxe de alto nível da SciPy faz com que ela seja acessível e produtiva para programadores com qualquer formação ou nível de experiência.
 '''
 
 [[item]]
 type = 'card'
 title = 'Open source'
 body = '''
-Distributed under a liberal [BSD license](https://github.com/scipy/scipy/blob/main/LICENSE.txt), SciPy is developed and maintained [publicly on GitHub](https://github.com/scipy/scipy) by a vibrant, responsive, and diverse [community](/community).
+Distribuída com uma [licença BSD license](https://github.com/scipy/scipy/blob/main/LICENSE.txt) liberal, a SciPy é desenvolvida e mantida [publicamente no GitHub](https://github.com/scipy/scipy) por uma [comunidade](/community) vibrante, solícita e diversa.
 '''
 
 {{< /grid >}}
