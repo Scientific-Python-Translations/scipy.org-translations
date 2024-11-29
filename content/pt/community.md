@@ -32,76 +32,62 @@ ou atente-se aos anúncios no nosso fórum de desenvolvimento.
 
 ### [Fórum de desenvolvimento SciPy](https://discuss.scientific-python.org/c/contributor/scipy)
 
-This space is the main forum for longer-form discussions, like adding new
-features to SciPy, making changes to the SciPy Roadmap, and all kinds of
-project-wide decision making. Announcements about SciPy, such as for releases,
-developer meetings, sprints or conference talks are also made on this forum.
+Este espaço é o principal fórum para discussões tais como propostas para adicionar novas funcionalidades na SciPy, mudar o Roadmap e outros tipos de decisões que envolvam todo o projeto. Anúncios sobre a SciPy, como novas versões, reuniões de desenvolvedores, sprints ou palestras em conferências também são feitas nesse fórum.
 
-A searchable archive of the old mailing list
-is available [here](https://mail.python.org/archives/list/scipy-dev@python.org/).
+Um arquivo da antiga lista de e-mails para pesquisa
+está disponível [aqui](https://mail.python.org/archives/list/scipy-dev@python.org/).
 
-### [SciPy Slack space](https://join.slack.com/t/scipy-community/shared_invite/zt-1a76bomjr-fuS1ZTnmP7b32kIhLb6QMg)
+### [Espaço Slack da SciPy](https://join.slack.com/t/scipy-community/shared_invite/zt-1a76bomjr-fuS1ZTnmP7b32kIhLb6QMg)
 
-The SciPy team also has a Slack space that you can join. This is not a user
-support forum, but you can ask questions about contributing and getting involved
-in the community. To join, please [follow this invite link](https://join.slack.com/t/scipy-community/shared_invite/zt-1a76bomjr-fuS1ZTnmP7b32kIhLb6QMg).
+O time da SciPy também tem um espaço no Slack do qual você pode participar. Este não é um fórum de suporte
+aos usuários, mas você pode fazer perguntas sobre contribuição e como se envolver com
+a comunidade. Para participar, por favor [siga este link de convite](https://join.slack.com/t/scipy-community/shared_invite/zt-1a76bomjr-fuS1ZTnmP7b32kIhLb6QMg).
 
-### [Scientific Python Discord](https://discord.com/invite/vur45CbwMz)
+### [Discord Scientific Python](https://discord.com/invite/vur45CbwMz)
 
-You can also join the `#scipy` channel on the Scientific Python discord.
+Você também pode se juntar ao canal `#scipy` no Discord da comunidade Scientific Python.
 
 ### [StackOverflow](https://stackoverflow.com/questions/tagged/scipy)
 
-You can ask questions with the `scipy` tag on
+Você pode fazer perguntas com a tag `scipy` no
 StackOverflow.
 
 ---
 
-### [GitHub issue tracker](https://github.com/scipy/scipy/issues)
+### [Página de issues do GitHub](https://github.com/numpy/numpy/issues)
 
-- For bug reports (e.g. "`np.arange(3).shape` returns `(5,)`, when it should return `(3,)`");
-- documentation issues (e.g. "I found this section unclear");
-- and feature requests (e.g. "I would like to have a new statistical test in `scipy.stats`").
+- Para relatórios de bugs (por exemplo, "`np.arange(3).shape` retorna `(5,)`, quando deveria retornar `(3,)`");
+- problemas de documentação (ex. "Eu achei esta seção confusa");
+- e pedidos de novas funcionalidades (p.ex. "Eu gostaria de incluir um novo teste estatístico na `scipy.stats`").
 
-_Please note that GitHub is not the right place to report a security
-vulnerability. If you think you have found a security vulnerability in SciPy,
-please report it [here](https://tidelift.com/docs/security)._
+_Por favor, note que o GitHub não é o lugar certo para relatar uma vulnerabilidade de segurança. Se você acha que encontrou uma vulnerabilidade de segurança na SciPy, faça um relatório [aqui](https://tidelift.com/docs/security)._
 
 ---
 
-## Study Groups and Meetups
+## Grupos de Estudo e Meetups
 
-If you would like to find a local meetup or study group to learn more about
-SciPy and the wider ecosystem of Python packages for data science and
-scientific computing, we recommend exploring the
-[PyData meetups](https://www.meetup.com/pro/pydata/)
-(150+ meetups, 100,000+ members).
+Se você gostaria de encontrar um encontro ou grupo de estudo local para aprender mais sobre a SciPy e o ecossistema mais amplo de pacotes Python para ciência de dados e computação científica, recomendamos explorar os [meetups PyData](https://www.meetup.com/pro/pydata/) (mais de 150 encontros, mais de 100.000 membros).
 
-SciPy also organizes in-person sprints for its team and interested contributors
-occasionally. These are typically planned several months in advance and will
-be announced on the
+A SciPy também organiza sprints presenciais para sua equipe e colaboradores interessados ocasionalmente. Estes sprints normalmente são planejados com alguns meses de antecedência e serão
+anunciados no
 [forum](https://discuss.scientific-python.org/c/contributor/scipy).
 
-## Conferences
+## Conferências
 
-The SciPy project doesn't organize its own conferences. The conferences that
-have traditionally been most popular with SciPy maintainers, contributors and
-users are the SciPy and PyData conference series:
+O projeto SciPy não organiza suas próprias conferências. As conferências que tradicionalmente têm sido mais populares com mantenedores, colaboradores e usuários são as conferências SciPy e PyData:
 
 - [SciPy US](https://conference.scipy.org)
 - [EuroSciPy](https://www.euroscipy.org)
 - [SciPy Latin America](https://www.scipyla.org)
 - [SciPy India](https://scipy.in)
 - [SciPy Japan](https://conference.scipy.org)
-- [PyData conferences](https://pydata.org/event-schedule/) (15-20 events a year spread over many countries)
+- [conferências PyData](https://pydata.org/event-schedule/) (15-20 eventos por ano espalhados por muitos países)
 
-Many of these conferences include tutorial days that cover SciPy and/or sprints
-where you can learn how to contribute to SciPy or related open source projects.
+Muitas dessas conferências incluem dias de tutorial sobre a SciPy e/ou sprints onde você pode aprender como contribuir com a SciPy ou projetos de código aberto relacionados.
 
-## Join the SciPy community
+## Junte-se à comunidade SciPy
 
-To thrive, the SciPy project needs your expertise and enthusiasm. Not a coder?
-Not a problem! There are many ways to contribute to SciPy.
+Para prosperar, o projeto SciPy precisa de sua experiência e entusiasmo. Não é uma pessoa programadora?
+Sem problemas! Existem muitas maneiras de contribuir com a SciPy.
 
-If you are interested in becoming a SciPy contributor (yay!) we recommend
-checking out our [Contribute](/contribute) page.
+Se você está interessado em se tornar um contribuidor da SciPy (oba!) recomendamos que você confira nossa página sobre [Contribuições](/pt/contribute).
