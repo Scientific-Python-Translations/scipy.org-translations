@@ -1,77 +1,61 @@
 ---
-title: Contribute to SciPy
+title: Contribua para a SciPy
 sidebar: false
 ---
 
-The SciPy project welcomes your expertise and enthusiasm!
-Your choices aren't limited to programming, as you can
-see below there are many areas where we need **your** help.
+O projeto SciPy precisa de sua experiência e entusiasmo!
+Suas escolhas não se limitam somente a programar. Como você pode ver abaixo, precisamos da **sua** ajuda em muitas áreas.
 
-If you're unsure where to start or how your skills fit in, _reach out!_
-See the [community](/community) page.
+Se você não tiver certeza de onde começar ou de como suas habilidades se encaixam, _fale conosco!_
+Veja a página [communidade](/community).
 
-Our community aspires to treat everyone equally and to value all contributions.
+Nossa comunidade deseja tratar todos igualmente e valorizar todas as contribuições.
 Temos um
 [Código de Conduta](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
 para promover um ambiente aberto e inclusivo.
 
-### Writing code
+### Escrever código
 
-Programmers, this
-[guide](https://scipy.github.io/devdocs/dev/contributor/development_workflow.html#development-workflow)
-explains how to contribute to the codebase.
+Pessoas programadoras, este
+[guia](https://scipy.github.io/devdocs/dev/contributor/development_workflow.html#development-workflow)
+explica como contribuir para o código da SciPy.
 
-### Reviewing pull requests
+### Revisar pull requests
 
-The project has hundreds of open pull requests -- meaning many potential
-improvements and many open-source contributors waiting for feedback. If you're
-a developer who knows SciPy, you can help even if you're not familiar with the
-codebase. You can:
+O projeto tem centenas de pull requests abertos -- o que significa que muitas melhorias em potencial
+e muitos contribuidores de código aberto estão aguardando feedback. Se você é uma pessoa programadora que conhece a SciPy, você pode ajudar, mesmo que não tenha familiaridade com o código. Você pode:
 
-- summarize a long-running discussion
-- triage documentation PRs
-- test proposed changes
+- resumir uma discussão longa
+- fazer triagem de PRs de documentação
+- testar alterações propostas
 
-### Developing educational materials
+### Desenvolvimento de materiais educacionais
 
-SciPy's [User Guide](https://docs.scipy.org/doc/scipy/tutorial/index.html)
-deserves attention.
-We're in need of new tutorials, how-to's, and deep-dive explanations, and the
-site needs restructuring. Opportunities aren't limited to writers. We'd also
-welcome worked examples, notebooks, and videos.
+O [Guia para Usuários](https://docs.scipy.org/doc/scipy/tutorial/index.html)
+merece atenção.
+Precisamos de novos tutoriais, guias de "como fazer" (how-to's) e de explicações de conceitos, e o site precisa de reestruturação. Oportunidades não se limitam a pessoas com experiência em escrita técnica. Também procuramos exemplos práticos, notebooks e vídeos.
 
-### Issue triaging
+### Triagem de Issues
 
-The [SciPy issue tracker](https://github.com/scipy/scipy/issues) has a _lot_
-of open issues. Some are no longer valid, some should be prioritized, and some
-would make good issues for new contributors. You can:
+A [página de issues da SciPy](https://github.com/scipy/scipy/issues) possui _muitos_
+problemas em aberto. Algumas não são mais válidas, algumas deveriam ser priorizadas, e algumas poderiam ser boas para pessoas que estão procurando sua primeira contribuição. Você pode:
 
-- check if older bugs are still present
-- find duplicate issues and link related ones
-- add good self-contained reproducers to issues
-- label issues correctly (this requires triage rights -- just ask)
+- verificar se bugs antigos ainda estão presentes
+- encontrar issues duplicadas e criar links entre issues relacionadas
+- adicionar bons exemplos autocontidos que reproduzam issues
+- rotular issues corretamente (isso requer direitos de triagem -- basta perguntar)
 
-Please just dive in.
+Sinta-se à vontade!
 
-### Website development
+### Desenvolvimento do site
 
-We've just revamped our website, but we're far from done. If you love web
-development, these
-[issues](https://github.com/scipy/scipy.org/issues)
-list some of our unmet needs -- and feel free to share your own ideas.
+Acabamos de renovar o nosso site, mas estamos longe de terminar. Se você gosta de desenvolvimento web, estas [issues](https://github.com/scipy/scipy.org/issues) listam algumas das nossas necessidades não atendidas -- sinta-se à vontade para também compartilhar suas próprias ideias.
 
-### Graphic design
+### Design gráfico
 
-We can barely begin to list the contributions a graphic designer can make here.
-Our docs are parched for illustration; our growing website craves images --
-opportunities abound.
+Nós mal podemos começar a listar as contribuições que uma pessoa com conhecimento em design gráfico pode fazer aqui.
+Nossa documentação precisa de ilustrações; nosso site crescente precisa de imagens -- há muitas oportunidades.
 
-### Fundraising
+### Arrecadação de fundos
 
-SciPy was all-volunteer for many years, but as its importance grew it became
-clear that to ensure stability and growth we'd need financial support. This
-SciPy'19 talk explains how much
-difference that support has made. Like all the nonprofit world, we're
-constantly searching for grants, sponsorships, and other kinds of support. We
-have a number of ideas and of course we welcome more. Fundraising is a scarce
-skill here -- we'd appreciate your help.
+O SciPy foi um projeto totalmente voluntário por muitos anos, mas conforme sua importância cresceu, tornou-se clara a necessidade de apoio financeiro para garantir estabilidade e crescimento. [Esta palestra na SciPy'19](https://www.youtube.com/watch?v=dBTJD_FDVjU) explica quanta diferença esse apoio fez. Como todo o mundo das organizações sem fins lucrativos, nós estamos constantemente procurando bolsas, patrocinadores e outros tipos de apoio. Nós temos uma série de ideias e é claro que nós damos as boas-vindas a outras. Arrecadação de fundos é uma habilidade rara aqui -- apreciaríamos a sua ajuda.
