@@ -13,34 +13,27 @@ Os métodos de instalação incluem:
 
 Os métodos diferem na facilidade de uso, cobertura, manutenção das versões antigas, e no uso e controle local ou em todo o sistema. Com pip ou
 conda (da Anaconda), você pode controlar as versões do pacote de um projeto
-específico para evitar conflitos. Conda also controls non-Python packages,
-like MKL or HDF5. System package managers, like `apt-get`, install
-across the entire computer, often have older versions, and don\'t have
-as many available versions. Source compilation is much more difficult
-but is necessary for debugging and development. If you don\'t know which
-installation method you need or prefer, we recommend the Scientific
-Python Distribution [Anaconda](https://www.anaconda.com/download/).
+específico para evitar conflitos. O conda também controla pacotes que não são do Python,
+como MKL ou HDF5. Gerenciadores de pacotes de sistema, como `apt-get`, instalam pacotes em todo o seu sistema, muitas vezes em versões mais antigas e oferecem menos versões disponíveis. A compilação a partir do código fonte é muito mais difícil
+mas é necessária para depuração de problemas e desenvolvimento. Se você não sabe qual método
+de instalação você precisa ou prefere, recomendamos a Distribuição [Anaconda](https://www.anaconda.com/download/) de Python Científico.
 
 <a name="distributions"></a>
 
-# Scientific Python Distributions (recommended)
+# Distribuições de Python Científico (recomendado)
 
-Python distributions provide the language itself, along with the most
-commonly used packages and tools. These downloadable files require
-little configuration, work on almost all setups, and provide all the
-commonly used scientific Python tools.
+Distribuições de Python fornecem o interpretador para a linguagem Python, junto com os pacotes e ferramentas mais utilizados. Esses arquivos, que podem ser obtidos através de download direto, demandam configuração mínima, funcionam em quase qualquer sistema, e fornecem quase todas as ferramentas necessárias para o Python científico.
 
-[Anaconda](https://www.anaconda.com/download/) works on Windows, Mac,
-and Linux, provides over 1,500 Python packages, and is used by over 15
-million people. Anaconda is best suited to beginning users; it provides
-a large collection of libraries all in one.
+A distribuição [Anaconda](https://www.anaconda.com/download/) funciona no Windows, Mac,
+e Linux, fornece mais de 1.500 pacotes Python e é usada por mais de 15
+milhões de pessoas. A Anaconda é mais adequada para os usuários iniciantes; ela fornece
+uma grande coleção de bibliotecas de uma só vez.
 
-For more advanced users who will need to install or upgrade regularly,
-[Mambaforge](https://github.com/conda-forge/miniforge#mambaforge) is a more
-suitable way to install the `conda` (and `mamba`, a faster `conda` alternative)
-package manager.
+Para usuários mais avançados que precisarão instalar ou atualizar regularmente,
+[Mambaforge](https://github.com/conda-forge/miniforge#mambaforge) é uma maneira mais
+adequada para instalar o `conda` (e `mamba`, um `conda` alternativo mais rápido).
 
-Other options include:
+Outras opções incluem:
 
 - [WinPython](https://winpython.github.io): Another free distribution
   including scientific packages and the Spyder IDE; Windows only, but
