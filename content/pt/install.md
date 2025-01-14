@@ -1,20 +1,19 @@
 ---
-title: Installation
+title: Instalação
 sidebar: false
 ---
 
-Installations methods include:
+Os métodos de instalação incluem:
 
-- [Distributions](#distributions)
+- [Distribuições](#distributions)
 - [pip](#pip-install)
 - [conda](#pip-install)
-- [Package Manager](#package_manager)
-- [Source](#source)
+- [Gerenciador de Pacotes](#package_manager)
+- [Código fonte](#source)
 
-Methods differ in ease of use, coverage, maintenance of old versions,
-system-wide versus local environment use, and control. With pip or
-Anaconda\'s conda, you can control the package versions for a specific
-project to prevent conflicts. Conda also controls non-Python packages,
+Os métodos diferem na facilidade de uso, cobertura, manutenção das versões antigas, e no uso e controle local ou em todo o sistema. Com pip ou
+conda (da Anaconda), você pode controlar as versões do pacote de um projeto
+específico para evitar conflitos. Conda also controls non-Python packages,
 like MKL or HDF5. System package managers, like `apt-get`, install
 across the entire computer, often have older versions, and don\'t have
 as many available versions. Source compilation is much more difficult
