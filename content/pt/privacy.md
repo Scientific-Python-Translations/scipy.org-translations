@@ -1,8 +1,8 @@
 ---
-title: Privacy Policy
+title: Política de Privacidade
 sidebar: false
 ---
 
-**scipy.org** is operated by [NumFOCUS, Inc.](https://numfocus.org), the fiscal sponsor of the SciPy project. For the Privacy Policy of this website please refer to https://numfocus.org/privacy-policy.
+**scipy.org** é operado por [NumFOCUS, Inc.](https://numfocus.org), o patrocinador fiscal do projeto SciPy. Para a Política de Privacidade deste site, consulte https://numfocus.org/privacy-policy.
 
-If you have any questions about the policy or NumFOCUS’s data collection, use, and disclosure practices, please contact the NumFOCUS staff at privacy@numfocus.org.
+Se você tiver alguma dúvida sobre a política ou as práticas de coleta, uso e divulgação de dados da NumFOCUS, entre em contato com a equipe da NumFOCUS em privacy@numfocus.org.
