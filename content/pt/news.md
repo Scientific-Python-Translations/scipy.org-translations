@@ -1,32 +1,32 @@
 ---
-title: News
+title: Notícias
 sidebar: false
-newsHeader: SciPy 1.14.1 released!
+newsHeader: Lançamento da SciPy versão 1.14.1!
 date: 2024-08-20
 ---
 
-### SciPy 1.14.1 released
+### SciPy versão 1.14.1
 
-_August 20, 2024_ -- SciPy 1.14.1 has been released! This is the first
-stable release to support Python 3.13, including PyPI wheels.
+_20 de agosto de 2024_ -- A SciPy 1.14.1 foi lançada! Este é o primeiro lançamento
+estável com suporte ao Python 3.13, incluindo wheels no PyPI.
 
-### SciPy 1.14.0 released
+### SciPy versão 1.14.0
 
-_June 24, 2024_ -- SciPy 1.14.0 has been released!
+_24 de junho de 2024_ -- A SciPy 1.14.0 foi lançada!
 
-### SciPy 1.13.1 released
+### SciPy versão 1.13.1
 
-_May 22, 2024_ -- SciPy 1.13.1 has been released!
+_22 de maio de 2024_ -- A SciPy 1.13.1 foi lançada!
 
-### SciPy 1.13.0 released
+### SciPy versão 1.13.0
 
-_April 2, 2024_ -- SciPy 1.13.0 has been released. This is the first stable
-release to support the NumPy 2.x series, and is backwards compatible to
+_02 de abril de 2024_ -- A SciPy 1.13.0 foi lançada. Este é o primeiro lançamento
+estável com suporte à família NumPy 2.x e é retrocompatível com a
 NumPy 1.22.4.
 
-### SciPy 1.12.0 released
+### SciPy versão 1.12.0
 
-_January 20, 2024_ -- SciPy 1.12.0 has been released!
+_20 de janeiro de 2024_ -- A SciPy 1.12.0 foi lançada!
 
 ### SciPy 1.11.4 released
 
