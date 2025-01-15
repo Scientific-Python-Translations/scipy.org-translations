@@ -1,8 +1,8 @@
 ---
-title: Press Kit
+title: Kit de imprensa
 sidebar: false
 ---
 
-We would like to make it easy for you to include the SciPy project identity in your next academic paper, course materials, or presentation.
+Gostaríamos de facilitar a inclusão da identidade do projeto SciPy em seu próximo documento acadêmico, materiais educacionais ou apresentação.
 
-You will find a high-resolution version of the SciPy logo [here](https://github.com/scipy/scipy.org/blob/main/static/images/logo.svg). Note that by using the scipy.org resources, you accept the [SciPy Code of Conduct](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html).
+Você encontrará uma versão de alta resolução do logotipo da SciPy [aqui](https://github.com/scipy/scipy.org/blob/main/static/images/logo.svg). Observe que, usando os recursos do scipy.org, você aceita o [Código de Conduta SciPy](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html).
