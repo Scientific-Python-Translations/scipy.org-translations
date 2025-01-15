@@ -35,18 +35,18 @@ adequada para instalar o `conda` (e `mamba`, um `conda` alternativo mais rápido
 
 Outras opções incluem:
 
-- [WinPython](https://winpython.github.io): Another free distribution
-  including scientific packages and the Spyder IDE; Windows only, but
-  more actively maintained and supports the latest Python 3 versions.
-- [Pyzo](https://pyzo.org): A free distribution based on Anaconda
-  and the IEP interactive development environment; Supports Linux,
-  Windows, and Mac.
+- [WinPython](https://winpython.github.io): Outra distribuição livre
+  incluindo pacotes científicos e a IDE Spyder; Apenas para Windows, mas
+  com mais atualizações de manutenção e suporte às últimas versões do Python 3.
+- [Pyzo](https://pyzo.org): Uma distribuição gratuita baseada na Anaconda
+  e no ambiente de desenvolvimento interativo IEP; Suporta Linux,
+  Windows e Mac.
 
 <a name="pip-install"></a>
 
-# Installing with Pip
+# Instalando com Pip
 
-You can install SciPy from PyPI with `pip`:
+Você pode instalar a SciPy a partir do PyPI com `pip`:
 
 ```
 python -m pip install scipy
@@ -54,9 +54,9 @@ python -m pip install scipy
 
 <a name="conda-install"></a>
 
-# Installing via Conda
+# Instalando via Conda
 
-You can install SciPy from the `defaults` or `conda-forge` channels with `conda`:
+Você pode instalar a SciPy a partir dos canais `defaults` ou `conda-forge` com `conda`:
 
 ```
 conda install scipy
