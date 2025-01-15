@@ -44,7 +44,7 @@ Outras opções incluem:
 
 <a name="pip-install"></a>
 
-# Instalando com Pip
+# Instalação via Pip
 
 Você pode instalar a SciPy a partir do PyPI com `pip`:
 
@@ -54,7 +54,7 @@ python -m pip install scipy
 
 <a name="conda-install"></a>
 
-# Instalando via Conda
+# Instalação via Conda
 
 Você pode instalar a SciPy a partir dos canais `defaults` ou `conda-forge` com `conda`:
 
@@ -64,15 +64,15 @@ conda install scipy
 
 <a name="package_manager"></a>
 
-# Install system-wide via a package manager
+# Instalação via gerenciador de pacotes
 
-System package managers can install the most common Python packages.
-They install packages for the entire computer, often use older versions,
-and don't have as many available versions.
+Os gerenciadores de pacotes do sistema operacional podem instalar os pacotes Python mais comuns.
+Eles instalam pacotes para o computador inteiro, muitas vezes usam versões mais antigas,
+e não têm tantas versões disponíveis.
 
-## Ubuntu and Debian
+## Ubuntu e Debian
 
-Using `apt-get`:
+Usando `apt-get`:
 
 ```
 sudo apt-get install python3-scipy
@@ -80,7 +80,7 @@ sudo apt-get install python3-scipy
 
 ## Fedora
 
-Using `dnf`:
+Usando `dnf`:
 
 ```
 sudo dnf install python3-scipy
@@ -88,8 +88,8 @@ sudo dnf install python3-scipy
 
 ## macOS
 
-macOS doesn't have a preinstalled package manager, but you can install
-[Homebrew](https://brew.sh/) and use it to install SciPy (and Python itself):
+macOS não tem um gerenciador de pacotes pré-instalado, mas você pode instalar o
+[Homebrew](https://brew.sh/) e usá-lo para instalar a SciPy (e o Python em si):
 
 ```
 brew install scipy
@@ -97,9 +97,8 @@ brew install scipy
 
 <a name="source"></a>
 
-# Source packages
+# Pacotes gerados a partir do código fonte
 
-A word of warning: building SciPy from source can be a nontrivial exercise. We
-recommend using binaries instead if those are available for your platform.
-For details on how to build from source, see
-[this guide in the SciPy docs](https://scipy.github.io/devdocs/building/index.html).
+Cuidado: compilar a SciPy a partir do código fonte pode ser um exercício não trivial. Recomendamos o uso de binários, em vez disso, se eles estiverem disponíveis para a sua plataforma.
+Para obter detalhes sobre como compilar a biblioteca a partir do código fonte, consulte
+[este guia na documentação da SciPy](https://scipy.github.io/devdocs/building/index.html).
