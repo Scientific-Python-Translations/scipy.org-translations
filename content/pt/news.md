@@ -28,37 +28,36 @@ NumPy 1.22.4.
 
 _20 de janeiro de 2024_ -- A SciPy 1.12.0 foi lançada!
 
-### SciPy 1.11.4 released
+### SciPy versão 1.11.4
 
-_November 18, 2023_ -- SciPy 1.11.4 has been released!
+_18 de novembro de 2023_ -- A SciPy 1.11.4 foi lançada!
 
-### SciPy 1.11.3 released
+### SciPy versão 1.11.3
 
-_September 27, 2023_ -- SciPy 1.11.3 has been released!
+_27 de setembro de 2023_ -- A SciPy 1.11.3 foi lançada!
 
-### SciPy 1.11.2 released
+### SciPy versão 1.11.2
 
-_August 17, 2023_ -- SciPy 1.11.2 has been released, and includes wheels for Python 3.12.
+_17 de agosto de 2023_ -- A SciPy 1.11.2 foi lançada, e inclui wheels para o Python 3.12.
 
-### SciPy 1.11.1 released
+### SciPy versão 1.11.1
 
-_June 28, 2023_ -- SciPy 1.11.1 has been released!
+_28 de junho de 2023_ -- A SciPy 1.11.1 foi lançada!
 
-### SciPy 1.11.0 released
+### SciPy versão 1.11.0
 
-_June 25, 2023_ -- SciPy 1.11.0 has been released!
+_25 de junho de 2023_ -- A SciPy 1.11.0 foi lançada!
 
-### Fostering an Inclusive Culture: Call for Participation
+### Promovendo uma cultura inclusiva: Chamada de participação
 
-_May 10, 2023_ -- Fostering an Inclusive Culture: Call for Participation
+_10 de maio de 2023_ -- Promovendo uma Cultura Inclusiva: Chamada de Participação
 
-How can we be better when it comes to diversity and inclusion?
-Read the report and find out how to get involved here
-<https://contributor-experience.org/docs/posts/dei-report/>
+Como podemos ser melhores quando se trata de diversidade e de inclusão?
+Leia o relatório e descubra como colaborar <https://contributor-experience.org/docs/posts/dei-report/>
 
-### SciPy 1.10.1 released
+### SciPy versão 1.10.1
 
-_February 19, 2023_ -- SciPy 1.10.1 has been released!
+_19 de fevereiro de 2023_ -- A SciPy 1.10.1 foi lançada!
 
 ### SciPy 1.10.0 released
 
