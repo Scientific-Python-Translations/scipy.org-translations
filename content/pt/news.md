@@ -99,132 +99,116 @@ _5 de fevereiro de 2022_ -- A SciPy 1.8.0 foi lançada!
 
 ### SciPy versão 1.7.3
 
-_November 24, 2021_ -- SciPy 1.7.3 is a bug-fix release that adds MacOS 12+ arm64 binary wheels.
+_24 de novembro de 2021_ -- A SciPy 1.7.3 é uma versão com correções de bugs que adiciona wheels binários para MacOS 12+ arm64.
 
-### SciPy 1.7.2 released
+### SciPy versão 1.7.2
 
-_November 5, 2021_ -- SciPy 1.7.2 is a bug-fix release that adds support and binary wheels for Python 3.10.
+_5 de novembro de 2021_ -- A SciPy 1.7.2 é uma versão com correções de bugs que adiciona wheels binários para MacOS 3.10+ arm64.
 
-### SciPy 1.7.1 released
+### SciPy versão 1.7.1
 
-_August 1, 2021_ -- SciPy 1.7.1 is a bug-fix release with no new features compared to 1.7.0.
+_1 de agosto de 2021_ -- A SciPy 1.7.1 é uma versão com correções de bugs que não tem novas funcionalidades comparada com a versão 1.7.0.
 
-### NumPy survey
+### Pesquisa NumPy
 
-_2020-07-02_ -- The first-ever NumPy community survey is LIVE! See <https://numpy.org/news/>
+_2 de julho de 2020_ -- A primeira pesquisa da comunidade NumPy está aberta! Veja <https://numpy.org/news/>
 
 ### Financiamento para a SciPy
 
-_2019-11-15_ SciPy, NumPy, Matplotlib, Pandas, scikit-learn, scikit-image, Dask,
-Zarr and others received functions from the Chan Zuckerberg
-Initiative! See <https://chanzuckerberg.com/eoss/>
+_15 de novembro de 2019_ SciPy, NumPy, Matplotlib, Pandas, scikit-learn, scikit-image, Dask,
+Zarr e outros receberam apoio financeiro da Chan Zuckerberg Initiative! Veja <https://chanzuckerberg.com/eoss/>
 
-### SciPy user survey results
+### Resultados da pesquisa de usuários da SciPy
 
-_2019-11-13_ See the survey results
-[here](https://github.com/mkg33/GSoD/blob/master/user_survey_summary.pdf).
+_13 de novembro de 2019_ -- Veja os resultados da pesquisa
+[aqui](https://github.com/mkg33/GSoD/blob/master/user_survey_summary.pdf).
 
 ### SciPy-NumFOCUS
 
-SciPy becomes a [NumFOCUS](https://numfocus.org/) fiscally sponsored
-project _2019-04-18_
+_18 de abril de 2019_ -- SciPy torna-se um projeto patrocinado financeiramente pela [NumFOCUS](https://numfocus.org/).
 
-### SciPy user survey
+### Pesquisa de usuários da SciPy
 
-_2019-10-04_ [Tell us](https://forms.gle/LGxx5hXzrDyChj38A) how we can improve the
-documentation.
+_4 de outubro de 2019_ -- [Diga-nos](https://forms.gle/LGxx5hXzrDyChj38A) como podemos melhorar nossa documentação.
 
 ### SciPy 2019
 
-_2019-07-08_ [SciPy](https://scipy2019.scipy.org/), the 18th annual Scientific
-Computing with Python conference, will be held July 8-14, 2019 in
+_8 de julho de 2019_ [SciPy](https://scipy2019.scipy.org/), a 18a Conferência Anual de Computação Científica com Python será realizada entre 8 e 14 de julho de 2019 em
 Austin, Texas.
 
 ### EuroSciPy 2017 _2017-08-28_
 
-The [EuroSciPy](https://www.euroscipy.org/2017/) meeting is a
-cross-disciplinary gathering focused on the use and development of
-the Python language in scientific research. The 2017 edition will
-take place in Erlangen, Germany, Aug 28\--Sep 1.
+A conferência [EuroSciPy](https://www.euroscipy.org/2017/) é uma conferência multidisciplinar
+focada no uso e desenvolvimento da linguagem Python em pesquisas científicas. A edição de 2017 ocorrerá em
+Erlangen, Alemanha, entre 28 de agosto e 1 de setembro.
 
 ### SciPy 2017 _2017-07-10_
 
-[SciPy](https://scipy2017.scipy.org/), the 16th annual Scientific
-Computing with Python conference, will be held July 10-16, 2017 in
-Austin, Texas.
+[SciPy](https://scipy2017.scipy.org/), a 16a Conferência Anual de Computação Científica com Python, será realizada entre 10 e 16 de julho de 2017 em Austin, Texas.
 
 ### EuroSciPy 2014
 
-[EuroSciPy](https://www.euroscipy.org/2014/) is the European
-gathering for scientists using Python. The 2014 edition will take
-place in Cambridge, UK, Aug. 27-31.
+[EuroSciPy](https://www.euroscipy.org/2014/) é a conferência para cientistas usando Python na Europa. A edição de 2014 será realizada em Cambridge, Reino Unido, de 27 a 31 de agosto.
 
 ### SciPy 2014
 
-[SciPy](https://conference.scipy.org/scipy2014/) is an annual
-conference for scientists using Python. The 2014 edition will take
-place in Austin, Texas, July 6-12.
+[SciPy](https://conference.scipy.org/scipy2014/) é uma conferência
+anual para cientistas que usam Python. A edição de 2014 será realizada em Austin, Texas, de 6 a 12 de julho.
 
 ### EuroSciPy 2013
 
-[EuroSciPy](https://www.euroscipy.org/) is the European gathering
-for scientists using Python. The 2013 edition will take place in
-Brussels, Aug. 21-24.
+[EuroSciPy](https://www.euroscipy.org/) é a conferência para cientistas usando Python na Europa. A edição de 2013 será realizada em Bruxelas, de 21 a 24 de agosto.
 
 ### SciPy 2013
 
-[SciPy](https://conference.scipy.org/scipy2013/) is an annual
-conference for scientists using Python. The 2013 edition will take
-place in Austin, Texas, June 24-29.
+[SciPy](https://conference.scipy.org/scipy2013/) é uma conferência
+anual para cientistas que usam Python. A edição de 2013 será realizada em Austin, Texas, de 24 a 29 de junho.
 
 ### SIAM CSE \'13
 
-The SIAM Conference on Computational Science and
-Engineering will take place in
-Boston, February 25-March 1, 2013, and for this version there will
-be a track focused on the topic of Big Data.
+A Conferência SIAM em Ciência Computacional e
+Engenharia será realizada em
+Boston, de 25 de fevereiro a 1 de março de 2013, e para essa versão
+haverá uma trilha focada no tópico de Big Data.
 
 ### AMS Annual Meeting
 
-The annual meeting of the American Meteorological Society takes
-place January 6-10, 2013, and includes the Third Symposium on
-Advances in Modeling and Analysis Using Python.
+A reunião anual da Sociedade Meteorológica Americana será realizada
+de 6 a 10 de janeiro de 2013, e inclui o Terceiro Simpósio sobre
+Avanços em Modelagem e Análise usando Python.
 
 ### SciPy 2012
 
-The eleventh annual conference on python in science, SciPy 2012,
-took place July 16 - 21 in Austin, Texas.
+A décima primeira conferência anual sobre Python em ciência, SciPy 2012,
+ocorrerá de 16 a 21 de julho em Austin, Texas.
 
 ### EuroSciPy 2012
 
-EuroSciPy is the European gathering for scientists using Python. The
-2012 edition took place in Brussels, Aug. 23-27.
+EuroSciPy é a conferência para cientistas usando Python na Europa. A edição de 2012 será realizada em Bruxelas, de 23 a 27 de agosto.
 
 ### PyCon 2012
 
-PyCon is the largest annual gathering for the community using and
-developing the open-source Python programming language. This year
-the conference took place March 7 - 15 in Santa Clara, California.
+PyCon é a maior conferência anual para a comunidade usando e
+desenvolvendo a linguagem de programação de código aberto Python. Este ano
+a conferência será realizada de 7 a 15 de março em Santa Clara, Califórnia.
 
-## Releases
+## Lançamentos
 
-Here is a list of SciPy releases, with links to release notes. Bugfix
-releases (only the `z` changes in the `x.y.z` version number) have no new
-features; minor releases (the `y` increases) do.
+Aqui está uma lista de versões da SciPy, com links para notas de lançamento. Versões de correção de bugs (apenas o `z` muda no número de versão `x.y.z`) não tem novas funcionalidades; versões menores (o `y` muda) tem novas funcionalidades.
 
-- SciPy 1.14.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.14.1)) -- _2024-08-20_.
-- SciPy 1.14.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.14.0)) -- _2024-06-24_.
-- SciPy 1.13.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.13.1)) -- _2024-05-22_.
-- SciPy 1.13.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.13.0)) -- _2024-04-02_.
-- SciPy 1.12.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.12.0)) -- _2024-01-20_.
-- SciPy 1.11.4 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.11.4)) -- _2023-11-18_.
-- SciPy 1.11.3 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.11.3)) -- _2023-09-27_.
-- SciPy 1.11.2 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.11.2)) -- _2023-08-17_.
-- SciPy 1.11.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.11.1)) -- _2023-06-28_.
-- SciPy 1.11.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.11.0)) -- _2023-06-25_.
-- SciPy 1.10.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.10.1)) -- _2023-02-19_.
-- SciPy 1.10.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.10.0)) -- _2023-01-03_.
-- SciPy 1.9.3 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.9.3)) -- _2022-10-19_.
+- SciPy 1.14.1 ([notas de versão](https://github.com/scipy/scipy/releases/tag/v1.14.1)) -- _2024-08-20_.
+- SciPy 1.14.0 ([notas de versão](https://github.com/scipy/scipy/releases/tag/v1.14.0)) -- _2024-06-24_.
+- SciPy 1.13.1 ([notas de versão](https://github.com/scipy/scipy/releases/tag/v1.13.1)) -- _2024-05-22_.
+- SciPy 1.13.0 ([notas de versão](https://github.com/scipy/scipy/releases/tag/v1.13.0)) -- _2024-04-02_.
+- SciPy 1.12.0 ([notas de versão](https://github.com/scipy/scipy/releases/tag/v1.12.0)) -- _2024-01-20_.
+- SciPy 1.11.4 ([notas de versão](https://github.com/scipy/scipy/releases/tag/v1.11.4)) -- _2023-11-18_.
+- SciPy 1.11.3 ([notas de versão](https://github.com/scipy/scipy/releases/tag/v1.11.3)) -- _2023-09-27_.
+- SciPy 1.11.2 ([notas de versão](https://github.com/scipy/scipy/releases/tag/v1.11.2)) -- _2023-08-17_.
+- SciPy 1.11.1 ([notas de versão](https://github.com/scipy/scipy/releases/tag/v1.11.1)) -- _2023-06-28_.
+- SciPy 1.11.0 ([notas de versão](https://github.com/scipy/scipy/releases/tag/v1.11.0)) -- _2023-06-25_.
+- SciPy 1.10.1 ([notas de versão](https://github.com/scipy/scipy/releases/tag/v1.10.1)) -- _2023-02-19_.
+- SciPy 1.10.0 ([notas de versão](https://github.com/scipy/scipy/releases/tag/v1.10.0)) -- _2023-01-03_.
+- SciPy 1.9.3 ([notas de versão](https://github.com/scipy/scipy/releases/tag/v1.9.3)) -- _2022-10-19_.
 - SciPy 1.9.2 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.9.2)) -- _2022-10-08_.
 - SciPy 1.9.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.9.1)) -- _2022-08-26_.
 - SciPy 1.9.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.9.0)) -- _2022-07-29_.
