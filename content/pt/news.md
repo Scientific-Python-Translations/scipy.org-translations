@@ -87,17 +87,17 @@ _29 de julho de 2022_ -- A SciPy 1.9.0 foi lançada!
 
 ### Conferência SciPy 2022
 
-_June 27, 2022_ -- Join us at [SciPy 2022 July 11th - 17th!](https://www.scipy2022.scipy.org)
+_27 de junho de 2022_ -- Junte-se a nós na [SciPy 2022 de 11 - 17 de Julho!](https://www.scipy2022.scipy.org)
 
-### SciPy 1.8.1 released
+### SciPy versão 1.8.1
 
-_May 18, 2022_ -- SciPy 1.8.1 has been released!
+_18 de maio de 2022_ -- A SciPy 1.8.1 foi lançada!
 
-### SciPy 1.8.0 released
+### SciPy versão 1.8.0
 
-_February 5, 2022_ -- SciPy 1.8.0 has been released!
+_5 de fevereiro de 2022_ -- A SciPy 1.8.0 foi lançada!
 
-### SciPy 1.7.3 released
+### SciPy versão 1.7.3
 
 _November 24, 2021_ -- SciPy 1.7.3 is a bug-fix release that adds MacOS 12+ arm64 binary wheels.
 
