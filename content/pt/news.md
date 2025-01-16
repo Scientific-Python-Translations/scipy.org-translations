@@ -59,34 +59,33 @@ Leia o relatório e descubra como colaborar <https://contributor-experience.org/
 
 _19 de fevereiro de 2023_ -- A SciPy 1.10.1 foi lançada!
 
-### SciPy 1.10.0 released
+### SciPy versão 1.10.0
 
-_January 3, 2023_ -- SciPy 1.10.0 has been released!
+_3 de janeiro de 2023_ -- A SciPy 1.10.0 foi lançada!
 
-### SciPy funding
+### Financiamento para a SciPy
 
-_November, 2022_ -- SciPy received a grant from the Chan Zuckerberg
-Initiative!
+_Novembro de 2022_ -- A SciPy ganhou um apoio financeiro da Chan Zuckerberg Initiative!
 
-See <https://chanzuckerberg.com/eoss/proposals/scipy-fundamental-tools-for-biomedical-research/>
+Veja <https://chanzuckerberg.com/eoss/proposals/scipy-fundamental-tools-for-biomedical-research/>
 
-### SciPy 1.9.3 released
+### SciPy versão 1.9.3
 
-_October 19, 2022_ -- SciPy 1.9.3 has been released!
+_19 de outubro de 2022_ -- A SciPy 1.9.3 foi lançada!
 
-### SciPy 1.9.2 released
+### SciPy versão 1.9.2
 
-_October 8, 2022_ -- SciPy 1.9.2 is a bug fix release that also includes binary wheels for Python 3.11.
+_8 de outubro de 2022_ -- A SciPy 1.9.2 é uma versão de correção de bugs que também inclui wheels binários para o Python 3.11.
 
-### SciPy 1.9.1 released
+### SciPy versão 1.9.1
 
-_August 26, 2022_ -- SciPy 1.9.1 has been released!
+_26 de agosto de 2022_ -- A SciPy 1.9.1 foi lançada!
 
-### SciPy 1.9.0 released
+### SciPy versão 1.9.0
 
-_July 29, 2022_ -- SciPy 1.9.0 has been released!
+_29 de julho de 2022_ -- A SciPy 1.9.0 foi lançada!
 
-### SciPy 2022 Conference
+### Conferência SciPy 2022
 
 _June 27, 2022_ -- Join us at [SciPy 2022 July 11th - 17th!](https://www.scipy2022.scipy.org)
 
@@ -114,7 +113,7 @@ _August 1, 2021_ -- SciPy 1.7.1 is a bug-fix release with no new features compar
 
 _2020-07-02_ -- The first-ever NumPy community survey is LIVE! See <https://numpy.org/news/>
 
-### SciPy funding
+### Financiamento para a SciPy
 
 _2019-11-15_ SciPy, NumPy, Matplotlib, Pandas, scikit-learn, scikit-image, Dask,
 Zarr and others received functions from the Chan Zuckerberg
