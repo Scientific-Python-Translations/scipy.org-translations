@@ -3,74 +3,198 @@ title: Instalação
 sidebar: false
 ---
 
-Os métodos de instalação incluem:
+{{< admonition tip >}}
+This page assumes that you are comfortable with using a terminal and happy to learn
+how to use a package manager. If you are a beginner and just want to get started
+with SciPy as quickly as possible, check out
+[the beginner installation guide](./beginner-install.md)!
+{{< /admonition >}}
 
-- [Distribuições](#distributions)
-- [pip](#pip-install)
-- [conda](#pip-install)
-- [Gerenciador de Pacotes](#package_manager)
-- [Código fonte](#source)
+The recommended method of installing SciPy depends on your preferred workflow.
+The common workflows can roughly be broken down into the following
+categories:
 
-Os métodos diferem na facilidade de uso, cobertura, manutenção das versões antigas, e no uso e controle local ou em todo o sistema. Com pip ou
-conda (da Anaconda), você pode controlar as versões do pacote de um projeto
-específico para evitar conflitos. O conda também controla pacotes que não são do Python,
-como MKL ou HDF5. Gerenciadores de pacotes de sistema, como `apt-get`, instalam pacotes em todo o seu sistema, muitas vezes em versões mais antigas e oferecem menos versões disponíveis. A compilação a partir do código fonte é muito mais difícil
-mas é necessária para depuração de problemas e desenvolvimento. Se você não sabe qual método
-de instalação você precisa ou prefere, recomendamos a Distribuição [Anaconda](https://www.anaconda.com/download/) de Python Científico.
+- [Project-based (e.g. `uv`, `pixi`)](#project-based) (recommended for new users)
+- [Environment-based (e.g. `pip`, `conda`)](#environment-based) (the traditional workflow)
+- [System package managers](#system-package-managers) (not recommended)
+- [Building from source](#building-from-source) (for debugging and development)
 
 <a name="distributions"></a>
 
-# Distribuições de Python Científico (recomendado)
+[static type stubs]: https://typing.readthedocs.io/en/latest/guides/libraries.html
 
-Distribuições de Python fornecem o interpretador para a linguagem Python, junto com os pacotes e ferramentas mais utilizados. Esses arquivos, que podem ser obtidos através de download direto, demandam configuração mínima, funcionam em quase qualquer sistema, e fornecem quase todas as ferramentas necessárias para o Python científico.
+<a name="project-based"></a>
 
-A distribuição [Anaconda](https://www.anaconda.com/download/) funciona no Windows, Mac,
-e Linux, fornece mais de 1.500 pacotes Python e é usada por mais de 15
-milhões de pessoas. A Anaconda é mais adequada para os usuários iniciantes; ela fornece
-uma grande coleção de bibliotecas de uma só vez.
+## Project-based workflows
 
-Para usuários mais avançados que precisarão instalar ou atualizar regularmente,
-[Mambaforge](https://github.com/conda-forge/miniforge#mambaforge) é uma maneira mais
-adequada para instalar o `conda` (e `mamba`, um `conda` alternativo mais rápido).
+### Installing with `uv`
 
 Outras opções incluem:
 
-- [WinPython](https://winpython.github.io): Outra distribuição livre
-  incluindo pacotes científicos e a IDE Spyder; Apenas para Windows, mas
-  com mais atualizações de manutenção e suporte às últimas versões do Python 3.
-- [Pyzo](https://pyzo.org): Uma distribuição gratuita baseada na Anaconda
-  e no ambiente de desenvolvimento interativo IEP; Suporta Linux,
-  Windows e Mac.
+[`uv`]: https://docs.astral.sh/uv/
 
-<a name="pip-install"></a>
+<!-- prettier-ignore-start -->
 
-# Instalação via Pip
+1. Install `uv`, following [the instructions in the `uv` documentation][install-uv].
 
-Você pode instalar a SciPy a partir do PyPI com `pip`:
+[install-uv]: https://docs.astral.sh/uv/getting-started/installation/
+
+2. Create a new project in a new subdirectory, by executing the following in a terminal:
+
+   ```
+   uv init try-scipy
+   cd try-scipy
+   ```
+
+   {{< admonition hint >}}
+   The second command changes directory into the directory of your project.
+   {{< /admonition >}}
+
+3. Add SciPy to your project:
+
+   ```
+   uv add scipy
+   ```
+
+   {{< admonition note >}}
+   This will automatically install Python if you don't already have it installed!
+   {{< /admonition >}}
+
+   {{< admonition tip >}}
+   You can install other Python libraries in the same way, e.g.
+
+   uv add matplotlib
+
+   {{< /admonition >}}
+
+4. Try out SciPy!
+
+   ```
+   uv run python
+   ```
+
+   This will launch a Python interpreter session, from which you can `import scipy`.
+
+<!-- prettier-ignore-end -->
+
+See next steps in [the SciPy user guide][scipy-user-guide].
+
+[scipy-user-guide]: https://docs.scipy.org/doc/scipy/tutorial/
+
+{{< admonition note >}}
+
+After rebooting your computer, you'll want to navigate to your `try-scipy`
+project directory and execute `uv run python` to drop back into a Python interpreter
+with SciPy importable.
+To execute a Python script, you can use `uv run myscript.py`.
+
+Read more at [the uv guide to working on projects][uv-projects].
+
+[uv-projects]: https://docs.astral.sh/uv/guides/projects/
+
+{{< /admonition >}}
+
+### Installing with `pixi`
+
+If you work with non-Python packages, you may prefer to install SciPy as
+a [Conda] package, so that you can use the same workflow for packages which
+are not available on [PyPI](https://pypi.org/), the Python Package Index.
+Conda can manage packages in any language, so you can use it to install
+Python itself, compilers, and other languages.
+
+[Conda]: https://docs.conda.io/projects/conda/en/latest/index.html
+
+The steps to install SciPy from [conda-forge] using the package management
+tool [`pixi`] are very similar to the steps for `uv`:
+
+[conda-forge]: https://conda-forge.org/
+[`pixi`]: https://pixi.sh/latest/
+
+1. Install `pixi`, following [the instructions in the `pixi` documentation][install-pixi].
+
+[install-pixi]: https://pixi.sh/latest/
+
+2. Create a new project in a new subdirectory:
+
+   ```
+   pixi init try-scipy
+   cd try-scipy
+   ```
+
+3. Add SciPy to your project:
+
+   ```
+   pixi add scipy
+   ```
+
+4. Try out SciPy!
+
+   ```
+   pixi run python
+   ```
+
+See next steps in [the SciPy user guide][scipy-user-guide].
+
+<a name="environment-based"></a>
+
+## Environment-based workflows
+
+In project-based workflows, a project is a directory containing a manifest
+file describing the project, a lock-file describing the exact dependencies
+of the project, and the project's (potentially multiple) environments.
+
+In contrast,
+in environment-based workflows you install packages into an environment,
+which you can activate and deactivate from any directory.
+These workflows are well-established,
+but lack some reproducibility benefits of project-based workflows.
+
+### Installing with `pip`
+
+<!-- prettier-ignore-start -->
+
+1. [Install Python](https://www.python.org/downloads/).
+
+2. Create and activate a virtual environment with `venv`.
+
+   {{< admonition hint >}}
+   See [the tutorial in the Python Packaging User Guide](https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments).
+   {{< /admonition >}}
+
+3. Install SciPy, using [`pip`]:
+
+   ```
+   python -m pip install scipy
+   ```
+
+<!-- prettier-ignore-end -->
+
+[`pip`]: https://pip.pypa.io/en/stable/getting-started/
+
+### Installing with `conda`
+
+[Miniforge] is the recommended way to install `conda` and [`mamba`],
+two Conda-based environment managers.
+After creating an environment, you can install SciPy from conda-forge as follows:
 
 ```
-python -m pip install scipy
+conda install scipy # or
+mamba install scipy
 ```
 
-<a name="conda-install"></a>
+[Miniforge]: https://conda-forge.org/download/
+[`mamba`]: https://mamba.readthedocs.io/en/latest/
 
-# Instalação via Conda
+<a name="system-package-managers"></a>
 
-Você pode instalar a SciPy a partir dos canais `defaults` ou `conda-forge` com `conda`:
-
-```
-conda install scipy
-```
-
-<a name="package_manager"></a>
-
-# Instalação via gerenciador de pacotes
+## Installing system-wide via a system package manager
 
 Os gerenciadores de pacotes do sistema operacional podem instalar os pacotes Python mais comuns.
 Eles instalam pacotes para o computador inteiro, muitas vezes usam versões mais antigas,
-e não têm tantas versões disponíveis.
+e não têm tantas versões disponíveis. They are not the recommended
+installation method.
 
-## Ubuntu e Debian
+### Ubuntu e Debian
 
 Usando `apt-get`:
 
@@ -78,7 +202,7 @@ Usando `apt-get`:
 sudo apt-get install python3-scipy
 ```
 
-## Fedora
+### Fedora
 
 Usando `dnf`:
 
@@ -86,7 +210,7 @@ Usando `dnf`:
 sudo dnf install python3-scipy
 ```
 
-## macOS
+### macOS
 
 macOS não tem um gerenciador de pacotes pré-instalado, mas você pode instalar o
 [Homebrew](https://brew.sh/) e usá-lo para instalar a SciPy (e o Python em si):
@@ -95,10 +219,36 @@ macOS não tem um gerenciador de pacotes pré-instalado, mas você pode instalar
 brew install scipy
 ```
 
-<a name="source"></a>
+<a name="building-from-source"></a>
 
-# Pacotes gerados a partir do código fonte
+## Building from source
 
-Cuidado: compilar a SciPy a partir do código fonte pode ser um exercício não trivial. Recomendamos o uso de binários, em vez disso, se eles estiverem disponíveis para a sua plataforma.
-Para obter detalhes sobre como compilar a biblioteca a partir do código fonte, consulte
-[este guia na documentação da SciPy](https://scipy.github.io/devdocs/building/index.html).
+Cuidado: compilar a SciPy a partir do código fonte pode ser um exercício não trivial. We
+recommend using binaries instead if those are available for your platform
+via one of the above methods.
+For details on how to build from source, see
+[the building from source guide in the SciPy docs][building-docs].
+
+[building-docs]: https://scipy.github.io/devdocs/building/index.html
+
+<a name="type-stubs"></a>
+
+## Installing with type stubs
+
+Static type stubs are available via a separate package, `scipy-stubs`, on
+PyPI and conda-forge.
+You can also install SciPy and `scipy-stubs` as a single package,
+via the `scipy-stubs[scipy]` extra on PyPI, or the `scipy-typed`
+package on conda-forge.
+To get a specific version `x.y.z` of SciPy (such as `1.14.1`),
+you should install version `x.y.z.*`, for example:
+
+```
+uv add "scipy-stubs[scipy]==1.14.1.*" # or
+pixi add "scipy-typed=1.15.0.*" # or
+python -m pip install "scipy-stubs[scipy]" # or
+conda install "scipy-typed>=1.14"
+```
+
+Please direct questions about static typing support to
+[the `scipy-stubs` GitHub repository](https://github.com/jorenham/scipy-stubs).
