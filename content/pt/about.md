@@ -105,3 +105,10 @@ infraestrutura de desenvolvimento:
 - [Mayo Clinic](https://www.mayoclinic.org): vínculo empregatício enquanto Travis Oliphant trabalhava na SciPy
 
 _Esta lista é ordenada pelo tempo (contribuições mais recentes primeiro) e foi atualizada pela última vez  em janeiro de 2022._
+
+<a name="social-media"></a>
+
+## Social Media
+
+- [@scipy on Mastodon](https://mastodon.social/@scipy@fosstodon.org)
+- [@SciPy_team on X](https://x.com/scipy_team)
