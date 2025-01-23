@@ -6,9 +6,9 @@ title: null
 
 [[item]]
 type = 'card'
-title = 'Fundamental algorithms'
+title = '基礎となるアルゴリズム群'
 body = '''
-SciPy provides algorithms for optimization, integration, interpolation, eigenvalue problems, algebraic equations, differential equations, statistics and many other classes of problems.
+SciPyは最適化や、積分, 補間, 固有値の問題, 代数方程式, 微分方程式, 統計、そして、その他の多くの種類の問題のためのアルゴリズム群を提供しています。
 '''
 
 [[item]]
