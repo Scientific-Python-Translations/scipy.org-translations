@@ -1,52 +1,49 @@
 ---
-title: Beginner Installation Guide
+title: Guia de instalação para iniciantes
 sidebar: false
 ---
 
 {{< admonition tip >}}
-This is the beginner installation guide.
-If you are comfortable with using a terminal and happy to learn
-how to use a package manager, check out
-[the main installation guide](./install.md)!
+Este é o guia de instalação para iniciantes.
+Se você está confortável com o uso de um terminal e se dispõe a aprender
+como usar um gerenciador de pacotes, confira
+[o guia principal de instalação](./install.md)!
 {{< /admonition >}}
 
 - [JupyterLite](#jupyterlite)
-- [Scientific Python Distributions](#distributions)
-- [Installing globally with `pip`](#pip-global)
+- [Distribuições Científicas de Python](#distributions)
+- [Instalando globalmente com `pip`](#pip-global)
 
 <a name="jupyterlite"></a>
 
 ## JupyterLite
 
-To try out SciPy, you don't even need to install it!
-You can use SciPy in your browser at https://jupyter.org/try-jupyter/lab/ -
-just open a Python Notebook, then write `import scipy` in one of
-the notebook "cells" and hit play.
+Para experimentar a SciPy, você nem precisa instalá-la!
+Você pode usar a SciPy no seu navegador em https://jupyter. rg/try-jupyter/lab/ -
+apenas abra um notebook Python, em seguida, escreva `import scipy` em uma das células do notebook e clique em executar.
 
-For next steps, see [the SciPy user guide][scipy-user-guide].
+Para as próximas etapas, consulte [o guia do usuário SciPy][scipy-user-guide].
 
 [scipy-user-guide]: https://docs.scipy.org/doc/scipy/tutorial/
 
 <a name="distributions"></a>
 
-## Scientific Python Distributions
+## Distribuições Científicas de Python
 
-Distribuições de Python fornecem o interpretador para a linguagem Python, junto com os pacotes e ferramentas mais utilizados. These downloadable files require
-little configuration, work on almost all setups, and provide all the
-most commonly used scientific Python tools.
-[Anaconda](https://www.anaconda.com/download/) works on Windows, Mac,
-and Linux, and is best suited to beginning users.
+Distribuições de Python fornecem o interpretador para a linguagem Python, junto com os pacotes e ferramentas mais utilizados. Esses arquivos, que podem ser obtidos através de download direto, demandam configuração mínima, funcionam em quase qualquer sistema, e fornecem quase todas as ferramentas necessárias para o Python científico.
+[Anaconda](https://www.anaconda.com/download/) funciona no Windows, Mac,
+e Linux, e é mais adequado para usuários iniciantes.
 Outras opções incluem:
 
-- [WinPython](https://winpython.github.io): Another free distribution
-  including scientific packages and the Spyder IDE; Windows only.
+- [WinPython](https://winpython.github.io): Outra distribuição gratuita
+  incluindo pacotes científicos e o ID do Spyder; Windows apenas.
 - [Pyzo](https://pyzo.org): Uma distribuição gratuita baseada na Anaconda
   e no ambiente de desenvolvimento interativo IEP; Suporta Linux,
   Windows e Mac.
 
 {{< admonition note >}}
-Anaconda is free to use for individuals, universities, and companies smaller than
-200 employees. For more detail, see Anaconda's helpful blog on
+Anaconda é gratuita para indivíduos, universidades e empresas com menos de
+200 funcionários. For more detail, see Anaconda's helpful blog on
 ["when is Anaconda free to use?"](https://www.anaconda.com/blog/update-on-anacondas-terms-of-service-for-academia-and-research)
 {{< /admonition >}}
 
