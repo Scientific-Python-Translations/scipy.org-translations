@@ -4,42 +4,42 @@ sidebar: false
 ---
 
 {{< admonition tip >}}
-This page assumes that you are comfortable with using a terminal and happy to learn
-how to use a package manager. If you are a beginner and just want to get started
-with SciPy as quickly as possible, check out
-[the beginner installation guide](./beginner-install.md)!
+Esta página pressupõe que você se sente confortável usando um terminal e se dispõe a aprender como usar um gerenciador de pacotes. Se você é um iniciante e só quer iniciar o
+com SciPy o mais rápido possível, confira o
+[guia de instalação para iniciantes](./beginner-install.md)!
 {{< /admonition >}}
 
-The recommended method of installing SciPy depends on your preferred workflow.
-The common workflows can roughly be broken down into the following
-categories:
+O método recomendado para instalar a SciPy depende do seu fluxo de trabalho preferido.
+Os fluxos de trabalho comuns podem ser divididos nas seguintes categorias:
 
-- [Project-based (e.g. `uv`, `pixi`)](#project-based) (recommended for new users)
-- [Environment-based (e.g. `pip`, `conda`)](#environment-based) (the traditional workflow)
-- [System package managers](#system-package-managers) (not recommended)
-- [Building from source](#building-from-source) (for debugging and development)
+- [Fluxo de trabalho baseado em projetos (p. ex: `uv`, `pixi`)](#project-based) (recomendado para novos usuários)
+- Fluxo de trabalho baseado no ambiente (por exemplo, `pip`, `conda`)](#environment-based) (o fluxo de trabalho tradicional)
+- [Gerenciador de pacotes do sistema](#system-package-managers) (não recomendado)
+- [Compilando a partir do código fonte](#building-from-source) (para depuração e desenvolvimento)
 
-<a name="distributions"></a>
+Para instalar a SciPy com \[stubs para tipagem estática],
+veja [Instalando com stubs para tipagem](#type-stubs).
 
 [static type stubs]: https://typing.readthedocs.io/en/latest/guides/libraries.html
 
 <a name="project-based"></a>
 
-## Project-based workflows
+## Fluxos de trabalho baseados em projeto
 
-### Installing with `uv`
+### Instalando com `uv`
 
-Outras opções incluem:
+Aqui está um guia passo-a-passo para criar um projeto para usar a SciPy, com [`uv`],
+um gerenciador de pacotes Python.
 
 [`uv`]: https://docs.astral.sh/uv/
 
 <!-- prettier-ignore-start -->
 
-1. Install `uv`, following [the instructions in the `uv` documentation][install-uv].
+1. Instale `uv`, seguindo [as instruções na documentação do `uv`][install-uv].
 
 [install-uv]: https://docs.astral.sh/uv/getting-started/installation/
 
-2. Create a new project in a new subdirectory, by executing the following in a terminal:
+2. Criar um novo projeto em um novo subdiretório, executando o seguinte em um terminal:
 
    ```
    uv init try-scipy
@@ -47,48 +47,48 @@ Outras opções incluem:
    ```
 
    {{< admonition hint >}}
-   The second command changes directory into the directory of your project.
+   O segundo comando muda o diretório para dentro do diretório do seu projeto.
    {{< /admonition >}}
 
-3. Add SciPy to your project:
+3. Adicione SciPy ao seu projeto:
 
    ```
    uv add scipy
    ```
 
    {{< admonition note >}}
-   This will automatically install Python if you don't already have it installed!
+   Isto irá instalar o Python automaticamente se você ainda não o tiver instalado!
    {{< /admonition >}}
 
    {{< admonition tip >}}
-   You can install other Python libraries in the same way, e.g.
+   Você pode instalar outras bibliotecas de Python da mesma forma, por exemplo
 
    uv add matplotlib
 
    {{< /admonition >}}
 
-4. Try out SciPy!
+4. Experimente a SciPy!
 
    ```
    uv run python
    ```
 
-   This will launch a Python interpreter session, from which you can `import scipy`.
+   Isto irá lançar uma sessão do interpretador do Python, a partir da qual você pode fazer `import scipy`.
 
 <!-- prettier-ignore-end -->
 
-See next steps in [the SciPy user guide][scipy-user-guide].
+Para as próximas etapas, consulte [o guia do usuário SciPy][scipy-user-guide].
 
 [scipy-user-guide]: https://docs.scipy.org/doc/scipy/tutorial/
 
 {{< admonition note >}}
 
-After rebooting your computer, you'll want to navigate to your `try-scipy`
-project directory and execute `uv run python` to drop back into a Python interpreter
-with SciPy importable.
-To execute a Python script, you can use `uv run myscript.py`.
+Depois de reiniciar o computador, você deve navegar até o diretório do seu projeto `try-scipy`
+e executar `uv run python` para entrar novamente em uma sessão do interpretador Python
+com a SciPy disponível para ser importada.
+Para executar um script Python, você pode usar `uv run myscript.py`.
 
-Read more at [the uv guide to working on projects][uv-projects].
+Leia mais no [guia uv para trabalhar em projetos][uv-projects].
 
 [uv-projects]: https://docs.astral.sh/uv/guides/projects/
 
@@ -121,19 +121,19 @@ tool [`pixi`] are very similar to the steps for `uv`:
    cd try-scipy
    ```
 
-3. Add SciPy to your project:
+3. Adicione SciPy ao seu projeto:
 
    ```
    pixi add scipy
    ```
 
-4. Try out SciPy!
+4. Experimente a SciPy!
 
    ```
    pixi run python
    ```
 
-See next steps in [the SciPy user guide][scipy-user-guide].
+Para as próximas etapas, consulte [o guia do usuário SciPy][scipy-user-guide].
 
 <a name="environment-based"></a>
 
