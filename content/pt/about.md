@@ -108,7 +108,7 @@ _Esta lista é ordenada pelo tempo (contribuições mais recentes primeiro) e fo
 
 <a name="social-media"></a>
 
-## Social Media
+## Redes sociais
 
-- [@scipy on Mastodon](https://mastodon.social/@scipy@fosstodon.org)
-- [@SciPy_team on X](https://x.com/scipy_team)
+- [@scipy no Mastodon](https://mastodon.social/@scipy@fosstodon.org)
+- [@SciPy_team no X](https://x.com/scipy_team)
