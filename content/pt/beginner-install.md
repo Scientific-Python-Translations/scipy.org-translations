@@ -43,31 +43,31 @@ Outras opções incluem:
 
 {{< admonition note >}}
 Anaconda é gratuita para indivíduos, universidades e empresas com menos de
-200 funcionários. For more detail, see Anaconda's helpful blog on
-["when is Anaconda free to use?"](https://www.anaconda.com/blog/update-on-anacondas-terms-of-service-for-academia-and-research)
+200 funcionários. Para obter mais detalhes, consulte o blog da Anaconda sobre
+["quando o Anaconda é grátis para usar?"](https://www.anaconda.com/blog/update-on-anacondas-terms-of-service-for-academia-and-research)
 {{< /admonition >}}
 
-After installing a scientific Python distribution,
-see next steps in [the SciPy user guide][scipy-user-guide].
+Depois de instalar uma distribuição científica de Python,
+veja os próximos passos no [guia de usuário SciPy][scipy-user-guide].
 
 <a name="pip-global"></a>
 
-## Installing globally with `pip`
+## Instalando globalmente com `pip`
 
-If you already have Python installed, you can install SciPy
-with `pip` by executing the following in a terminal/shell:
+Se você já tem o Python instalado, pode instalar a SciPy
+com o `pip` executando o seguinte em um terminal/shell:
 
 ```
 python -m pip install scipy
 ```
 
-{{< admonition warning >}}
-You may see this recommended in tutorials or classes, but the recommended
-way to install SciPy with `pip` is to use a virtual environment -
-see [Installing with `pip`](./install.md#installing-with-pip).
+{{< Admonition warning >}}
+Você pode ver isto recomendado nos tutoriais ou materiais educacionais, mas a maneira
+recomendada para instalar a SciPy com `pip` é usar um ambiente virtual -
+consulte [Instalando com `pip`](./install.md#installing-with-pip).
 {{< /admonition >}}
 
 {{< admonition note >}}
-For more information on why this is not a recommended installation method,
-read about [virtual environments in the Python Packaging User Guide](https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments).
+Para mais informações sobre porque este não é um método de instalação recomendado,
+leia sobre [ambientes virtuais no <i>Python Packaging User Guide</i>](https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments).
 {{< /admonition >}}
