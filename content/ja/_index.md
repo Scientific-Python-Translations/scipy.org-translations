@@ -13,23 +13,23 @@ SciPyは最適化や、積分, 補間, 固有値の問題, 代数方程式, 微�
 
 [[item]]
 type = 'card'
-title = 'Broadly applicable'
+title = 'さまざまな科学技術分野で適用可能'
 body = '''
-The algorithms and data structures provided by SciPy are broadly applicable across domains.
+SciPy によって提供されるアルゴリズムとデータ構造は様々な科学技術分野で広く適用可能です。
 '''
 
 [[item]]
 type = 'card'
-title = 'Foundational'
+title = '科学技術計算の基礎'
 body = '''
-Extends NumPy providing additional tools for array computing and provides specialized data structures, such as sparse matrices and k-dimensional trees.
+配列計算のための追加計算ツールや特殊なデータ構造を提供します。 例えばスパース行列やk-d木などが提供されます。
 '''
 
 [[item]]
 type = 'card'
-title = 'Performant'
+title = '最適化された高速計算'
 body = '''
-SciPy wraps highly-optimized implementations written in low-level languages like Fortran, C, and C++. Enjoy the flexibility of Python with the speed of compiled code.
+Scipy は、FortranやC, および C++ のような低レベル言語で書かれた高度に最適化された実装を利用し、高速な計算を実現します。 コンパイルされたコードのスピードを保ちつつ、Python の柔軟性をお楽しみください。
 '''
 
 [[item]]
