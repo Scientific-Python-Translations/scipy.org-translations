@@ -34,9 +34,10 @@ Scipy は、FortranやC, および C++ のような低レベル言語で書か�
 
 [[item]]
 type = 'card'
-title = 'Easy to use'
+title = '使いやすさ'
 body = '''
-SciPy's high level syntax makes it accessible and productive for programmers from any background or experience level.
+SciPyの高いレベルで抽象化されたAPIは、どんな技術的バックグラウンドや経験を持つのプログラマーでも簡単に利用することができ、生産性を高めることができます。
+'''
 '''
 
 [[item]]
