@@ -5,14 +5,13 @@ newsHeader: Lançamento da SciPy versão 1.14.1!
 date: 2024-08-20
 ---
 
-### SciPy 1.15.1 released
+### SciPy versão 1.15.1
 
-_January 10, 2025_ -- SciPy 1.15.1 has been released!
+_10 de janeiro de 2025_ -- A SciPy 1.15.1 foi lançada!
 
-### SciPy 1.15.0 released
+### SciPy versão 1.15.0
 
-_January 3, 2025_ -- SciPy 1.15.0 has been released! This is the first
-stable release to provide Python 3.13 free-threading binaries on PyPI.
+_3 de janeiro de 2025_ -- A SciPy 1.15.0 foi lançada! Esta é a primeira versão estável a fornecer binários free-threading para o Python 3.13 no PyPI.
 
 ### SciPy versão 1.14.1
 
@@ -205,8 +204,8 @@ a conferência será realizada de 7 a 15 de março em Santa Clara, Califórnia.
 
 Aqui está uma lista de versões da SciPy, com links para notas de lançamento. Versões de correção de bugs (apenas o `z` muda no número de versão `x.y.z`) não tem novas funcionalidades; versões menores (o `y` muda) tem novas funcionalidades.
 
-- SciPy 1.15.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.15.1)) -- _2025-01-10_.
-- SciPy 1.15.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.15.0)) -- _2025-01-03_.
+- SciPy 1.15.1 ([notas de versão](https://github.com/scipy/scipy/releases/tag/v1.15.1)) -- _2025-01-10_.
+- SciPy 1.15.0 ([notas de versão](https://github.com/scipy/scipy/releases/tag/v1.15.0)) -- _2025-01-03_.
 - SciPy 1.14.1 ([notas de versão](https://github.com/scipy/scipy/releases/tag/v1.14.1)) -- _2024-08-20_.
 - SciPy 1.14.0 ([notas de versão](https://github.com/scipy/scipy/releases/tag/v1.14.0)) -- _2024-06-24_.
 - SciPy 1.13.1 ([notas de versão](https://github.com/scipy/scipy/releases/tag/v1.13.1)) -- _2024-05-22_.
