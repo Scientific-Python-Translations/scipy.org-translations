@@ -3,12 +3,10 @@ title: 私たちについて
 sidebar: false
 ---
 
-SciPy is developed in the open on GitHub, through the consensus of the SciPy
-and wider scientific Python community. For more information on our governance
-approach, please see our
-[Governance Document](https://docs.scipy.org/doc/scipy/dev/governance.html).
+SciPyは、SciPyの開発チームとより広範な科学的なPythonコミュニティの協力を通じてGitHub上で開発、公開されています。 開発コミュニティのガバナンスの方法の詳細については、
+[Governance Document](https://docs.scipy.org/doc/scipy/dev/governance.html)を参照してください。
 
-## Steering Council
+## 運営委員会
 
 The role of the SciPy Steering Council is to ensure, through working with and
 serving the broader SciPy community, the long-term well-being of the project,
