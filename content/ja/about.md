@@ -1,5 +1,5 @@
 ---
-title: About Us
+title: 私たちについて
 sidebar: false
 ---
 
