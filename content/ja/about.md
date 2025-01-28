@@ -8,10 +8,7 @@ SciPyは、SciPyの開発チームとより広範な科学的なPythonコミュ�
 
 ## 運営委員会
 
-The role of the SciPy Steering Council is to ensure, through working with and
-serving the broader SciPy community, the long-term well-being of the project,
-both technically and as a community. The SciPy Steering Council currently
-consists of the following members (in alphabetical order):
+SciPy運営委員会の役割は、SciPyのコミュニティと協力し、コミュニティをサポートすることを通じて、技術的にもコミュニティ的にも長期的にSciPyプロジェクトを良い状態に保つことです。 SciPy運営委員会は現在以下のメンバーで構成されています (アルファベット順):
 
 - Andrew Nelson
 - Charles Harris
@@ -26,22 +23,22 @@ consists of the following members (in alphabetical order):
 - Matthew Brett
 - Nikolay Mayorov
 - Paul van Mulbregt
-- Pauli Virtanen (BDFL)
-- Ralf Gommers (Chair)
-- Tyler Reddy (Release manager)
+- Pauli Virtanen (優しい終身の独裁者)
+- Ralf Gommers (議長)
+- Tyler Redy (リリースマネージャー)
 - Warren Weckesser
 
-Emeritus:
+終身名誉メンバー
 
 - Anne Archibald
-- Eric Jones (co-creator of SciPy)
+- Eric Jones (SciPyの共同初期開発者)
 - Eric Moore
 - Eric Quintero
-- Jaime Fernández del Río
+- Jaime Fernández del Río
 - Jarrod Millman
-- Pearu Peterson (co-creator of SciPy)
-- Robert Kern
-- Stéfan van der Walt
+- Pearu Peterson (SciPyの共同初期開発者)
+- ロバート・カーニング
+- Nathaniel Smith
 - Travis Oliphant (co-creator of SciPy)
 
 ## Teams
