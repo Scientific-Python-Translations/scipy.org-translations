@@ -39,36 +39,35 @@ SciPy運営委員会の役割は、SciPyのコミュニティと協力し、コ�
 - Pearu Peterson (SciPyの共同初期開発者)
 - ロバート・カーニング
 - Nathaniel Smith
-- Travis Oliphant (co-creator of SciPy)
+- Travis Oliphant (SciPyの共同初期開発者)
 
-## Teams
+## チーム
 
-The SciPy project is growing; we have teams for
+SciPyプロジェクトは成長しているので、下記のような複数のチームで分担して開発を進めています。
 
-- code
-- website
-- triage
+- コード開発
+- ウェブサイト開発
+- トリアージ
 
-See the [Teams](/teams) page for individual team members.
+各チームメンバーについては、 [Teams](/teams) ページを参照してください。
 
-## Sponsors
+## スポンサー
 
-SciPy receives direct funding from the following sources:
+SciPyは、以下の方法で直接的に資金を受け取っています。
 
 {{< sponsors >}}
 
-## Institutional Partners
+## パートナー組織
 
-Institutional Partners are organizations that support the project by employing
-people that contribute to SciPy as part of their job. Current Institutional
-Partners include:
+パートナー組織とは、SciPyに貢献する
+人を職務の一環として雇用することで、プロジェクトを支援する組織です。 現在のパートナー組織は、下記の通りです。
 
 - Quansight (Ralf Gommers, Peter Bell, Melissa Weber Mendonça,
   Evgeni Burovski, Albert Steppi)
 
 {{< partners >}}
 
-- Los Alamos National Laboratory (Tyler Reddy)
+- ロスアラモス国立研究所(Tyler Reddy)
 
 ## Donate
 
