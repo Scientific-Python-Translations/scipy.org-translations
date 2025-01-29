@@ -69,14 +69,12 @@ SciPyは、以下の方法で直接的に資金を受け取っています。
 
 - ロスアラモス国立研究所(Tyler Reddy)
 
-## Donate
+## 寄付をする
 
-SciPy will always be 100% open source software, free for all to use and
-released under the liberal terms of the modified BSD license. While we
-have a large number of
-[contributors](https://github.com/scipy/scipy/graphs/contributors)
-who volunteer their time to improve SciPy, financial resources are
-needed to run the project and accelerate its development. If you have
+SciPyは、常に全てのソフトウェアが、オープンソースのソフトウェアであり、すべての人は無料で利用できます。
+また、SciPyは、修正BSDライセンスの自l条件下でリリースされています。 すでに、沢山のボランティアの
+[開発者](https://github.com/scipy/scipy/graphs/contributors)
+がSciPyを改善するために多くの時間を使ってくれていますが, 資金補助により、プロジェクトを運営したり、開発を加速することが可能になります。 If you have
 found SciPy useful in your work, research, or company, please consider
 making a donation to the project commensurate with your resources. Any
 amount helps!
