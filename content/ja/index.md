@@ -1,5 +1,5 @@
 ---
-title: Teams
+title: チーム
 sidebar: false
 ---
 
