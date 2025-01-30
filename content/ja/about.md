@@ -74,15 +74,9 @@ SciPyは、以下の方法で直接的に資金を受け取っています。
 SciPyは、常に全てのソフトウェアが、オープンソースのソフトウェアであり、すべての人は無料で利用できます。
 また、SciPyは、修正BSDライセンスの自l条件下でリリースされています。 すでに、沢山のボランティアの
 [開発者](https://github.com/scipy/scipy/graphs/contributors)
-がSciPyを改善するために多くの時間を使ってくれていますが, 資金補助により、プロジェクトを運営したり、開発を加速することが可能になります。 If you have
-found SciPy useful in your work, research, or company, please consider
-making a donation to the project commensurate with your resources. Any
-amount helps!
+がSciPyを改善するために多くの時間を使ってくれていますが, 資金補助により、プロジェクトを運営したり、開発を加速することが可能になります。 SciPy があなたの仕事や研究、ビジネスで役に立った場合、できる範囲で良いので、是非、SciPyプロジェクトへの寄付を検討して頂けると助かります。 少額の寄付でも大きな助けになります。 すべての寄付は、SciPyのオープンソースのソフトウェアや、ドキュメント、コミュニティの開発のために使用されることが約束されています。 少額の寄付でも大きな助けになります。
 
-Donations are managed by the [NumFOCUS](https://numfocus.org)
-foundation, which passes your contribution to the SciPy project,
-and provides the SciPy development team with basic administrative and
-legal services. NumFOCUS is a 501(c)3 non-profit
+頂いた寄付は[NumFOCUS](https://numfocus.org) 財団によって管理され、あなたの寄付は SciPy プロジェクトに渡されます。この寄付により、NumFOCUS は基本的なプロジェクト管理や法的サービスをSciPy 開発チームに提供します。 NumFOCUS is a 501(c)3 non-profit
 foundation, so if you are subject to the US Tax law, your contributions
 are tax-deductible.
 
