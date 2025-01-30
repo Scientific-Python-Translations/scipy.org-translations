@@ -76,20 +76,16 @@ SciPyは、常に全てのソフトウェアが、オープンソースのソフ
 [開発者](https://github.com/scipy/scipy/graphs/contributors)
 がSciPyを改善するために多くの時間を使ってくれていますが, 資金補助により、プロジェクトを運営したり、開発を加速することが可能になります。 SciPy があなたの仕事や研究、ビジネスで役に立った場合、できる範囲で良いので、是非、SciPyプロジェクトへの寄付を検討して頂けると助かります。 少額の寄付でも大きな助けになります。 すべての寄付は、SciPyのオープンソースのソフトウェアや、ドキュメント、コミュニティの開発のために使用されることが約束されています。 少額の寄付でも大きな助けになります。
 
-頂いた寄付は[NumFOCUS](https://numfocus.org) 財団によって管理され、あなたの寄付は SciPy プロジェクトに渡されます。この寄付により、NumFOCUS は基本的なプロジェクト管理や法的サービスをSciPy 開発チームに提供します。 NumFOCUS is a 501(c)3 non-profit
-foundation, so if you are subject to the US Tax law, your contributions
-are tax-deductible.
+頂いた寄付は[NumFOCUS](https://numfocus.org) 財団によって管理され、あなたの寄付は SciPy プロジェクトに渡されます。この寄付により、NumFOCUS は基本的なプロジェクト管理や法的サービスをSciPy 開発チームに提供します。 NumFOCUSは501(c)3非営利
+財団であるため、あなたが米国税法に従う場合、あなたの寄付は税金控除対象となります。
 
 {{<opencollective>}}
 
-## Acknowledgements
+## 謝辞
 
-The SciPy development team would like to thank the following companies
-and organizations for providing financial support, services, or
-development infrastructure:
+SciPy 開発チームは、経済的支援、サービス、または開発インフラを提供してくださっている以下の企業や組織に感謝を申し上げます。
 
-- [JetBrains](https://jb.gg/OpenSourceSupport): licenses of all their
-  products for all active maintainers
+- [JetBrains](https://jb.gg/OpenSourceSupport): すべての活動中のメンテナに対するすべての製品のライセンス付与
 - [Tidelift](https://tidelift.com/subscription/pkg/pypi-scipy?utm_source=pypi-scipy\&utm_medium=referral\&utm_campaign=readme):
   financial support for SciPy through the Tidelift open source
   subscription
