@@ -87,31 +87,25 @@ SciPy 開発チームは、経済的支援、サービス、または開発イ�
 
 - [JetBrains](https://jb.gg/OpenSourceSupport): すべての活動中のメンテナに対するすべての製品のライセンス付与
 - [Tidelift](https://tidelift.com/subscription/pkg/pypi-scipy?utm_source=pypi-scipy\&utm_medium=referral\&utm_campaign=readme):
-  financial support for SciPy through the Tidelift open source
-  subscription
-- [CircleCI](https://circleci.com): continuous integration credit
-- [TravisCI](https://travis-ci.com): continuous integration credit
-- [Appveyor](https://ci.appveyor.com): continuous integration credit
-- [Azure](https://dev.azure.com): continuous integration credit
-- [Enthought](https://www.enthought.com): scipy.org and mailing lists
-  hosting, holding the SciPy trademark
-- [NumFOCUS](https://numfocus.org): several small development grants,
-  and a hosted Mac Mini build machine
-- [Google](https://google.com): support for many Google Summer of Code
-  students
+  Tideliftのオープンソースサブスクリプションを通じたSciPyへの経済的支援
+- [CircleCI](https://circleci.com): CIサービスのクレジット付与
+- [TravisCI](https://travis-ci.com): CIサービスのクレジット付与
+- [Appveyor](https://ci.appveyor.com): CIサービスのクレジット付与
+- [Azure](https://dev.azure.com): CIサービスへのクレジット付与
+- [Enthought](https://www.enthought.com): scipy.org のサイトとメーリングリストのホスティング。そしてSciPy 商標の保持
+- [NumFOCUS](https://numfocus.org): いくつかの小さな開発のための補助金のサポート、およびMac Mini ビルドマシンのホスティング
+- [Google](https://google.com): 多くのGoogle Summer of Codeの生徒に対するサポート
 - [Intel](https://www.intel.com): Intel
-  [MKL](https://software.intel.com/en-us/intel-mkl/) licenses
-- [BYU](https://www.byu.edu): employed Travis Oliphant while working
-  on SciPy
-- [Mayo Clinic](https://www.mayoclinic.org): employed Travis Oliphant
-  while working on SciPy
+  [MKL](https://software.intel.com/en-us/intel-mkl/) ライセンスの付与
+- [BYU](https://www.byu.edu): SciPyの開発中のTravisOliphantの雇用
+- [Mayo Clinic](https://www.mayoclinic.org): SciPy開発中のTravis Oliphantの雇用
 
-_This list is ordered by time (most recent contributions first) and was
-last updated in January 2022._
+_このリストはサポート開始の次期順に並べられており、
+最後に更新されたのは2022年1月です。
 
 <a name="social-media"></a>
 
-## Social Media
+## ソーシャルメディア
 
-- [@scipy on Mastodon](https://mastodon.social/@scipy@fosstodon.org)
-- [@SciPy_team on X](https://x.com/scipy_team)
+- [マストドン上での @scipy](https://mastodon.social/@scipy@fosstodon.org)
+- [X上での @SciPy_team](https://x.com/scipy_team)
