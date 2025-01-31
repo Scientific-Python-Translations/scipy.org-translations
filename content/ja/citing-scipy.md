@@ -1,5 +1,5 @@
 ---
-title: Citing SciPy
+title: SciPyの引用
 sidebar: false
 ---
 
