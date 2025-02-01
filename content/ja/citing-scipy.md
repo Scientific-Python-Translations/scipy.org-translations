@@ -3,9 +3,7 @@ title: SciPyの引用
 sidebar: false
 ---
 
-If SciPy has been significant in your research, and you would like to
-acknowledge the project in your academic publication, we suggest citing the
-following paper:
+もしあなたの研究においてSciPyが重要な役割を果たし、論文でこのプロジェクトについて言及したい場合は、こちらの論文を引用して下さい。
 
 Pauli Virtanen, Ralf Gommers, Travis E. Oliphant, Matt Haberland, Tyler
 Reddy, David Cournapeau, Evgeni Burovski, Pearu Peterson, Warren
@@ -15,10 +13,11 @@ Eric Jones, Robert Kern, Eric Larson, CJ Carey, İlhan Polat, Yu Feng,
 Eric W. Moore, Jake VanderPlas, Denis Laxalde, Josef Perktold, Robert
 Cimrman, Ian Henriksen, E.A. Quintero, Charles R Harris, Anne M.
 Archibald, Antônio H. Ribeiro, Fabian Pedregosa, Paul van Mulbregt, and
-SciPy 1.0 Contributors. (2020) **SciPy 1.0: Fundamental Algorithms for
-Scientific Computing in Python**. _Nature Methods_, 17(3), 261-272. DOI: [10.1038/s41592-019-0686-2](https://doi.org/10.1038/s41592-019-0686-2).
+SciPy 1.0 Contributors. Quintero, Charles R Harris, Anne M.
+Archibald, Antônio H. Ribeiro, Fabian Pedregosa, Paul van Mulbregt, and
+SciPy 1.0 Contributors. _Nature Methods_, 17(3), 261-272. DOI: [10.1038/s41592-019-0686-2](https://doi.org/10.1038/s41592-019-0686-2)。
 
-Here\'s an example of a BibTeX entry:
+こちらはBibTeXの入力例です。
 
 ```
 @ARTICLE{2020SciPy-NMeth,
