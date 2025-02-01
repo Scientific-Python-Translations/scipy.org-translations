@@ -45,6 +45,5 @@ SciPy 1.0 Contributors. _Nature Methods_, 17(3), 261-272. DOI: [10.1038/s41592-0
 }
 ```
 
-For any specific algorithm, also consider citing the original author\'s
-paper (this can often be found under the \"References\" section of the
-docstring).
+特定のアルゴリズムを引用したい場合は、アルゴリズムの元となる論文を引用することも検討してください(元となる論文の情報は、
+docstringの\"References\" セクションの下にあります)。
