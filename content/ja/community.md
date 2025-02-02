@@ -18,16 +18,12 @@ SciPy プロジェクトの開発チームやコミュニティと直接交流�
 
 ### [SciPyコミュニティ会議](https://scientific-python.org/calendars/)
 
-SciPy community meetings are ideal to anyone wanting to contribute to SciPy
-or just know how current development is going. You can follow
-[our community calendar](https://scientific-python.org/calendars/) from your
-preferred calendar manager, or look out for the announcements on our
-development forum.
+SciPy コミュニティミーティングは、SciPy
+に貢献したい人や、現在の開発状況を知りたい人にとっては良い場所だと言えます。 あなたが使っているカレンダーアプリを使って、我々の[我々のコミュニティカレンダー](https://scientific-python.org/calendars/) をフォローして、開発フォーラムでの我々の発表をチェックしてみて下さい。
 
-### [SciPy new contributor meetings](https://scientific-python.org/calendars/)
+### [SciPy初心者コントリビュータミーティング](https://scientific-python.org/calendars/)
 
-Once a month we have special meetings for folks who want to start contributing
-or have just started. All are welcome! Check our community calendar for details,
+月に一度、SciPyに初めて貢献したい人達のための特別なミーティングを開催しています。 All are welcome! Check our community calendar for details,
 or look out for the announcements on our development forum.
 
 ### [SciPy development forum](https://discuss.scientific-python.org/c/contributor/scipy)
