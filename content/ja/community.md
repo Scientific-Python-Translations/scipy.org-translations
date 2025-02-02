@@ -12,12 +12,11 @@ Scipy は
 
 SciPy プロジェクトの開発チームやコミュニティと直接交流する方法は次の通りです。
 
-但し、SciPyの利用方法に関する質問については、各ユーザー同士が互いにサポートしあうことをお勧めします。 Search for an answer first, because someone may
-already have found a solution to your problem.
+但し、SciPyの利用方法に関する質問については、各ユーザー同士が互いにサポートしあうことをお勧めします。 まずあなたの質問に対する答えを調べてみてください。解決策がすでに提供されているかもしれません。
 
-Lastly, maintainers are mostly monitoring the forum and GitHub.
+最後に、メンテナーは主にフォーラムと GitHub を定期的に確認しています。
 
-### [SciPy community meetings](https://scientific-python.org/calendars/)
+### [SciPyコミュニティ会議](https://scientific-python.org/calendars/)
 
 SciPy community meetings are ideal to anyone wanting to contribute to SciPy
 or just know how current development is going. You can follow
