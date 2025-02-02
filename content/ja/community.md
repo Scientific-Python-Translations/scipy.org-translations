@@ -3,22 +3,16 @@ title: コミュニティ
 sidebar: false
 ---
 
-SciPy is a community-driven open source project developed by a diverse group of
-[contributors](/teams/). The SciPy leadership has made a strong commitment to
-creating an open, inclusive, and positive community. Please read the
-[SciPy Code of Conduct](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
-for guidance on how to interact with others in a way that makes the community
-thrive.
+Scipy は
+[コントリビュータ](/teams/) の多様なグループによって開発されている、コミュニティ主導のオープンソースプロジェクトです。 SciPyを主導しているメンテナーチームは、オープンで、協力的で、ポジティブなコミュニティを作ることを、約束しています。 こちらのリンクにある[SciPy行動規範](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)をご確認ください。このドキュメントは開発コミュニティが活気づくために必要な事柄と、他者とどのように関わるべきかについての指針を示しています。
 
-We offer several communication channels to learn, share your knowledge and
-connect with others within the SciPy community.
+私たちは、SciPyのコミュニティ内で互いに学んだり、知識を共有したり、他の人と交流するためのいくつかのコミュニケーション方法を提供しています。
 
-## Participate online
+## オンラインでコミュニティに参加する方法
 
-The following are ways to engage directly with the SciPy project and community.
+SciPy プロジェクトの開発チームやコミュニティと直接交流する方法は次の通りです。
 
-Please note that we encourage users and community members to support each
-other for usage questions. Search for an answer first, because someone may
+但し、SciPyの利用方法に関する質問については、各ユーザー同士が互いにサポートしあうことをお勧めします。 Search for an answer first, because someone may
 already have found a solution to your problem.
 
 Lastly, maintainers are mostly monitoring the forum and GitHub.
