@@ -50,7 +50,7 @@ StackOverflowの`scipy`タグを使って、SciPyの使い方に関する質問�
 
 ### [GitHub イシュートラッカー](https://github.com/scipy/scipy/issues)
 
-- For bug reports (e.g. "`np.arange(3).shape` returns `(5,)`, when it should return `(3,)`");
+- バグレポート（例：”`np.arange(3).shape` は`(3,)` を返すべき時に `(5,)`,を返しています。");
 - documentation issues (e.g. "I found this section unclear");
 - and feature requests (e.g. "I would like to have a new statistical test in `scipy.stats`").
 
