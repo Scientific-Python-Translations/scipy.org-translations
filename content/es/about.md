@@ -1,10 +1,9 @@
 ---
-title: About Us
+title: Sobre nosotros
 sidebar: false
 ---
 
-SciPy is developed in the open on GitHub, through the consensus of the SciPy
-and wider scientific Python community. For more information on our governance
+SciPy se desarrolla de forma abierta en GitHub, a través del consenso de la comunidad de SciPy y la comunidad científica más amplia de Python. For more information on our governance
 approach, please see our
 [Governance Document](https://docs.scipy.org/doc/scipy/dev/governance.html).
 
