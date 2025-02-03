@@ -23,37 +23,32 @@ SciPy コミュニティミーティングは、SciPy
 
 ### [SciPy初心者コントリビュータミーティング](https://scientific-python.org/calendars/)
 
-月に一度、SciPyに初めて貢献したい人達のための特別なミーティングを開催しています。 All are welcome! Check our community calendar for details,
-or look out for the announcements on our development forum.
+月に一度、SciPyに初めて貢献したい人達のための特別なミーティングを開催しています。 興味がある方は誰でも大歓迎です! 詳細についてはコミュニティカレンダー、
+もしくは開発フォーラムでのお知らせをご覧ください。
 
-### [SciPy development forum](https://discuss.scientific-python.org/c/contributor/scipy)
+### [SciPy開発者フォーラム](https://discuss.scientific-python.org/c/contributor/scipy)
 
-This space is the main forum for longer-form discussions, like adding new
-features to SciPy, making changes to the SciPy Roadmap, and all kinds of
-project-wide decision making. Announcements about SciPy, such as for releases,
-developer meetings, sprints or conference talks are also made on this forum.
+このフォーラムは、SciPy に新機能を追加することや、SciPy のロードマップを変更すること、またあらゆるプロジェクト全体の意思決定など、将来に向けたの議論を行うための主要なフォーラムです。 このフォーラムでは、新しいSciPyのリリースや、
+開発者ミーティング、スプリント、カンファレンストークなどの、SciPyに関するアナウンスも行われます。
 
-A searchable archive of the old mailing list
-is available [here](https://mail.python.org/archives/list/scipy-dev@python.org/).
+検索可能なアーカイブデータとしての、古いメーリングリストは[こちら](https://mail.python.org/archives/list/scipy-dev@python.org/)から利用可能です。
 
-### [SciPy Slack space](https://join.slack.com/t/scipy-community/shared_invite/zt-1a76bomjr-fuS1ZTnmP7b32kIhLb6QMg)
+### [SciPy Slack スペース](https://join.slack.com/t/scipy-community/shared_invite/zt-1a76bomjr-fuS1ZTnmP7b32kIhLb6QMg)
 
-The SciPy team also has a Slack space that you can join. This is not a user
-support forum, but you can ask questions about contributing and getting involved
-in the community. To join, please [follow this invite link](https://join.slack.com/t/scipy-community/shared_invite/zt-1a76bomjr-fuS1ZTnmP7b32kIhLb6QMg).
+SciPyの開発チームには、独自のSlackスペースもあり、参加することができます。 ここはユーザーサポート用のフォーラムではありませんが、SciPyへの貢献方法や
+コミュニティへの参加方法について質問することができます。 参加したい方は、こみらの [招待リンク](https://join.slack.com/t/scipy-community/shared_invite/zt-1a76bomjr-fuS1ZTnmP7b32kIhLb6QMg) を辿っていってみてください。
 
-### [Scientific Python Discord](https://discord.com/invite/vur45CbwMz)
+### [Scientific Python Discordチャンネル](https://discord.com/invite/vur45CbwMz)
 
-You can also join the `#scipy` channel on the Scientific Python discord.
+Scientific Python discord上で `#scipy` チャンネルに参加することもできます。
 
 ### [StackOverflow](https://stackoverflow.com/questions/tagged/scipy)
 
-You can ask questions with the `scipy` tag on
-StackOverflow.
+StackOverflowの`scipy`タグを使って、SciPyの使い方に関する質問をすることもできます。
 
 ---
 
-### [GitHub issue tracker](https://github.com/scipy/scipy/issues)
+### [GitHub イシュートラッカー](https://github.com/scipy/scipy/issues)
 
 - For bug reports (e.g. "`np.arange(3).shape` returns `(5,)`, when it should return `(3,)`");
 - documentation issues (e.g. "I found this section unclear");
