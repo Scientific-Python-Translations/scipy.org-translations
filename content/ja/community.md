@@ -51,45 +51,35 @@ StackOverflowの`scipy`タグを使って、SciPyの使い方に関する質問�
 ### [GitHub イシュートラッカー](https://github.com/scipy/scipy/issues)
 
 - バグレポート（例：”`np.arange(3).shape` は`(3,)` を返すべき時に `(5,)`,を返しています。");
-- documentation issues (e.g. "I found this section unclear");
-- and feature requests (e.g. "I would like to have a new statistical test in `scipy.stats`").
+- ドキュメントの問題 (例: "この章の説明は不明確だと思います。");
+- 機能追加リクエスト (例: "scipy.stats\`で新しい統計テストを実施したい") 。
 
-_Please note that GitHub is not the right place to report a security
-vulnerability. If you think you have found a security vulnerability in SciPy,
-please report it [here](https://tidelift.com/docs/security)._
+ちなみに、セキュリティの脆弱性を報告するには、GitHubのイシュートラッカーは適切な場所ではないことに注意してください。 もしSciPyのセキュリティの脆弱性を見つけた場合は、 [こちら](https://tidelift.com/docs/security)に報告をお願いします。
 
 ---
 
-## Study Groups and Meetups
+## 勉強会とミートアップ
 
-If you would like to find a local meetup or study group to learn more about
-SciPy and the wider ecosystem of Python packages for data science and
-scientific computing, we recommend exploring the
-[PyData meetups](https://www.meetup.com/pro/pydata/)
-(150+ meetups, 100,000+ members).
+SciPyや、より広いエコシステムである、データサイエンスや科学技術計算のためのPythonパッケージついてもっと学ぶために、各地域のミートアップや勉強会を見つけたい場合、 こちらの[PyData ミートアップ](https://www.meetup.com/pro/pydata/) (150人以上のミートアップ、10万人以上の参加メンバーをまとめたもの) を調べてみることをお勧めします。
 
-SciPy also organizes in-person sprints for its team and interested contributors
-occasionally. These are typically planned several months in advance and will
-be announced on the
-[forum](https://discuss.scientific-python.org/c/contributor/scipy).
+また、SciPyはチームと関心のあるコントリビュータ
+のために各個人間のスプリントを時折開催しています。 このスプリントは通常数ヶ月前に計画され、
+[こちらのフォーラム](https://discuss.scientific-python.org/c/contributor/scipy) で発表されます。
 
-## Conferences
+## カンファレンス
 
-The SciPy project doesn't organize its own conferences. The conferences that
-have traditionally been most popular with SciPy maintainers, contributors and
-users are the SciPy and PyData conference series:
+SciPy プロジェクトは独自のカンファレンスは開催していません。 SciPy の管理者や、コントリビュータ、ユーザーに最も人気があるカンファレンスは、下記のようなSciPy および PyDataのカンファレンスです。
 
 - [SciPy US](https://conference.scipy.org)
 - [EuroSciPy](https://www.euroscipy.org)
 - [SciPy Latin America](https://www.scipyla.org)
 - [SciPy India](https://scipy.in)
 - [SciPy Japan](https://conference.scipy.org)
-- [PyData conferences](https://pydata.org/event-schedule/) (15-20 events a year spread over many countries)
+- [PyData conference](https://pydata.org/event-schedule/) (年に15~20のイベントが様々な国で開催されています。 )
 
-Many of these conferences include tutorial days that cover SciPy and/or sprints
-where you can learn how to contribute to SciPy or related open source projects.
+これらのカンファレンスの多くは、SciPyの使い方や関連するオープンソースプロジェクトに貢献する方法を学ぶことができるチュートリアルを開催しています。
 
-## Join the SciPy community
+## SciPyコミュニティに参加する
 
 To thrive, the SciPy project needs your expertise and enthusiasm. Not a coder?
 Not a problem! There are many ways to contribute to SciPy.
