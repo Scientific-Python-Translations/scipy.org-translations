@@ -1,5 +1,5 @@
 ---
-title: Contribute to SciPy
+title: SciPyに貢献する
 sidebar: false
 ---
 
