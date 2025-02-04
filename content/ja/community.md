@@ -81,8 +81,8 @@ SciPy プロジェクトは独自のカンファレンスは開催していま�
 
 ## SciPyコミュニティに参加する
 
-To thrive, the SciPy project needs your expertise and enthusiasm. Not a coder?
-Not a problem! There are many ways to contribute to SciPy.
+SciPyプロジェクトの成功のためには、あなたの専門知識とプロジェクトに関する熱意が必須です。 プログラマーではないから参加できないですって？
+そんなことはありません！ プログラミングの以外にもSciPy に貢献する様々な方法があります。
 
-If you are interested in becoming a SciPy contributor (yay!) we recommend
-checking out our [Contribute](/contribute) page.
+もしあなたがSciPyのコントリビューターになることに興味があるなら(素晴らしいことです!)
+[貢献する方法](/contribute) のページを確認することをお勧めします。
