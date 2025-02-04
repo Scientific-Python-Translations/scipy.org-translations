@@ -3,19 +3,17 @@ title: SciPyに貢献する
 sidebar: false
 ---
 
-The SciPy project welcomes your expertise and enthusiasm!
-Your choices aren't limited to programming, as you can
-see below there are many areas where we need **your** help.
+SciPyプロジェクトを成功させるには、あなたの専門知識とプロジェクトに関する熱意が必要です。
+あなたが選ぶことができる貢献の方法はプログラミングだけではありません。
+以下を参照してください。**あなたの**貢献が必要な分野はたくさんあります。
 
-If you're unsure where to start or how your skills fit in, _reach out!_
-See the [community](/community) page.
+貢献したいのに、どこから始めればいいのか、また自分のスキルをどのように活かすことができるのか分からない場合は、_是非相談して下さい!_
+相談の方法としては、 こちらの[コミュニティ](/community) ページを参照してください。
 
-Our community aspires to treat everyone equally and to value all contributions.
-We have a
-[Code of Conduct](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
-to foster an open and welcoming environment.
+私たちのコミュニティは、誰もが平等に扱われ、すべての貢献が平等に扱われることを目指しています。私達の[行動規範](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
+がオープンでウェルカムなコミュニティを維持しています。
 
-### Writing code
+### コードを書く
 
 Programmers, this
 [guide](https://scipy.github.io/devdocs/dev/contributor/development_workflow.html#development-workflow)
