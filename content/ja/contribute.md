@@ -15,22 +15,20 @@ SciPyプロジェクトを成功させるには、あなたの専門知識とプ
 
 ### コードを書く
 
-Programmers, this
-[guide](https://scipy.github.io/devdocs/dev/contributor/development_workflow.html#development-workflow)
-explains how to contribute to the codebase.
+プログラマーの方々はこちらの
+[開発ガイド](https://scipy.github.io/devdocs/dev/contributor/development_workflow.html#development-workflow)
+を確認下さい。SciPyのコードベースに貢献する方法が説明されています。
 
-### Reviewing pull requests
+### プルリクエストのレビュー
 
-The project has hundreds of open pull requests -- meaning many potential
-improvements and many open-source contributors waiting for feedback. If you're
-a developer who knows SciPy, you can help even if you're not familiar with the
-codebase. You can:
+SciPyプロジェクトには現時点で、何百もの提案中のプルリクエストがあり、多くの潜在的な
+改善と多くのオープンソースの貢献者がなんらかのフィードバックを待っています。 もしあなたがSciPyを使った経験のある開発者であった場合、たとえSciPyのコードベースに詳しくなくても、下記のような貢献が可能です。 例えば、
 
-- summarize a long-running discussion
-- triage documentation PRs
-- test proposed changes
+- 長く続く議論をまとめる
+- ドキュメントのプルリクエストをトリアージする
+- 提案された変更をテストする
 
-### Developing educational materials
+### 教育用の資料を作成する
 
 SciPy's [User Guide](https://docs.scipy.org/doc/scipy/tutorial/index.html)
 deserves attention.
@@ -42,7 +40,7 @@ welcome worked examples, notebooks, and videos.
 
 The [SciPy issue tracker](https://github.com/scipy/scipy/issues) has a _lot_
 of open issues. Some are no longer valid, some should be prioritized, and some
-would make good issues for new contributors. You can:
+would make good issues for new contributors. 例えば、
 
 - check if older bugs are still present
 - find duplicate issues and link related ones
