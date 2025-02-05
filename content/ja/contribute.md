@@ -30,8 +30,8 @@ SciPyプロジェクトには現時点で、何百もの提案中のプルリク
 
 ### 教育用の資料を作成する
 
-SciPy's [User Guide](https://docs.scipy.org/doc/scipy/tutorial/index.html)
-deserves attention.
+SciPyの [ユーザガイド](https://docs.scipy.org/doc/scipy/tutorial/index.html)
+はもっと注目を浴びる必要があります。
 We're in need of new tutorials, how-to's, and deep-dive explanations, and the
 site needs restructuring. Opportunities aren't limited to writers. We'd also
 welcome worked examples, notebooks, and videos.
