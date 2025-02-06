@@ -49,23 +49,15 @@ SciPyの [ユーザガイド](https://docs.scipy.org/doc/scipy/tutorial/index.ht
 
 ### ウェブサイトの開発
 
-私たちはちょうどSciPyのウェブサイトの刷新中ですが、完了までにはまだ時間がかかりそうです。 If you love web
-development, these
-[issues](https://github.com/scipy/scipy.org/issues)
-list some of our unmet needs -- and feel free to share your own ideas.
+私たちはちょうどSciPyのウェブサイトの刷新中ですが、完了までにはまだ時間がかかりそうです。 Web開発が得意な場合、これらの
+[イシュー](https://github.com/scipy/scipy.org/issues)
+には、まだ実現出来ていない要求がいくつかを列挙されていますので、あなたの考えを是非共有してください。
 
-### Graphic design
+### グラフィックデザイン
 
-We can barely begin to list the contributions a graphic designer can make here.
-Our docs are parched for illustration; our growing website craves images --
-opportunities abound.
+グラフィックデザイナーの方が可能な貢献は、非常に沢山ありすぎて、リストアップできません。
+しかし、私たちのドキュメントやWebサイトは説明のために可視化が重要です。今、私たちのWebサイトは拡大のため良い画像を求めていることから、グラフィックデザイナーの方々が貢献できる機会は沢山あると言えます。
 
-### Fundraising
+### 資金調達
 
-SciPy was all-volunteer for many years, but as its importance grew it became
-clear that to ensure stability and growth we'd need financial support. This
-SciPy'19 talk explains how much
-difference that support has made. Like all the nonprofit world, we're
-constantly searching for grants, sponsorships, and other kinds of support. We
-have a number of ideas and of course we welcome more. Fundraising is a scarce
-skill here -- we'd appreciate your help.
+SciPyは何年にも渡ってボランティアベースで開発してきましたが、SciPy の重要性が高まるにつれ、安定性と成長のためには資金面での支援が必要であることがわかってきました。 この[SciPy 19 での公演](https://www.youtube.com/watch?v=dBTJD_FDVjU) は、資金面でのサポートがどの程度、開発面で違いをもたらしたかについて説明しています。 他の非営利団体のように、私たちは助成金や、スポンサーシップ、その他の資金支援を常に必要としています。 私たちはすでにいくつかの資金調達の計画がありますが、他にも、より多くの種類の資金調達を受けたいと思っています。 資金調達に関する知識は、我々には不足しているスキルです。 是非、あなたの知見やサポートをお待ちしています。
