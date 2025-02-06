@@ -1,9 +1,9 @@
 ---
-title: Frequently Asked Questions
+title: よくある質問と回答(FAQ)
 sidebar: false
 ---
 
-## What is SciPy?
+## SciPyとは？
 
 SciPy is a set of open source (BSD licensed) scientific and numerical
 tools for Python. It currently supports special functions, integration,
