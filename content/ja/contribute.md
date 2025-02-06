@@ -49,7 +49,7 @@ SciPyの [ユーザガイド](https://docs.scipy.org/doc/scipy/tutorial/index.ht
 
 ### ウェブサイトの開発
 
-We've just revamped our website, but we're far from done. If you love web
+私たちはちょうどSciPyのウェブサイトの刷新中ですが、完了までにはまだ時間がかかりそうです。 If you love web
 development, these
 [issues](https://github.com/scipy/scipy.org/issues)
 list some of our unmet needs -- and feel free to share your own ideas.
