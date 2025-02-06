@@ -32,24 +32,22 @@ SciPyプロジェクトには現時点で、何百もの提案中のプルリク
 
 SciPyの [ユーザガイド](https://docs.scipy.org/doc/scipy/tutorial/index.html)
 はもっと注目を浴びる必要があります。
-We're in need of new tutorials, how-to's, and deep-dive explanations, and the
-site needs restructuring. Opportunities aren't limited to writers. We'd also
-welcome worked examples, notebooks, and videos.
+ユーザガイドには、新しいチュートリアルや、使い方ガイド、技術的に深い説明などが必要で、
+ユーザガイドのサイトには再構成が必要です。 これらのユーザガイドの改善は、ドキュメントを書く作業だけではありません。 コードの使用例や、ノートブック、ビデオなどの作成も大歓迎です。
 
-### Issue triaging
+### イシューのトリアージ
 
-The [SciPy issue tracker](https://github.com/scipy/scipy/issues) has a _lot_
-of open issues. Some are no longer valid, some should be prioritized, and some
-would make good issues for new contributors. 例えば、
+[SciPyのイシュートラッカー](https://github.com/scipy/scipy/issues) には、未解決の課題が _大量_に残っています。 いくつかの課題はすでに解決されていたり、いくつかは優先順位付けが必要で、
+いくつかは、SciPyの初心者が取り組むのに良い課題でしょう。 例えば、
 
-- check if older bugs are still present
-- find duplicate issues and link related ones
-- add good self-contained reproducers to issues
-- label issues correctly (this requires triage rights -- just ask)
+- 古くのバグが最新のコードでも存在しているか確認する
+- 重複した課題を見つけ、お互いに関連づける
+- バグが再現するコードを作成する
+- 課題に正しいラベル付けをする (但し、この作業にはトリアージ権限が必要なので、必要であればご連絡下さい)
 
-Please just dive in.
+ぜひ、チャレンジしてみて下さい。
 
-### Website development
+### ウェブサイトの開発
 
 We've just revamped our website, but we're far from done. If you love web
 development, these
