@@ -5,25 +5,18 @@ sidebar: false
 
 ## SciPyとは？
 
-SciPy is a set of open source (BSD licensed) scientific and numerical
-tools for Python. It currently supports special functions, integration,
-ordinary differential equation (ODE) solvers, gradient optimization,
-parallel programming tools, an expression-to-C++ compiler for fast
-execution, and others. A good rule of thumb is that if it\'s covered in
-a general textbook on numerical computing (for example, the well-known
-Numerical Recipes series), it\'s probably implemented in SciPy.
+SciPy は Python 用のオープンソース (BSD ライセンス) な科学計算ツール群です。 現時点で、SciPyは特殊関数や、数値積分、常微分方程式（ODE）ソルバー、勾配最適化、並列プログラミングツール、高速実行のためのC++トランスパイラなどをサポートしています。 ある一つの良い大まかな目安として、数値計算に関する一般的な教科書（例えば、有名な「Numerical Recipes」シリーズ）に載っている計算手法は、おそらくSciPyに実装されています。
 
-## How much does it cost?
+## SciPyを使うのにどれくらいの費用がかかりますか？
 
-SciPy is freely available. It is distributed as open source software,
-meaning that you have complete access to the source code and can use it
-in any way allowed by its liberal BSD license.
+SciPyは無料で利用できます。 SciPyはオープンソースソフトウェアとして配布されています。
+つまり、誰でもソースコードにアクセスでき、比較的寛容なBSD ライセンスによって許されている条件下で
+使用することができます。
 
-## What are SciPy\'s licensing terms?
+## SciPyのライセンス条件とはどんなものですか？
 
-SciPy\'s license is free for both commercial and non-commercial use, per
-the terms of the BSD license
-[here](https://github.com/scipy/scipy/blob/main/LICENSE.txt).
+SciPyのライセンスは、BSDライセンスの条件に従い、商用・非商用のどちらでも利用できます。
+詳細は[こちら](https://github.com/scipy/scipy/blob/main/LICENSE.txt)をご参照ください。
 
 ## How can SciPy be fast if it is written in an interpreted language like Python?
 
