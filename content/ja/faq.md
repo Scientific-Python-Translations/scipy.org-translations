@@ -18,10 +18,9 @@ SciPyは無料で利用できます。 SciPyはオープンソースソフトウ
 SciPyのライセンスは、BSDライセンスの条件に従い、商用・非商用のどちらでも利用できます。
 詳細は[こちら](https://github.com/scipy/scipy/blob/main/LICENSE.txt)をご参照ください。
 
-## How can SciPy be fast if it is written in an interpreted language like Python?
+## Pythonのようなインタープリター型言語で書かれているのに、SciPyはどのように高速な計算を実現しているのでしょうか？
 
-Actually, the time-critical loops are usually implemented in C, C++, or
-Fortran. Parts of SciPy are thin layers of code on top of the scientific
+実は、SciPyでは計算時間に大きな影響を与えるループ処理は通常、C、C++、またはFortranで実装されています。 Parts of SciPy are thin layers of code on top of the scientific
 routines that are freely available at <https://www.netlib.org/>. Netlib
 is a huge repository of incredibly valuable and robust scientific
 algorithms written in C and Fortran. It would be silly to rewrite these
