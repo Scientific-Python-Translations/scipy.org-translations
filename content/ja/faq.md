@@ -20,8 +20,7 @@ SciPyのライセンスは、BSDライセンスの条件に従い、商用・非
 
 ## Pythonのようなインタープリター型言語で書かれているのに、SciPyはどのように高速な計算を実現しているのでしょうか？
 
-実は、SciPyでは計算時間に大きな影響を与えるループ処理は通常、C、C++、またはFortranで実装されています。 Parts of SciPy are thin layers of code on top of the scientific
-routines that are freely available at <https://www.netlib.org/>. Netlib
+実は、SciPyでは計算時間に大きな影響を与えるループ処理は通常、C、C++、またはFortranで実装されています。 実際の所、SciPyの一部のコードは、こちらにあるような既存の自由に利用できる科学計算ライブラリを薄くラップしただけのものもあります。 <https://www.netlib.org/> Netlib
 is a huge repository of incredibly valuable and robust scientific
 algorithms written in C and Fortran. It would be silly to rewrite these
 algorithms and would take years to debug them. SciPy uses a variety of
