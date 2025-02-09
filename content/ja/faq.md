@@ -33,27 +33,23 @@ SciPyのライセンスは、BSDライセンスの条件に従い、商用・非
 
 ## バグを見つけました。 どうすればいいでしょうか？
 
-The SciPy development team works hard to make SciPy as reliable as
-possible, but, as in any software product, bugs do occur. If you find
-bugs that affect your software, please tell us by entering a ticket in
-the [SciPy bug tracker](https://github.com/scipy/scipy/issues).
+SciPyの開発チームは可能な限り信頼できるソフトウェアを開発できるように努力していますが、どのソフトウェア製品でも同じですがバグが発生してしまいます。 もしあなたがソフトウェアに影響を与えるバグを見つけた場合は、こちらの[SciPyバグトラッカー](https://github.com/scipy/scipy/issues)にチケットを作成して教えて下さい。
 
-## How can I get involved in SciPy?
+## SciPyのプロジェクトに参加するにはどうしたらいいですか？
 
-Head to our [community](/community) page.
-We are keen for more people to help out writing code,
-tests, documentation, and helping out with the website.
+私達の [コミュニティ](/community)ページを見てみて下さい。
+私たち開発チームは、より多くの人々がコードや、
+テスト、ドキュメント、ウェブサイトの作成を手助けすることを望んでいます。
 
-## Is there commercial support available?
+## 有償サポートはありますか?
 
-Yes, commercial support is offered for SciPy by a number of companies,
-for example [Anaconda](https://www.anaconda.com),
-[Enthought](https://www.enthought.com), and
-[Quansight](https://www.quansight.com).
+はい。有償のサポートが [Anaconda](https://www.anaconda.com)や、
+[Enthought](https://www.enthought.com)、
+[Quansight](https://www.quansight.com)などの様々な会社から提供されています。
 
-# NumPy vs. SciPy vs. other packages
+# NumPyと、SciPy、そしてその他のパッケージとの比較
 
-## What is the difference between NumPy and SciPy?
+## Numpy と Scipy の違いは何ですか?
 
 In an ideal world, NumPy would contain nothing but the array data type
 and the most basic operations: indexing, sorting, reshaping, basic
