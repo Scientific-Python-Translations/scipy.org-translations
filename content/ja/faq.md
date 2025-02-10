@@ -59,84 +59,51 @@ SciPyの開発チームは可能な限り信頼できるソフトウェアを開
 ## SciPyを使ってグラフのプロットを作るにはどうすればいいですか？
 
 グラフのプロット機能はSciPyがカバーする範囲を超えています。
-SciPyは数値解析オブジェクトとアルゴリズムに焦点を当てています。 Several packages exist that
-integrate closely with SciPy to produce high quality plots,
-such as the immensely popular [Matplotlib](https://matplotlib.org). Other
-popular options are [Bokeh](https://bokeh.pydata.org/en/latest),
-[Plotly](https://plot.ly) and [Altair](https://altair-viz.github.io).
+SciPyは数値解析オブジェクトとアルゴリズムに焦点を当てています。 しかさ、SciPyと密接に統合され、高品質なプロットを作成できるパッケージがいくつか存在します。その中でも、特に人気があるのが [Matplotlib](https://matplotlib.org)です。 その他の一般的な可視化ライブラリとしては [Bokeh](https://bokeh.pydata.org/en/latest)や
+[Plotly](https://plot.ly) 、 [Altair](https://altair-viz.github.io) などがあります。
 
-## How do I make 3D plots/visualizations using SciPy?
+## SciPyを使って3Dプロット/3Dビジュアライゼーションを作るにはどうすればいいですか?
 
-Like 2D plotting, 3D graphics is beyond the scope of SciPy,
-but just as in the 2D case, packages exist that integrate with SciPy.
-[Matplotlib](https://matplotlib.org) provides basic 3D plotting in the
-`mplot3d` subpackage, whereas
-[Mayavi](https://docs.enthought.com/mayavi/mayavi/) provides a wide
-range of high-quality 3D visualization features, utilizing the powerful
-[VTK](https://www.vtk.org/) engine.
+2Dプロットと同様に、3DプロットはSciPyのカバー範囲を超えています。しかし、2Dの場合と同じように、SciPyと統合できるパッケージが存在します。
+[Matplotlib](https://matplotlib.org) はmplot3d サブパッケージで基本的な3Dプロット機能を提供しています。また、[Mayavi](https://docs.enthought.com/mayavi/mayavi/) は強力な [VTK](https://www.vtk.org/)可視化エンジンを利用し、高品質て様々な3D可視化機能を提供しています。
 
-## Why both `numpy.linalg` and `scipy.linalg`? What\'s the difference?
+## なぜ、`numpy.linalg` と `scipy.linalg` の両方があるのですか？ それぞれの違いは何ですか?
 
-`scipy.linalg` is a more complete wrapping
-of Fortran [LAPACK](https://www.netlib.org/lapack/) using
-[f2py](https://www.f2py.com).
+`scipy.linalg` は
+[f2py](https://www.f2py.com) を使用した、 [LAPACK](https://www.netlib.org/lapack/) をより完全にラッピングしたモジュールです。
 
-One of the design goals of NumPy was to make it buildable without a
-Fortran compiler, and if you don\'t have LAPACK available, NumPy will
-use its own implementation. SciPy requires a Fortran compiler to be
-built, and heavily depends on wrapped Fortran code.
+NumPyの大きな設計目標の一つは、Fortranコンパイラなしでビルドできるようにすることでした。なのでもしLAPACKが利用できない場合、NumPyは独自の実装を使用しています。 SciPy では、ビルドのためにFortranコンパイラが必要であり、ラップされた Fortran コードにSciPyは大きく依存しています。
 
-The `linalg` modules in NumPy and SciPy
-have some common functions but with different docstrings, and
-`scipy.linalg` contains functions not
-found in `numpy.linalg`, such as functions
-related to LU
-decomposition and the
-Schur
-decomposition,
-multiple ways of calculating the pseudoinverse, and matrix
-transcendentals, like the matrix
-logarithm. Some
-functions that exist in both have augmented functionality in
-`scipy.linalg`; for example,
-`scipy.linalg.eig` can take a second
-matrix argument for solving generalized eigenvalue
-problems.
+NumPyとSciPyのlinalgモジュールには共通の関数がいくつかありますが、docstringが異なります。また、scipy.linalgにはnumpy.linalgにはない関数が含まれています。例えば、
+[LU分解](https://en.wikipedia.org/wiki/LU_decomposition)
+や[Schur分解](https://en.wikipedia.org/wiki/Schur_decomposition),
+に関連する関数、複数の擬似逆行列を計算する方法、そして
+[行列対数](https://en.wikipedia.org/wiki/Logarithm_of_a_matrix).
+のような行列の超越関数などはSciPyにしか実装されていません。 また、NumPyとSciPyの両方に存在する関数の中には、scipy.linalgではNumPyのものに比べて、機能が拡張されているものがあります。例えば、scipy.linalg.eig は2つ目の行列を引数として受け取り、[一般化固有値問題](https://en.wikipedia.org/wiki/Generalized_eigenvalue_problem)を解くことができます。
 
-# Python version support
+# Pythonのサポートバージョン
 
-## Do NumPy and SciPy still support Python 2.7?
+## NumPy と Scipy は Python 2.7 をまだサポートしていますか?
 
-The last version of NumPy to support Python 2.7 is NumPy 1.16.x. The
-last SciPy version to do so is SciPy 1.2.x. The first release of NumPy
-to support Python 3.x was NumPy 1.5.0. Python 3 support in SciPy was
-introduced in SciPy 0.9.0.
+Python 2.7 をサポートした NumPyの最後のバージョンは NumPy 1.16.x です。 SciPyの最後のバージョンはSciPy 1.2.xです。 Python 3.x系 をサポートしたNumpy
+の最初のリリースは Numpy 1.5.0 でした。 SciPyでは、SciPy0.9.0 で Python 3 のサポートが
+導入されました。
 
-## Does SciPy work with PyPy?
+## SciPyはPyPyで動きますか？
 
-In general, yes. Recent improvements in [PyPy](https://pypy.org) have
-made the scientific Python stack work with PyPy. Since much of SciPy is
-implemented as C
-extension modules, the code may not run any faster (for most cases it\'s
-significantly slower still, however, PyPy is actively working on
-improving this). As always when benchmarking, your experience is the
-best guide.
+基本的には、動くと思います。 近年の[PyPy](https://pypy.org)の改善により、化学計算Pythonライブラリ群はPyPyで動くようになりました。 但し、SciPyの多くはCの拡張モジュールとして実装されているため、PyPyでSciPyのコードが必ずしも高速に実行されるわけではありません（ほとんどの場合、むしろ大幅に遅くなります。ただし、PyPyはこれを改善するために積極的に取り組んでいます）。 ベンチマーキングの場合と同様に、あなたの経験が1番の指針となります。
 
-## Does SciPy work with Jython or C\#/.NET?
+## SciPyはJythonかC\#/.NET上で動作しますか?
 
-No, neither is supported. Jython never worked, because it runs on top of
-the Java Virtual Machine and has no way to interface with extensions
-written in C for the standard Python (CPython) interpreter.
+どちらもサポートされていません。 まず、Jythonは動作しませんでした。なぜなら、JythonはJava仮想マシン（JVM）の上で実行されるため、標準のPython（CPython）インタープリター向けにCで書かれた拡張機能とJythonが連携する方法がないからです。
 
-Some years ago, there was an effort to make NumPy and SciPy compatible
-with .NET. Some users at the time reported success in using NumPy with
-[Ironclad](https://code.google.com/archive/p/ironclad) on 32-bit
-Windows. Lastly, [Pyjion](https://www.trypyjion.com) is a new project which
-reportedly could work with SciPy.
+数年前、NumpyとSciPyを.NETと互換性のある
+にする取り組みが実施されました。 当時の一部のユーザーから、Windows 上 で、32 ビットの[Ironclad](https://code.google.com/archive/p/ironclad) でNumPyを使用することに成功したと報告されました。 加えて、 [Pyjion](https://www.trypyjion.com) は、
+がSciPyを動かすことができると言われている新しいプロジェクトです。
 
-In any case, these runtime/compilers are out of scope of SciPy and not
-officially supported by the development team.
+いずれにしても、これらのランタイム/コンパイラはSciPyのサポート範囲外であり、
+開発チームによって公式にはサポートされていません。
 
-# Where to get help
+# ヘルプを受けられる場所
 
-See the [community](/community) page.
+私達の [コミュニティ](/community)ページを参照下さい。
