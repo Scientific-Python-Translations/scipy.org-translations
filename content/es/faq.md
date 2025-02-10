@@ -9,9 +9,8 @@ SciPy is a set of open source (BSD licensed) scientific and numerical
 tools for Python. It currently supports special functions, integration,
 ordinary differential equation (ODE) solvers, gradient optimization,
 parallel programming tools, an expression-to-C++ compiler for fast
-execution, and others. A good rule of thumb is that if it\'s covered in
-a general textbook on numerical computing (for example, the well-known
-Numerical Recipes series), it\'s probably implemented in SciPy.
+execution, and others. Como regla general es que si está cubierto en
+un libro de texto general sobre computación numérica (por ejemplo, la conocida serie Numerical Recipes), probablemente está implementado en SciPy.
 
 ## How much does it cost?
 
