@@ -56,10 +56,10 @@ SciPyの開発チームは可能な限り信頼できるソフトウェアを開
 では、過去のいずれのバージョンでサポートされていたすべての機能を出来るだけ保持しようとしています。
 そのような歴史的な経緯より、NumPyにはいくつかの線形代数関数とフーリエ変換の関数が含まれています。 しかし、基本的にScipy には、線形代数演算のより豊富したルーチン群と、他の種類の多くの数値演算アルゴリズムが含まれています。 もしあなたがPythonで科学計算を行っている場合は、基本的にはNumPyとSciPyの両方をインストールする必要があります. また、基本的に新機能は NumPy ではなく、SciPyに追加されています。
 
-## How do I make plots using SciPy?
+## SciPyを使ってグラフのプロットを作るにはどうすればいいですか？
 
-Plotting functionality is beyond the scope of SciPy, which
-focus on numerical objects and algorithms. Several packages exist that
+グラフのプロット機能はSciPyがカバーする範囲を超えています。
+SciPyは数値解析オブジェクトとアルゴリズムに焦点を当てています。 Several packages exist that
 integrate closely with SciPy to produce high quality plots,
 such as the immensely popular [Matplotlib](https://matplotlib.org). Other
 popular options are [Bokeh](https://bokeh.pydata.org/en/latest),
