@@ -51,17 +51,10 @@ SciPyの開発チームは可能な限り信頼できるソフトウェアを開
 
 ## Numpy と Scipy の違いは何ですか?
 
-In an ideal world, NumPy would contain nothing but the array data type
-and the most basic operations: indexing, sorting, reshaping, basic
-elementwise functions, etc. All numerical code would reside in SciPy.
-However, one of NumPy\'s important goals is compatibility, so NumPy
-tries to retain all features supported by either of its predecessors.
-Thus, NumPy contains some linear algebra functions and Fourier
-transforms, even though these more properly belong in SciPy. In any
-case, SciPy contains more fully-featured versions of the linear algebra
-modules, as well as many other numerical algorithms. If you are doing
-scientific computing with Python, you should probably install both NumPy
-and SciPy. Most new features belong in SciPy rather than NumPy.
+現在のコンセプトとしては、NumPyには配列データ型と基本的な操作、例えばインデックス操作や、ソート、配列形状変更、要素に対するの基本的な関数などしか含まれないはずです。 そして、それ以外のすべての数値解析のコードは、SciPyに存在すべきです。
+しかし、NumPyの重要な目標の1つは、過去のバージョンに対する互換性であるため、NumPy
+では、過去のいずれのバージョンでサポートされていたすべての機能を出来るだけ保持しようとしています。
+そのような歴史的な経緯より、NumPyにはいくつかの線形代数関数とフーリエ変換の関数が含まれています。 しかし、基本的にScipy には、線形代数演算のより豊富したルーチン群と、他の種類の多くの数値演算アルゴリズムが含まれています。 もしあなたがPythonで科学計算を行っている場合は、基本的にはNumPyとSciPyの両方をインストールする必要があります. また、基本的に新機能は NumPy ではなく、SciPyに追加されています。
 
 ## How do I make plots using SciPy?
 
