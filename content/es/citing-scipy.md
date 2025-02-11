@@ -1,11 +1,9 @@
 ---
-title: Citing SciPy
+title: Citar SciPy
 sidebar: false
 ---
 
-If SciPy has been significant in your research, and you would like to
-acknowledge the project in your academic publication, we suggest citing the
-following paper:
+Si SciPy ha sido importante en tu investigación y deseas reconocer el proyecto en tu publicación académica, te sugerimos que cites el siguiente documento:
 
 Pauli Virtanen, Ralf Gommers, Travis E. Oliphant, Matt Haberland, Tyler
 Reddy, David Cournapeau, Evgeni Burovski, Pearu Peterson, Warren
@@ -18,7 +16,7 @@ Archibald, Antônio H. Ribeiro, Fabian Pedregosa, Paul van Mulbregt, and
 SciPy 1.0 Contributors. (2020) **SciPy 1.0: Fundamental Algorithms for
 Scientific Computing in Python**. _Nature Methods_, 17(3), 261-272. DOI: [10.1038/s41592-019-0686-2](https://doi.org/10.1038/s41592-019-0686-2).
 
-Here\'s an example of a BibTeX entry:
+Aquí tienes un ejemplo de una entrada BibTeX:
 
 ```
 @ARTICLE{2020SciPy-NMeth,
@@ -46,6 +44,4 @@ Here\'s an example of a BibTeX entry:
 }
 ```
 
-For any specific algorithm, also consider citing the original author\'s
-paper (this can often be found under the \"References\" section of the
-docstring).
+En el caso de un algoritmo específico, considera citar en artículo original de su autor o autora (que usualmente se encuentra en la sección  \"Referencias\"  del docstring.
