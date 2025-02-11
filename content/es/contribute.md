@@ -1,77 +1,65 @@
 ---
-title: Contribute to SciPy
+title: Contribuir a SciPy
 sidebar: false
 ---
 
-The SciPy project welcomes your expertise and enthusiasm!
-Your choices aren't limited to programming, as you can
-see below there are many areas where we need **your** help.
+¡El proyecto SciPy agradece su experiencia y entusiasmo!
+Tus opciones no se limitan a programar. Como puedes ver más abajo, existen muchas áreas en las que necesitamos **tu** ayuda.
 
-If you're unsure where to start or how your skills fit in, _reach out!_
-See the [community](/community) page.
+Si no sabes por dónde empezar o cómo encajan tus habilidades, _contáctanos!_
+Para ello, revisa la página [Comunidad](/community).
 
-Our community aspires to treat everyone equally and to value all contributions.
-We have a
-[Code of Conduct](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
-to foster an open and welcoming environment.
+Nuestra comunidad aspira a tratar a todas las personas por igual y a valorar todas las contribuciones.
+Tenemos un
+[Código de Conducta](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
+para cultivar un ambiente abierto y colaborativo.
 
-### Writing code
+### Escribir código
 
-Programmers, this
-[guide](https://scipy.github.io/devdocs/dev/contributor/development_workflow.html#development-workflow)
-explains how to contribute to the codebase.
+Programadores, esta
+[guía](https://scipy.github.io/devdocs/dev/contributor/development_workflow.html#development-workflow)
+explica cómo contribuir a la base de código.
 
-### Reviewing pull requests
+### Revisar pull requests
 
-The project has hundreds of open pull requests -- meaning many potential
-improvements and many open-source contributors waiting for feedback. If you're
-a developer who knows SciPy, you can help even if you're not familiar with the
-codebase. You can:
+El proyecto tiene cientos de pull requests abiertos -- lo que significa que hay muchas posibles mejoras
+y muchos colaboradores de código abierto esperando respuesta. Si eres
+un desarrollador que conoce SciPy, puedes ayudar incluso si no estás familiarizado con el código base. Puedes:
 
-- summarize a long-running discussion
-- triage documentation PRs
-- test proposed changes
+- resumir una discusión larga
+- gestionar PRs de documentación
+- testear cambios propuestos
 
-### Developing educational materials
+### Desarrollar materiales educativos
 
-SciPy's [User Guide](https://docs.scipy.org/doc/scipy/tutorial/index.html)
-deserves attention.
-We're in need of new tutorials, how-to's, and deep-dive explanations, and the
-site needs restructuring. Opportunities aren't limited to writers. We'd also
-welcome worked examples, notebooks, and videos.
+La [Guía de usuario] de SciPy (https://docs.scipy.org/doc/scipy/tutorial/index.html)
+merece atención.
+Necesitamos nuevos tutoriales, instructivos y explicaciones detalladas, y la página necesita una reestructuración. Las oportunidades no se limitan a quienes escriben. También necesitamos ejemplos prácticos, notebooks y videos.
 
-### Issue triaging
+### Gestionar issues
 
-The [SciPy issue tracker](https://github.com/scipy/scipy/issues) has a _lot_
-of open issues. Some are no longer valid, some should be prioritized, and some
-would make good issues for new contributors. You can:
+El [issue tracker de SciPy](https://github.com/scipy/scipy/issues) tiene un _montón_
+de issues abiertos. Algunos ya no son válidos, otros deberían priorizarse y otros serían buenos issues para nuevos colaboradores. Puedes:
 
-- check if older bugs are still present
-- find duplicate issues and link related ones
-- add good self-contained reproducers to issues
-- label issues correctly (this requires triage rights -- just ask)
+- revisa si bugs antiguos siguen presentes
+- encuentra issues duplicados y enlaza los que estén relacionados
+- añade buenos ejemplos reproducibles a los issues
+- etiqueta correctamente los issues (para ello, es necesario tener derechos de _triage_ en el repositorio; solo solicítalo)
 
-Please just dive in.
+Por favor, simplemente explora.
 
-### Website development
+### Desarrollo del sitio web
 
-We've just revamped our website, but we're far from done. If you love web
-development, these
+Acabamos de renovar nuestro sitio web, pero estamos lejos de haber terminado. Si te gusta el desarrollo web, estos
 [issues](https://github.com/scipy/scipy.org/issues)
-list some of our unmet needs -- and feel free to share your own ideas.
+listan algunas de nuestras necesidades pendientes -- y no dudes en compartir tus propias ideas.
 
-### Graphic design
+### Diseño gráfico
 
-We can barely begin to list the contributions a graphic designer can make here.
-Our docs are parched for illustration; our growing website craves images --
-opportunities abound.
+Apenas podemos empezar a enumerar las contribuciones que alguien con conocimiento de diseño gráfico podría hacer.
+Nuestra documentación reclama ilustraciones; nuestro sitio web, en pleno crecimiento, necesita imágenes... las oportunidades abundan.
 
-### Fundraising
+### Recaudación de fondos
 
-SciPy was all-volunteer for many years, but as its importance grew it became
-clear that to ensure stability and growth we'd need financial support. This
-SciPy'19 talk explains how much
-difference that support has made. Like all the nonprofit world, we're
-constantly searching for grants, sponsorships, and other kinds of support. We
-have a number of ideas and of course we welcome more. Fundraising is a scarce
-skill here -- we'd appreciate your help.
+SciPy fue durante muchos años un proyecto voluntario, pero a medida que creció su importancia se hizo evidente que necesitaríamos apoyo financiero para garantizar su estabilidad y crecimiento. [Esta charla en SciPy'19](https://www.youtube.com/watch?v=dBTJD_FDVjU) explica cuánta diferencia ha supuesto este apoyo. Al igual que todo el mundo en el ámbito de los proyectos sin fines de lucro, estamos en
+buscando constantemente subvenciones, patrocinios y otros tipos de apoyo. Tenemos varias ideas y, por supuesto, aceptamos más. La recaudación de fondos es una habilidad escasa aquí -- apreciaríamos tu ayuda.
