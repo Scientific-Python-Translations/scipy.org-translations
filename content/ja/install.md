@@ -12,32 +12,30 @@ SciPyのインストール方法は、実施したいワークフローによっ
 
 - [プロジェクトベースのワークフロー (例: `uv`, `pixi`を利用)](#project-based) (こちらは新規ユーザ向けに推奨)
 - [環境ベースのワークフロー(例: `pip`, `conda`を利用)](#environment-based) (従来のワークフロー)
-- [System package managers](#system-package-managers) (not recommended)
-- [Building from source](#building-from-source) (for debugging and development)
+- [システムパッケージマネージャーを利用](#system-package-managers) (非推奨)
+- [ソースコードのビルド](#building-from-source) (デバッグと開発用)
 
-To install SciPy with [static type stubs],
-see [Installing with type stubs](#type-stubs).
+\[静的型スタブ]を使用してSciPyをインストールしたい場合は、こちらの[静的方スタブを利用したインストール方法](#type-stubs)を参照してください。
 
 [static type stubs]: https://typing.readthedocs.io/en/latest/guides/libraries.html
 
 <a name="project-based"></a>
 
-## Project-based workflows
+## プロジェクトベースのワークフロー
 
-### Installing with `uv`
+### `uv`でインストールする
 
-Here is a step-by-step guide to setting up a project to use SciPy, with [`uv`],
-a Python package manager.
+ここではPythonのパッケージマネージャー[`uv`]を使用してSciPyを導入するための、各ステップ毎のガイドを紹介します。
 
 [`uv`]: https://docs.astral.sh/uv/
 
 <!-- prettier-ignore-start -->
 
-1. Install `uv`, following [the instructions in the `uv` documentation][install-uv].
+1. [uv のドキュメント内のインストール手順][install-uv]に従って、`uv`をインストールしてください。
 
 [install-uv]: https://docs.astral.sh/uv/getting-started/installation/
 
-2. Create a new project in a new subdirectory, by executing the following in a terminal:
+2. ターミナルで以下を実行して、新しいサブディレクトリに新しいプロジェクトを作成します。
 
    ```
    uv init try-scipy
