@@ -43,54 +43,53 @@ SciPyのインストール方法は、実施したいワークフローによっ
    ```
 
    {{< admonition hint >}}
-   The second command changes directory into the directory of your project.
+   二つ目のコマンドは、あなたのプロジェクトのディレクトリに直接移動しています。
    {{< /admonition >}}
 
-3. Add SciPy to your project:
+3. SciPyをプロジェクトに追加:
 
    ```
    uv add scipy
    ```
 
    {{< admonition note >}}
-   This will automatically install Python if you don't already have it installed!
+   Python がまだインストールされていない場合、この作業により自動的にPythonがインストールされます！
    {{< /admonition >}}
 
    {{< admonition tip >}}
-   You can install other Python libraries in the same way, e.g.
+   他のPythonライブラリも同じようにインストールできます。
+   例:
 
    uv add matplotlib
 
    {{< /admonition >}}
 
-4. Try out SciPy!
+4. SciPyを試してみましょう！！
 
    ```
    uv run python
    ```
 
-   This will launch a Python interpreter session, from which you can `import scipy`.
+   Pythonインタプリタのセッションを起動します。そうすると`import scipy`ができるようになります。
 
 <!-- prettier-ignore-end -->
 
-See next steps in [the SciPy user guide][scipy-user-guide].
+次のステップに関しては、 [SciPyユーザガイド][scipy-user-guide]を確認ください。
 
 [scipy-user-guide]: https://docs.scipy.org/doc/scipy/tutorial/
 
 {{< admonition note >}}
 
-After rebooting your computer, you'll want to navigate to your `try-scipy`
-project directory and execute `uv run python` to drop back into a Python interpreter
-with SciPy importable.
-To execute a Python script, you can use `uv run myscript.py`.
+コンピュータを再起動した場合、設定が初期化されるので、再度 `try-scipy`プロジェクトのディレクトリに移動し、 `uv run python` を実行すると、SciPyがインポートできる状態のPython インタプリタを再度起動することができます。
+あるPython スクリプトを実行するには、 `uv run myscript.py` コマンドを使用します。
 
-Read more at [the uv guide to working on projects][uv-projects].
+より詳細はこちらの[uvを使ったプロジェクト管理][uv-projects]を確認下さい。
 
 [uv-projects]: https://docs.astral.sh/uv/guides/projects/
 
 {{< /admonition >}}
 
-### Installing with `pixi`
+### `pixi`を使ってインストールする
 
 If you work with non-Python packages, you may prefer to install SciPy as
 a [Conda] package, so that you can use the same workflow for packages which
@@ -117,19 +116,19 @@ tool [`pixi`] are very similar to the steps for `uv`:
    cd try-scipy
    ```
 
-3. Add SciPy to your project:
+3. SciPyをプロジェクトに追加:
 
    ```
    pixi add scipy
    ```
 
-4. Try out SciPy!
+4. SciPyを試してみましょう！！
 
    ```
    pixi run python
    ```
 
-See next steps in [the SciPy user guide][scipy-user-guide].
+次のステップに関しては、 [SciPyユーザガイド][scipy-user-guide]を確認ください。
 
 <a name="environment-based"></a>
 
