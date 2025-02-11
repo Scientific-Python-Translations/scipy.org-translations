@@ -5,7 +5,7 @@ sidebar: false
 
 ### Maintainers
 
-{{< grid file="maintainers.toml" columns="2 3 4 5" />}}
+
 
 ### Triage team
 
