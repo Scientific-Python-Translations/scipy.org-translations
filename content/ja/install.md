@@ -4,18 +4,14 @@ sidebar: false
 ---
 
 {{< admonition tip >}}
-This page assumes that you are comfortable with using a terminal and happy to learn
-how to use a package manager. If you are a beginner and just want to get started
-with SciPy as quickly as possible, check out
-[the beginner installation guide](./beginner-install.md)!
+このページの説明では、パッケージマネージャーの使い方を学ぶために、ターミナルを使うことには慣れていることを前提としています。 もしあなたが初心者で、できるだけ早くSciPyを始めたい場合は、[初心者向けインストールガイド](./beginner-install.md)をチェックしてみて下さい！
 {{< /admonition >}}
 
-The recommended method of installing SciPy depends on your preferred workflow.
-The common workflows can roughly be broken down into the following
-categories:
+SciPyのインストール方法は、実施したいワークフローによって異なります。
+一般的なワークフローは大まかに下記のカテゴリに分類できます。
 
-- [Project-based (e.g. `uv`, `pixi`)](#project-based) (recommended for new users)
-- [Environment-based (e.g. `pip`, `conda`)](#environment-based) (the traditional workflow)
+- [プロジェクトベースのワークフロー (例: `uv`, `pixi`を利用)](#project-based) (こちらは新規ユーザ向けに推奨)
+- [環境ベースのワークフロー(例: `pip`, `conda`を利用)](#environment-based) (従来のワークフロー)
 - [System package managers](#system-package-managers) (not recommended)
 - [Building from source](#building-from-source) (for debugging and development)
 
