@@ -102,11 +102,11 @@ Python自体や、コンパイラ、その他の言語をインストールす�
 [conda-forge]: https://conda-forge.org/
 [`pixi`]: https://pixi.sh/latest/
 
-1. Install `pixi`, following [the instructions in the `pixi` documentation][install-pixi].
+1. `pixi`をインストールするには, こちらの[`pixi`の公式ドキュメントの手順][install-pixi]を参照下さい。
 
 [install-pixi]: https://pixi.sh/latest/
 
-2. Create a new project in a new subdirectory:
+2. 新しいサブディレクトリに新しいプロジェクトを作ります。
 
    ```
    pixi init try-scipy
@@ -129,7 +129,7 @@ Python自体や、コンパイラ、その他の言語をインストールす�
 
 <a name="environment-based"></a>
 
-## Environment-based workflows
+## 環境ベースのワークフロー
 
 In project-based workflows, a project is a directory containing a manifest
 file describing the project, a lock-file describing the exact dependencies
