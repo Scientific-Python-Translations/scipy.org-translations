@@ -39,30 +39,27 @@ Por lo tanto, el uso de los algoritmos incorporados de SciPy puede ser mucho má
 
 El equipo de desarrollo de SciPy trabaja duro para hacer a SciPy tan confiable como sea posible, pero, como en cualquier producto de software, los fallos ocurren. Si encuentras fallos que afecten al software por favor háznoslo saber creando un ticket en el [seguimiento de fallos de SciPy](https://github.com/scipy/scipy/issues).
 
-## How can I get involved in SciPy?
+## ¿Cómo puedo involucrarme en SciPy?
 
-Head to our [community](/community) page.
-We are keen for more people to help out writing code,
-tests, documentation, and helping out with the website.
+Ve a nuestra página [community](/community).
+Estamos interesados en que más personas ayuden a escribir código,
+pruebas, documentación y ayuda en el sitio web.
 
-## Is there commercial support available?
+## ¿Hay soporte comercial disponible?
 
-Yes, commercial support is offered for SciPy by a number of companies,
-for example [Anaconda](https://www.anaconda.com),
-[Enthought](https://www.enthought.com), and
+Sí, una serie de empresas ofrecen apoyo comercial para SciPy,
+por ejemplo [Anaconda](https://www.anaconda.com),
+[Enthought](https://www.enthought.com),
 [Quansight](https://www.quansight.com).
 
-# NumPy vs. SciPy vs. other packages
+# NumPy vs. SciPy vs. otros paquetes
 
-## What is the difference between NumPy and SciPy?
+## ¿Cuál es la diferencia entre NumPy y SciPy?
 
-In an ideal world, NumPy would contain nothing but the array data type
-and the most basic operations: indexing, sorting, reshaping, basic
-elementwise functions, etc. All numerical code would reside in SciPy.
-However, one of NumPy\'s important goals is compatibility, so NumPy
-tries to retain all features supported by either of its predecessors.
-Thus, NumPy contains some linear algebra functions and Fourier
-transforms, even though these more properly belong in SciPy. In any
+En un mundo ideal, NumPy no contendría más que el tipo de datos del arreglo y las operaciones más básicas: indexar, ordenar, remodelar, funciones básicas
+elementales, etc. Todo el código numérico residiría en SciPy.
+Sin embargo, uno de los objetivos importantes de NumPy es la compatibilidad, por lo que NumPy intenta retener todas las características soportadas por cualquiera de sus predecesores.
+Así, NumPy contiene algunas funciones de álgebra lineal y transformadas de Fourier, aunque estas pertenecen más correctamente a SciPy. In any
 case, SciPy contains more fully-featured versions of the linear algebra
 modules, as well as many other numerical algorithms. If you are doing
 scientific computing with Python, you should probably install both NumPy
