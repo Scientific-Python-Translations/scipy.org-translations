@@ -1,27 +1,29 @@
 ---
-title: Beginner Installation Guide
+title: Guía de instalación inicial
 sidebar: false
 ---
 
 {{< admonition tip >}}
-This is the beginner installation guide.
-If you are comfortable with using a terminal and happy to learn
-how to use a package manager, check out
-[the main installation guide](./install.md)!
-{{< /admonition >}}
+Esta es la guía de instalación para principiantes.
+Si te acomoda usar una terminal y te interesa aprender
+a utilizar un gestor de paquetes, ¡échale un vistazo a
+[la guía principal de instalación](./install.md)!
+Si te acomoda usar una terminal y te interesa aprender
+a utilizar un gestor de paquetes, ¡échale un vistazo a
+[la guía principal de instalación](./install.md)!
 
-- [JupyterLite](#jupyterlite)
-- [Scientific Python Distributions](#distributions)
-- [Installing globally with `pip`](#pip-global)
+-
+- [Distribuiciones Scientific Python](#distributions)
+- [Instalar globalmente con `pip`](#pip-global)
 
 <a name="jupyterlite"></a>
 
 ## JupyterLite
 
-To try out SciPy, you don't even need to install it!
-You can use SciPy in your browser at https://jupyter.org/try-jupyter/lab/ -
-just open a Python Notebook, then write `import scipy` in one of
-the notebook "cells" and hit play.
+Para probar SciPy, ¡ni siquiera necesitas instalarlo!
+Puedes usar SciPy en tu navegador en https://jupyter. rg/try-jupyter/lab/ --
+simplemente abre una Notebook de Python, luego escribe `import scipy` en una de
+las "celdas" del notebook y haz clic en ejecutar.
 
 For next steps, see [the SciPy user guide][scipy-user-guide].
 
@@ -69,9 +71,13 @@ python -m pip install scipy
 You may see this recommended in tutorials or classes, but the recommended
 way to install SciPy with `pip` is to use a virtual environment -
 see [Installing with `pip`](./install.md#installing-with-pip).
-{{< /admonition >}}
+Si te acomoda usar una terminal y te interesa aprender
+a utilizar un gestor de paquetes, ¡échale un vistazo a
+[la guía principal de instalación](./install.md)!
 
 {{< admonition note >}}
 For more information on why this is not a recommended installation method,
 read about [virtual environments in the Python Packaging User Guide](https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments).
-{{< /admonition >}}
+Si te acomoda usar una terminal y te interesa aprender
+a utilizar un gestor de paquetes, ¡échale un vistazo a
+[la guía principal de instalación](./install.md)!
