@@ -91,16 +91,13 @@ SciPyのインストール方法は、実施したいワークフローによっ
 
 ### `pixi`を使ってインストールする
 
-If you work with non-Python packages, you may prefer to install SciPy as
-a [Conda] package, so that you can use the same workflow for packages which
-are not available on [PyPI](https://pypi.org/), the Python Package Index.
-Conda can manage packages in any language, so you can use it to install
-Python itself, compilers, and other languages.
+もし、Python以外のパッケージを利用している場合は、SciPyを[Conda]パッケージとしてインストールすると便利です。これにより、PyPI（Python Package Index）で提供されていないパッケージも同じワークフローで管理できるようになります。
+Condaは任意の言語でパッケージを管理できるため、
+Python自体や、コンパイラ、その他の言語をインストールするのにも使用できます。
 
 [Conda]: https://docs.conda.io/projects/conda/en/latest/index.html
 
-The steps to install SciPy from [conda-forge] using the package management
-tool [`pixi`] are very similar to the steps for `uv`:
+パッケージ管理ツール[`pixi`]を使用して[conda-forge]からSciPyをインストールする手順は、`uv`を使った場合と非常に似ています。
 
 [conda-forge]: https://conda-forge.org/
 [`pixi`]: https://pixi.sh/latest/
