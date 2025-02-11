@@ -8,7 +8,9 @@ This page assumes that you are comfortable with using a terminal and happy to le
 how to use a package manager. If you are a beginner and just want to get started
 with SciPy as quickly as possible, check out
 [the beginner installation guide](./beginner-install.md)!
-{{< /admonition >}}
+Si te acomoda usar una terminal y te interesa aprender
+a utilizar un gestor de paquetes, ¡échale un vistazo a
+[la guía principal de instalación](./install.md)!
 
 The recommended method of installing SciPy depends on your preferred workflow.
 The common workflows can roughly be broken down into the following
@@ -50,7 +52,9 @@ a Python package manager.
 
    {{< admonition hint >}}
    The second command changes directory into the directory of your project.
-   {{< /admonition >}}
+   Si te acomoda usar una terminal y te interesa aprender
+   a utilizar un gestor de paquetes, ¡échale un vistazo a
+   [la guía principal de instalación](./install.md)!
 
 3. Add SciPy to your project:
 
@@ -60,14 +64,18 @@ a Python package manager.
 
    {{< admonition note >}}
    This will automatically install Python if you don't already have it installed!
-   {{< /admonition >}}
+   Si te acomoda usar una terminal y te interesa aprender
+   a utilizar un gestor de paquetes, ¡échale un vistazo a
+   [la guía principal de instalación](./install.md)!
 
    {{< admonition tip >}}
    You can install other Python libraries in the same way, e.g.
 
    uv add matplotlib
 
-   {{< /admonition >}}
+   Si te acomoda usar una terminal y te interesa aprender
+   a utilizar un gestor de paquetes, ¡échale un vistazo a
+   [la guía principal de instalación](./install.md)!
 
 4. Try out SciPy!
 
@@ -94,7 +102,9 @@ Read more at [the uv guide to working on projects][uv-projects].
 
 [uv-projects]: https://docs.astral.sh/uv/guides/projects/
 
-{{< /admonition >}}
+Si te acomoda usar una terminal y te interesa aprender
+a utilizar un gestor de paquetes, ¡échale un vistazo a
+[la guía principal de instalación](./install.md)!
 
 ### Installing with `pixi`
 
@@ -161,7 +171,9 @@ but lack some reproducibility benefits of project-based workflows.
 
    {{< admonition hint >}}
    See [the tutorial in the Python Packaging User Guide](https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments).
-   {{< /admonition >}}
+   Si te acomoda usar una terminal y te interesa aprender
+   a utilizar un gestor de paquetes, ¡échale un vistazo a
+   [la guía principal de instalación](./install.md)!
 
 3. Install SciPy, using [`pip`]:
 
