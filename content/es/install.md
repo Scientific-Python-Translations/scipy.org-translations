@@ -89,7 +89,7 @@ a Python package manager.
 
 See next steps in [the SciPy user guide][scipy-user-guide].
 
-[scipy-user-guide]: https://docs.scipy.org/doc/scipy/tutorial/
+[scipy-user-guide]: <>
 
 {{< admonition note >}}
 
