@@ -179,13 +179,12 @@ mamba install scipy
 ## システムパッケージマネージャを使ってシステム全体にインストールする
 
 システムパッケージマネージャは、Pythonパッケージをインストールする上で、最も一般的な方法です。
-They install packages for the entire computer, often use older versions,
-and don't have as many available versions. They are not the recommended
-installation method.
+この方法を使うと、コンピュータ全体にパッケージがインストールされます。しかし、システムのパッケージマネージャーは、しばしば古いバージョンである
+パッケージをインストールし、利用可能なバージョンは他の方法に比べると、あまり多くはありません。 これらの方法は、推奨されるインストール方法ではありません。
 
-### Ubuntu and Debian
+### UbuntuとDebian
 
-Using `apt-get`:
+`apt-get` を使用します。
 
 ```
 sudo apt-get install python3-scipy
@@ -193,7 +192,7 @@ sudo apt-get install python3-scipy
 
 ### Fedora
 
-Using `dnf`:
+`dnf`を使用します。
 
 ```
 sudo dnf install python3-scipy
@@ -201,8 +200,8 @@ sudo dnf install python3-scipy
 
 ### macOS
 
-macOS doesn't have a preinstalled package manager, but you can install
-[Homebrew](https://brew.sh/) and use it to install SciPy (and Python itself):
+macOS にはプリインストールされたパッケージマネージャがありませんが、
+[Homebrew](https://brew.sh/) をインストールして利用することで、SciPy (と Python 自体) をインストールすることができます。
 
 ```
 brew install scipy
@@ -210,27 +209,24 @@ brew install scipy
 
 <a name="building-from-source"></a>
 
-## Building from source
+## ソースコードからのビルド
 
-A word of warning: building SciPy from source can be a nontrivial exercise. We
-recommend using binaries instead if those are available for your platform
-via one of the above methods.
-For details on how to build from source, see
-[the building from source guide in the SciPy docs][building-docs].
+注意点: ソースコードからSciPyをビルドするのは簡単ではない場合があります。 お使いのプラットフォームで、上記の方法のいずれかを通じてバイナリソフトが利用可能な場合は、それを使用することをおすすめします。
+ソースコードからのビルド方法の詳細については、
+\[ビルドドキュメント] を参照してください。
 
 [building-docs]: https://scipy.github.io/devdocs/building/index.html
 
 <a name="type-stubs"></a>
 
-## Installing with type stubs
+## 型スタブをインストールする
 
-Static type stubs are available via a separate package, `scipy-stubs`, on
-PyPI and conda-forge.
-You can also install SciPy and `scipy-stubs` as a single package,
-via the `scipy-stubs[scipy]` extra on PyPI, or the `scipy-typed`
-package on conda-forge.
-To get a specific version `x.y.z` of SciPy (such as `1.14.1`),
-you should install version `x.y.z.*`, for example:
+SciPyの静的型スタブに関しては、PyPI と conda-forge 上で配布されている、別のパッケージである `scipy-stubs`から利用できます。
+SciPy と `scipy-stubs` を単一のパッケージとしてインストールすることも可能です。
+PyPI の場合は、追加の `scipy-stubs[scipy]` 経由でインストールする方法や、conda-forge の `scipy-typed`
+パッケージ経由でインストールする方法があります。
+SciPy の特定のバージョン `x.y.z` (`1.14.1`など) をインストールするには、
+`x.y.*` をインストールする必要があります。例:
 
 ```
 uv add "scipy-stubs[scipy]==1.14.1.*" # or
@@ -239,5 +235,5 @@ python -m pip install "scipy-stubs[scipy]" # or
 conda install "scipy-typed>=1.14"
 ```
 
-Please direct questions about static typing support to
-[the `scipy-stubs` GitHub repository](https://github.com/jorenham/scipy-stubs).
+静的型サポートについての質問は、
+[`scipy-stubs` のGitHub リポジトリ](https://github.com/jorenham/scipy-stubs)で直接問い合わせてください。
