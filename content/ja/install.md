@@ -131,29 +131,26 @@ Python自体や、コンパイラ、その他の言語をインストールす�
 
 ## 環境ベースのワークフロー
 
-In project-based workflows, a project is a directory containing a manifest
-file describing the project, a lock-file describing the exact dependencies
-of the project, and the project's (potentially multiple) environments.
+プロジェクトベースのワークフローでは、プロジェクトは、プロジェクトを記述するマニフェストファイルや、正確な依存関係を記述するロックファイル、そしてプロジェクトの環境（複数環境の場合もあり）を含むディレクトリのことを指します。
 
-In contrast,
-in environment-based workflows you install packages into an environment,
-which you can activate and deactivate from any directory.
-These workflows are well-established,
-but lack some reproducibility benefits of project-based workflows.
+対照的に、環境ベースのワークフローでは、パッケージを環境へインストールします。
+任意のディレクトリからアクティブ化および非アクティブ化することができます。
+この環境ベースのワークフローは十分に方法論として確立されていますが、
+プロジェクトベースのワークフローのような再現性という利点はありません。
 
-### Installing with `pip`
+### `pip`でインストールする
 
 <!-- prettier-ignore-start -->
 
-1. [Install Python](https://www.python.org/downloads/).
+1. [Pythonをインストールします](https://www.python.org/downloads/).
 
-2. Create and activate a virtual environment with `venv`.
+2. `venv` を使用して仮想環境を作成し、アクティブにします。
 
    {{< admonition hint >}}
-   See [the tutorial in the Python Packaging User Guide](https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments).
+   詳細は[Pythonパッケージングユーザーガイド](https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments)を参照して下さい。
    {{< /admonition >}}
 
-3. Install SciPy, using [`pip`]:
+3. [`pip`] を使用して SciPy をインストールします。
 
    ```
    python -m pip install scipy
@@ -163,11 +160,11 @@ but lack some reproducibility benefits of project-based workflows.
 
 [`pip`]: https://pip.pypa.io/en/stable/getting-started/
 
-### Installing with `conda`
+### `conda`でインストールする
 
-[Miniforge] is the recommended way to install `conda` and [`mamba`],
-two Conda-based environment managers.
-After creating an environment, you can install SciPy from conda-forge as follows:
+[Miniforge] は `conda` と [`mamba`]をインストールするための推奨方法です。
+この二つの両方のとも、Condaベースの環境マネージャーです。
+環境を作成したら、conda-forgeから下記の方法でSciPyをインストールできます。
 
 ```
 conda install scipy # or
@@ -179,7 +176,7 @@ mamba install scipy
 
 <a name="system-package-managers"></a>
 
-## Installing system-wide via a system package manager
+## システムパッケージマネージャを使ってシステム全体にインストールする
 
 System package managers can install the most common Python packages.
 They install packages for the entire computer, often use older versions,
