@@ -178,7 +178,7 @@ mamba install scipy
 
 ## システムパッケージマネージャを使ってシステム全体にインストールする
 
-System package managers can install the most common Python packages.
+システムパッケージマネージャは、Pythonパッケージをインストールする上で、最も一般的な方法です。
 They install packages for the entire computer, often use older versions,
 and don't have as many available versions. They are not the recommended
 installation method.
