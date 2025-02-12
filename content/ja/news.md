@@ -1,11 +1,11 @@
 ---
-title: News
+title: ニュース
 sidebar: false
-newsHeader: SciPy 1.15.1 released!
+newsHeader: SciPy 1.15.1 がリリースされました！
 date: 2025-01-10
 ---
 
-### SciPy 1.15.1 released
+### SciPy 1.15.1 がリリースされました
 
 _January 10, 2025_ -- SciPy 1.15.1 has been released!
 
