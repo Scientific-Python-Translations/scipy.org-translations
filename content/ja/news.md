@@ -91,9 +91,9 @@ _2022年8月26日_ -- SciPy 1.9.1 がリリースされました！
 
 ### SciPy 1.9.0 がリリースされました
 
-_July 29, 2022_ -- SciPy 1.9.0 has been released!
+_2022年7月29日_ -- SciPy 1.9.0 がリリースされました！
 
-### SciPy 2022 Conference
+### SciPy 2022 カンファレンス
 
 _June 27, 2022_ -- Join us at [SciPy 2022 July 11th - 17th!](https://www.scipy2022.scipy.org)
 
