@@ -19,35 +19,34 @@ _2024年8月20日_ -- SciPy 1.14.1 がリリースされました！ このリ�
 
 ### SciPy 1.14.0 がリリースされました
 
-_June 24, 2024_ -- SciPy 1.14.0 has been released!
+_2025年6月24日_ -- SciPy 1.14.0 がリリースされました！
 
-### SciPy 1.13.1 released
+### SciPy 1.13.1 がリリースされました
 
-_May 22, 2024_ -- SciPy 1.13.1 has been released!
+_2024年6月22日_ -- SciPy 1.13.1 がリリースされました！
 
-### SciPy 1.13.0 released
+### SciPy 1.13.0 がリリースされました
 
-_April 2, 2024_ -- SciPy 1.13.0 has been released. This is the first stable
-release to support the NumPy 2.x series, and is backwards compatible to
-NumPy 1.22.4.
+_2024年4月2日_ -- SciPy 1.13.0 がリリースされました。 このリリースはNumPy 2.xシリーズをサポートする最初の安定版リリースであり、
+NumPy 1.22.4と後方互換性があります。
 
-### SciPy 1.12.0 released
+### SciPy 1.12.0 がリリースされました
 
-_January 20, 2024_ -- SciPy 1.12.0 has been released!
+_2024年1月20日_ -- SciPy 1.12.0 がリリースされました！
 
-### SciPy 1.11.4 released
+### SciPy 1.11.4 がリリースされました
 
-_November 18, 2023_ -- SciPy 1.11.4 has been released!
+_2023年11月18日_ -- SciPy 1.11.4 がリリースされました！
 
-### SciPy 1.11.3 released
+### SciPy 1.11.3 がリリースされました
 
-_September 27, 2023_ -- SciPy 1.11.3 has been released!
+_2023年9月27日_ -- SciPy 1.11.3 がリリースされました！
 
-### SciPy 1.11.2 released
+### SciPy 1.11.2 がリリースされました
 
-_August 17, 2023_ -- SciPy 1.11.2 has been released, and includes wheels for Python 3.12.
+_2023年8月17日_ -- SciPy 1.11.2がリリースされました。今回のリリースには、Python 3.12用のwheelが含まれています。
 
-### SciPy 1.11.1 released
+### SciPy 1.11.1 がリリースされました
 
 _June 28, 2023_ -- SciPy 1.11.1 has been released!
 
