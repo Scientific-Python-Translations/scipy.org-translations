@@ -7,19 +7,17 @@ date: 2025-01-10
 
 ### SciPy 1.15.1 がリリースされました
 
-_January 10, 2025_ -- SciPy 1.15.1 has been released!
+_2025年1月10日_ -- SciPy 1.15.1 がリリースされました！
 
-### SciPy 1.15.0 released
+### SciPy 1.15.0 がリリースされました
 
-_January 3, 2025_ -- SciPy 1.15.0 has been released! This is the first
-stable release to provide Python 3.13 free-threading binaries on PyPI.
+_2025年1月3日_ -- SciPy 1.15.0 がリリースされました！ これはPyPI 上でリリースされている、 Python 3.13 のフリースレッドに対応した最初の安定版バイナリアプリです。
 
-### SciPy 1.14.1 released
+### SciPy 1.14.1 がリリースされました
 
-_August 20, 2024_ -- SciPy 1.14.1 has been released! This is the first
-stable release to support Python 3.13, including PyPI wheels.
+_2024年8月20日_ -- SciPy 1.14.1 がリリースされました！ このリリースは、PyPI ホイールを含めた Python 3.13 をサポートする最初の安定版リリースです。
 
-### SciPy 1.14.0 released
+### SciPy 1.14.0 がリリースされました
 
 _June 24, 2024_ -- SciPy 1.14.0 has been released!
 
