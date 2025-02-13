@@ -48,48 +48,48 @@ _2023年8月17日_ -- SciPy 1.11.2がリリースされました。今回のリ�
 
 ### SciPy 1.11.1 がリリースされました
 
-_June 28, 2023_ -- SciPy 1.11.1 has been released!
+_2023年6月28日_ -- SciPy 1.11.0 がリリースされました！
 
-### SciPy 1.11.0 released
+### SciPy 1.11.0 がリリースされました
 
-_June 25, 2023_ -- SciPy 1.11.0 has been released!
+_2023年6月25日_ -- SciPy 1.11.0 がリリースされました！
 
-### Fostering an Inclusive Culture: Call for Participation
+### インクルーシブな文化の育成: 参加者の募集
 
-_May 10, 2023_ -- Fostering an Inclusive Culture: Call for Participation
+_2023年5月10日_ -- インクルーシブ・カルチャーの育成: 参加者の募集
 
-How can we be better when it comes to diversity and inclusion?
-Read the report and find out how to get involved here
+SciPyプロジェクトの多様性とインクルージョンに関して、我々はどのようなことを実施すればいいでしょうか？
+こちらのレポートを読んで、活動への参加方法をご確認下さい。:
 <https://contributor-experience.org/docs/posts/dei-report/>
 
-### SciPy 1.10.1 released
+### SciPy 1.10.1 がリリースされました
 
-_February 19, 2023_ -- SciPy 1.10.1 has been released!
+_2023年2月19日_ -- SciPy 1.10.1 がリリースされました！
 
-### SciPy 1.10.0 released
+### SciPy 1.10.0 がリリースされました
 
-_January 3, 2023_ -- SciPy 1.10.0 has been released!
+_2024年1月3日_ -- SciPy 1.10.0 がリリースされました！
 
-### SciPy funding
+### SciPyの資金調達
 
-_November, 2022_ -- SciPy received a grant from the Chan Zuckerberg
-Initiative!
+_2022年10月_ -- SciPyはチャン・ザッカーバーグ
+財団から助成金を得ることが出来ました！
 
-See <https://chanzuckerberg.com/eoss/proposals/scipy-fundamental-tools-for-biomedical-research/>
+詳細はこちらを参照下さい。<https://chanzuckerberg.com/eoss/proposals/scipy-fundamental-tools-for-biomedical-research/>
 
-### SciPy 1.9.3 released
+### SciPy 1.9.3 がリリースされました
 
-_October 19, 2022_ -- SciPy 1.9.3 has been released!
+_2022年10月19日_ -- SciPy 1.9.3 がリリースされました！
 
-### SciPy 1.9.2 released
+### SciPy 1.9.2 がリリースされました
 
-_October 8, 2022_ -- SciPy 1.9.2 is a bug fix release that also includes binary wheels for Python 3.11.
+_2022年10月8日_ -- SciPy 1.9.2 は Python 3.11 のホイールバイナリを含むバグ修正用のリリースです。
 
-### SciPy 1.9.1 released
+### SciPy 1.9.1 がリリースされました
 
-_August 26, 2022_ -- SciPy 1.9.1 has been released!
+_2022年8月26日_ -- SciPy 1.9.1 がリリースされました！
 
-### SciPy 1.9.0 released
+### SciPy 1.9.0 がリリースされました
 
 _July 29, 2022_ -- SciPy 1.9.0 has been released!
 
@@ -121,7 +121,7 @@ _August 1, 2021_ -- SciPy 1.7.1 is a bug-fix release with no new features compar
 
 _2020-07-02_ -- The first-ever NumPy community survey is LIVE! See <https://numpy.org/news/>
 
-### SciPy funding
+### SciPyの資金調達
 
 _2019-11-15_ SciPy, NumPy, Matplotlib, Pandas, scikit-learn, scikit-image, Dask,
 Zarr and others received functions from the Chan Zuckerberg
