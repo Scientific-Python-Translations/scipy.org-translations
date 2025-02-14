@@ -1,18 +1,18 @@
 ---
-title: Installation
+title: Instalación
 sidebar: false
 ---
 
 {{< admonition tip >}}
-This page assumes that you are comfortable with using a terminal and happy to learn
-how to use a package manager. If you are a beginner and just want to get started
-with SciPy as quickly as possible, check out
-[the beginner installation guide](./beginner-install.md)!
+Esta página asume que te acomoda usar una terminal y quieres de aprender
+cómo usar un gestor de paquetes. Si eres principiante y solo quieres empezar
+con SciPy tan pronto como sea posible, dale un vistazo a
+[la guía de instalación para principiantes](./beginner-install.md).
 Si te acomoda usar una terminal y te interesa aprender
 a utilizar un gestor de paquetes, ¡échale un vistazo a
 [la guía principal de instalación](./install.md)!
 
-The recommended method of installing SciPy depends on your preferred workflow.
+El método recomendado para instalar SciPy depende de tu flujo de trabajo preferido.
 The common workflows can roughly be broken down into the following
 categories:
 
