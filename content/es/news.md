@@ -1,5 +1,5 @@
 ---
-title: News
+title: Noticias
 sidebar: false
 newsHeader: SciPy 1.15.1 released!
 date: 2025-01-10
