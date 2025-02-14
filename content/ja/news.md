@@ -95,52 +95,49 @@ _2022年7月29日_ -- SciPy 1.9.0 がリリースされました！
 
 ### SciPy 2022 カンファレンス
 
-_June 27, 2022_ -- Join us at [SciPy 2022 July 11th - 17th!](https://www.scipy2022.scipy.org)
+_2022年6月27日_ -- 参加したい場合はこちらから [SciPy 2022年7月11日から17日!](https://www.scipy2022.scipy.org)
 
-### SciPy 1.8.1 released
+### SciPy 1.8.1 がリリースされました
 
-_May 18, 2022_ -- SciPy 1.8.1 has been released!
+_2022年5月18日_ -- SciPy 1.8.1 がリリースされました！
 
-### SciPy 1.8.0 released
+### SciPy 1.8.0 がリリースされました
 
-_February 5, 2022_ -- SciPy 1.8.0 has been released!
+_2022年2月5日_ -- SciPy 1.8.0 がリリースされました！
 
-### SciPy 1.7.3 released
+### SciPy 1.7.3 がリリースされました
 
-_November 24, 2021_ -- SciPy 1.7.3 is a bug-fix release that adds MacOS 12+ arm64 binary wheels.
+_2021年10月24日_ -- SciPy 1.7.3 は、MacOS 12+ arm64 バイナリホイールを追加するバグ修正リリースです。
 
-### SciPy 1.7.2 released
+### SciPy 1.7.2 がリリースされました
 
-_November 5, 2021_ -- SciPy 1.7.2 is a bug-fix release that adds support and binary wheels for Python 3.10.
+_2021年11月5日_ -- SciPy 1.7.2 は Python 3.10 のホイールバイナリを含むバグ修正用のリリースです。
 
-### SciPy 1.7.1 released
+### SciPy 1.7.1 がリリースされました
 
-_August 1, 2021_ -- SciPy 1.7.1 is a bug-fix release with no new features compared to 1.7.0.
+_2021年8月1日_ -- SciPy 1.7.1 は、1.7.0 に対して新機能がないバグ修正用のリリースです。
 
-### NumPy survey
+### NumPyサーベイ
 
-_2020-07-02_ -- The first-ever NumPy community survey is LIVE! See <https://numpy.org/news/>
+_2020年07月02日_ -- NumPy コミュニティで初めてのアンケートが実施中です! 詳細はこちらを参照下さい。<https://numpy.org/news/>
 
 ### SciPyの資金調達
 
-_2019-11-15_ SciPy, NumPy, Matplotlib, Pandas, scikit-learn, scikit-image, Dask,
-Zarr and others received functions from the Chan Zuckerberg
-Initiative! See <https://chanzuckerberg.com/eoss/>
+_2019年11月15日_ SciPy, NumPy, Matplotlib, Pandas, scikit-learn, scikit-image, Dask,
+ZarrなどがChan Zuckerberg財団からの寄付金を得ました！ 詳細はこちらを参照下さい。<https://chanzuckerberg.com/eoss/>
 
-### SciPy user survey results
+### SciPyユーザーのアンケート結果
 
-_2019-11-13_ See the survey results
-[here](https://github.com/mkg33/GSoD/blob/master/user_survey_summary.pdf).
+_2019年11月3日_ 調査結果に関しては、
+[こちら](https://github.com/mkg33/GSoD/blob/master/user_survey_summary.pdf) を参照してください。
 
-### SciPy-NumFOCUS
+### SciPyとNumFOCUS
 
-SciPy becomes a [NumFOCUS](https://numfocus.org/) fiscally sponsored
-project _2019-04-18_
+SciPyは[NumFOCUS](https://numfocus.org/)に財政的にスポンサーされるプロジェクトになりました。 _2019年4月18日_
 
-### SciPy user survey
+### SciPyユーザー調査
 
-_2019-10-04_ [Tell us](https://forms.gle/LGxx5hXzrDyChj38A) how we can improve the
-documentation.
+_2019-10-04_ SciPyのドキュメントを改善する方法を [私達に教えて下さい](https://forms.gle/LGxx5hXzrDyChj38A)
 
 ### SciPy 2019
 
