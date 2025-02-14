@@ -141,15 +141,11 @@ _2019-10-04_ SciPyのドキュメントを改善する方法を [私達に教え
 
 ### SciPy 2019
 
-_2019-07-08_ [SciPy](https://scipy2019.scipy.org/), the 18th annual Scientific
-Computing with Python conference, will be held July 8-14, 2019 in
-Austin, Texas.
+_2019-07-08_ Pythonを用いた科学計算に関する第18回年次カンファレンス [SciPy](https://scipy2019.scipy.org/)が、2019年7月8日から14日までテキサス州オースティンで開催されます。
 
 ### EuroSciPy 2017 _2017-08-28_
 
-The [EuroSciPy](https://www.euroscipy.org/2017/) meeting is a
-cross-disciplinary gathering focused on the use and development of
-the Python language in scientific research. The 2017 edition will
+[EuroSciPy](https://www.euroscipy.org/2017/) 会議は、科学研究における Python 言語の利用と開発に焦点を当てた学際的な集まりです。 The 2017 edition will
 take place in Erlangen, Germany, Aug 28\--Sep 1.
 
 ### SciPy 2017 _2017-07-10_
