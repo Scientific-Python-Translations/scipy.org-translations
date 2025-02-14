@@ -149,87 +149,67 @@ _2019-07-08_ Pythonを用いた科学計算に関する第18回年次カンフ�
 
 ### SciPy 2017 _2017-07-10_
 
-[SciPy](https://scipy2017.scipy.org/), the 16th annual Scientific
-Computing with Python conference, will be held July 10-16, 2017 in
-Austin, Texas.
+Pythonを用いた科学計算に関する第16回年次カンファレンス [SciPy](https://scipy2017.scipy.org/)が、2017年7月10日から16日までテキサス州オースティンで開催されます。
 
 ### EuroSciPy 2014
 
-[EuroSciPy](https://www.euroscipy.org/2014/) is the European
-gathering for scientists using Python. The 2014 edition will take
-place in Cambridge, UK, Aug. 27-31.
+[EuroSciPy](https://www.euroscipy.org/2014/) は、Pythonを使用している科学者のためのヨーロッパのカンファレンスです。 2014年度は8月27日から31日までイギリスのケンブリッジで開催されます。
 
 ### SciPy 2014
 
-[SciPy](https://conference.scipy.org/scipy2014/) is an annual
-conference for scientists using Python. The 2014 edition will take
-place in Austin, Texas, July 6-12.
+[SciPy](https://conference.scipy.org/scipy2014/) は、Pythonを使用する科学者のための年次カンファレンスです。 2014年度は7月6日から12日までテキサス州のオースティンで開催されます。
 
 ### EuroSciPy 2013
 
-[EuroSciPy](https://www.euroscipy.org/) is the European gathering
-for scientists using Python. The 2013 edition will take place in
-Brussels, Aug. 21-24.
+[EuroSciPy](https://www.euroscipy.org/) は、Pythonを使用している科学者のためのヨーロッパのカンファレンスです。 2013年度は8月21日から24日の期間でブリュッセルで開催されます。
 
 ### SciPy 2013
 
-[SciPy](https://conference.scipy.org/scipy2013/) is an annual
-conference for scientists using Python. The 2013 edition will take
-place in Austin, Texas, June 24-29.
+[SciPy](https://conference.scipy.org/scipy2013/) は、Pythonを使用する科学者のための年次カンファレンスです。 2013年度は6月24日から29日までテキサス州のオースティンで開催されます。
 
 ### SIAM CSE \'13
 
-The SIAM Conference on Computational Science and
-Engineering will take place in
-Boston, February 25-March 1, 2013, and for this version there will
-be a track focused on the topic of Big Data.
+[SIAM 計算科学および計算工学に関する会議 SIAM](https://archive.siam.org/meetings/cse13/) は、2013年2月25日から3月1日までボストンで開催されます。今回の会議では、ビッグデータをテーマとしたトラックが設けられます。
 
-### AMS Annual Meeting
+### AMS年次総会
 
-The annual meeting of the American Meteorological Society takes
-place January 6-10, 2013, and includes the Third Symposium on
-Advances in Modeling and Analysis Using Python.
+アメリカ気象学会の年次総会が2013年1月6日から10日まで開催され、その中で第3回「Pythonを用いたモデリングと解析の進展に関するシンポジウム」も行われます。
 
 ### SciPy 2012
 
-The eleventh annual conference on python in science, SciPy 2012,
-took place July 16 - 21 in Austin, Texas.
+科学におけるPythonの第11回年次会議、SciPy 2012、
+は7月16日から21日にかけてテキサス州オースティンで開催されました。
 
 ### EuroSciPy 2012
 
-EuroSciPy is the European gathering for scientists using Python. The
-2012 edition took place in Brussels, Aug. 23-27.
+EuroSciPy は、Pythonを使用している科学者のためのヨーロッパのカンファレンスです。 2012年度は8月23日から27日の期間でブリュッセルで開催されます。
 
 ### PyCon 2012
 
-PyCon is the largest annual gathering for the community using and
-developing the open-source Python programming language. This year
-the conference took place March 7 - 15 in Santa Clara, California.
+PyConはオープンソースのPythonプログラミング言語を開発しているコミュニティにとって最大の年次総会です。 今年は、3月7日から15日までカリフォルニア州サンタクララで開催されました。
 
-## Releases
+## リリース
 
-Here is a list of SciPy releases, with links to release notes. Bugfix
-releases (only the `z` changes in the `x.y.z` version number) have no new
-features; minor releases (the `y` increases) do.
+以下は、SciPyの各リリースのリリースノートのリンク一覧です。 バグ修正リリース（バージョン番号の x.y.z のうち z だけが変更されるもの）には新機能は追加されません。マイナーリリース（y が増加するもの）には新機能が含まれます。
 
-- SciPy 1.15.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.15.1)) -- _2025-01-10_.
-- SciPy 1.15.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.15.0)) -- _2025-01-03_.
-- SciPy 1.14.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.14.1)) -- _2024-08-20_.
-- SciPy 1.14.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.14.0)) -- _2024-06-24_.
-- SciPy 1.13.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.13.1)) -- _2024-05-22_.
-- SciPy 1.13.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.13.0)) -- _2024-04-02_.
-- SciPy 1.12.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.12.0)) -- _2024-01-20_.
-- SciPy 1.11.4 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.11.4)) -- _2023-11-18_.
-- SciPy 1.11.3 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.11.3)) -- _2023-09-27_.
-- SciPy 1.11.2 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.11.2)) -- _2023-08-17_.
-- SciPy 1.11.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.11.1)) -- _2023-06-28_.
-- SciPy 1.11.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.11.0)) -- _2023-06-25_.
-- SciPy 1.10.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.10.1)) -- _2023-02-19_.
-- SciPy 1.10.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.10.0)) -- _2023-01-03_.
-- SciPy 1.9.3 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.9.3)) -- _2022-10-19_.
-- SciPy 1.9.2 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.9.2)) -- _2022-10-08_.
-- SciPy 1.9.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.9.1)) -- _2022-08-26_.
-- SciPy 1.9.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.9.0)) -- _2022-07-29_.
+- SciPy 1.15.1 ([リリースノート](https://github.com/scipy/scipy/releases/tag/v1.15.1)) -- _2025-01-10_.
+- SciPy 1.15.0 ([リリースノート](https://github.com/scipy/scipy/releases/tag/v1.15.0)) -- _2025-01-03_.
+- SciPy 1.14.1 ([リリースノート](https://github.com/scipy/scipy/releases/tag/v1.14.1)) -- _2024-08-20_.
+- SciPy 1.14.0 ([リリースノート](https://github.com/scipy/scipy/releases/tag/v1.14.0)) -- _2024-06-24_.
+- SciPy 1.13.1 ([リリースノート](https://github.com/scipy/scipy/releases/tag/v1.13.1)) -- _2025-05-22_.
+- SciPy 1.13.0 ([リリースノート](https://github.com/scipy/scipy/releases/tag/v1.13.0)) -- _2024-04-02_.
+- SciPy 1.12.0 ([リリースノート](https://github.com/scipy/scipy/releases/tag/v1.12.0)) -- _2024-01-20_.
+- SciPy 1.11.4 ([リリースノート](https://github.com/scipy/scipy/releases/tag/v1.11.4)) -- _2023-11-18_.
+- SciPy 1.11.3 ([リリースノート](https://github.com/scipy/scipy/releases/tag/v1.11.3)) -- _2023-09-27_.
+- SciPy 1.11.2 ([リリースノート](https://github.com/scipy/scipy/releases/tag/v1.11.2)) -- _2023-08-17_.
+- SciPy 1.11.1 ([リリースノート](https://github.com/scipy/scipy/releases/tag/v1.11.1)) -- _2023-06-28_.
+- SciPy 1.11.0 ([リリースノート](https://github.com/scipy/scipy/releases/tag/v1.11.0)) -- _2023-06-25_.
+- SciPy 1.10.1 ([リリースノート](https://github.com/scipy/scipy/releases/tag/v1.10.1)) -- _2023-02-19_.
+- SciPy 1.10.0 ([リリースノート](https://github.com/scipy/scipy/releases/tag/v1.10.0)) -- _2025-01-03_.
+- SciPy 1.9.3 ([リリースノート](https://github.com/scipy/scipy/releases/tag/v1.9.3)) -- _2022-10-19_.
+- SciPy 1.9.2 ([リリースノート](https://github.com/scipy/scipy/releases/tag/v1.9.2)) -- _2022-10-08_.
+- SciPy 1.9.1 ([リリースノート](https://github.com/scipy/scipy/releases/tag/v1.9.1)) -- _2022-08-26_.
+- SciPy 1.9.0 ([リリースノート](https://github.com/scipy/scipy/releases/tag/v1.9.0)) -- _2022-07-29_.
 - SciPy 1.8.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.8.1)) -- _2022-05-18_.
 - SciPy 1.8.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.8.0)) -- _2022-02-05_.
 - SciPy 1.7.3 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.7.3)) -- _2021-11-24_.
