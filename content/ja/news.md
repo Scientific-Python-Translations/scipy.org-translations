@@ -145,8 +145,7 @@ _2019-07-08_ Pythonを用いた科学計算に関する第18回年次カンフ�
 
 ### EuroSciPy 2017 _2017-08-28_
 
-[EuroSciPy](https://www.euroscipy.org/2017/) 会議は、科学研究における Python 言語の利用と開発に焦点を当てた学際的な集まりです。 The 2017 edition will
-take place in Erlangen, Germany, Aug 28\--Sep 1.
+[EuroSciPy](https://www.euroscipy.org/2017/) 会議は、科学研究における Python 言語の利用と開発に焦点を当てた学際的な集まりです。 2017年度は、ドイツのエアランゲンで8月28日から9月1日まで開催されます。
 
 ### SciPy 2017 _2017-07-10_
 
