@@ -1,8 +1,8 @@
 ---
-title: Privacy Policy
+title: 個人情報保護の方針
 sidebar: false
 ---
 
-**scipy.org** is operated by [NumFOCUS, Inc.](https://numfocus.org), the fiscal sponsor of the SciPy project. For the Privacy Policy of this website please refer to https://numfocus.org/privacy-policy.
+**scipy.org** は、SciPyプロジェクトの資金援助のスポンサーでもある、[NumFOCUS, Inc.](https://numfocus.org)によって運営されています。  このウェブサイトのプライバシーポリシーについては、https://numfocus.org/privacy-policy を参照してください。
 
-If you have any questions about the policy or NumFOCUS’s data collection, use, and disclosure practices, please contact the NumFOCUS staff at privacy@numfocus.org.
+個人情報保護の方針やNumFOCUSのデータ収集、使用、および開示方法についてご質問がある場合は、privacy@numfocus.org のNumFOCUSスタッフにお問い合わせください。
