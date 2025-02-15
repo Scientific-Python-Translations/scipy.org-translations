@@ -70,7 +70,7 @@ Se você gostaria de encontrar um encontro ou grupo de estudo local para aprende
 
 A SciPy também organiza sprints presenciais para sua equipe e colaboradores interessados ocasionalmente. Estes sprints normalmente são planejados com alguns meses de antecedência e serão
 anunciados no
-[forum](https://discuss.scientific-python.org/c/contributor/scipy).
+[fórum](https://discuss.scientific-python.org/c/contributor/scipy).
 
 ## Conferências
 
