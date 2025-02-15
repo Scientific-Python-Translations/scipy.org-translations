@@ -15,7 +15,7 @@ Os fluxos de trabalho comuns podem ser divididos nas seguintes categorias:
 - [Fluxo de trabalho baseado em projetos (p. ex: `uv`, `pixi`)](#project-based) (recomendado para novos usuários)
 - Fluxo de trabalho baseado no ambiente (por exemplo, `pip`, `conda`)](#environment-based) (o fluxo de trabalho tradicional)
 - [Gerenciador de pacotes do sistema](#system-package-managers) (não recomendado)
-- [Compilando a partir do código fonte](#building-from-source) (para depuração e desenvolvimento)
+- [Compilando a partir do código-fonte](#building-from-source) (para depuração e desenvolvimento)
 
 Para instalar a SciPy com \[stubs para tipagem estática],
 veja [Instalando com stubs para tipagem](#type-stubs).
