@@ -3,16 +3,11 @@ title: Sobre nosotros
 sidebar: false
 ---
 
-SciPy se desarrolla de forma abierta en GitHub, a través del consenso de la comunidad de SciPy y la comunidad científica más amplia de Python. For more information on our governance
-approach, please see our
-[Governance Document](https://docs.scipy.org/doc/scipy/dev/governance.html).
+SciPy se desarrolla de forma abierta en GitHub, a través del consenso de la comunidad de SciPy y la comunidad científica más amplia de Python. Para más información sobre nuestro método de gobernanza, por favor vea nuestro [Documento de Gobernanza](https://docs.scipy.org/doc/scipy/dev/governance.html).
 
-## Steering Council
+## Consejo Directivo
 
-The role of the SciPy Steering Council is to ensure, through working with and
-serving the broader SciPy community, the long-term well-being of the project,
-both technically and as a community. The SciPy Steering Council currently
-consists of the following members (in alphabetical order):
+El papel del Consejo Directivo de SciPy es garantizar, a través del trabajo y el servicio con la comunidad SciPy en general, el bienestar a largo plazo del proyecto, tanto a nivel técnico como comunitario. El Consejo Directivo de SciPy está formado actualmente por los siguientes miembros (en orden alfabético):
 
 - Andrew Nelson
 - Charles Harris
@@ -29,59 +24,51 @@ consists of the following members (in alphabetical order):
 - Paul van Mulbregt
 - Pauli Virtanen (BDFL)
 - Ralf Gommers (Chair)
-- Tyler Reddy (Release manager)
+- Tyler Reddy (Release Manager)
 - Warren Weckesser
 
-Emeritus:
+Eméritos:
 
 - Anne Archibald
-- Eric Jones (co-creator of SciPy)
+- Eric Jones (co-creador de SciPy)
 - Eric Moore
 - Eric Quintero
-- Jaime Fernández del Río
+- Jaime Fernández del Río
 - Jarrod Millman
-- Pearu Peterson (co-creator of SciPy)
+- Pearu Peterson (co-creador de SciPy)
 - Robert Kern
 - Stéfan van der Walt
-- Travis Oliphant (co-creator of SciPy)
+- Travis Oliphant (co-creador de SciPy)
 
-## Teams
+## Equipos
 
-The SciPy project is growing; we have teams for
+El proyecto SciPy está creciendo; tenemos equipos para
 
-- code
-- website
-- triage
+- código
+- página web
+- clasificación
 
-See the [Teams](/teams) page for individual team members.
+Visite la página de [Equipos](/teams) para ver los miembros individuales del equipo.
 
-## Sponsors
+## Patrocinadores
 
-SciPy receives direct funding from the following sources:
+SciPy recibe financiación directa de las siguientes fuentes:
 
 {{< sponsors >}}
 
-## Institutional Partners
+## Socios institucionales
 
-Institutional Partners are organizations that support the project by employing
-people that contribute to SciPy as part of their job. Current Institutional
-Partners include:
+Los socios institucionales son organizaciones que apoyan al proyecto empleando a personas que contribuyen a SciPy como parte de su trabajo. Entre los actuales socios institucionales se encuentran:
 
-- Quansight (Ralf Gommers, Peter Bell, Melissa Weber Mendonça,
-  Evgeni Burovski, Albert Steppi)
+- Quansight (Ralf Gommers, Peter Bell, Melissa Weber Mendonça, Evgeni Burovski, Albert Steppi)
 
 {{< partners >}}
 
-- Los Alamos National Laboratory (Tyler Reddy)
+- Laboratorio Nacional de Los Álamos (Tyler Reddy)
 
-## Donate
+## Donar
 
-SciPy will always be 100% open source software, free for all to use and
-released under the liberal terms of the modified BSD license. While we
-have a large number of
-[contributors](https://github.com/scipy/scipy/graphs/contributors)
-who volunteer their time to improve SciPy, financial resources are
-needed to run the project and accelerate its development. If you have
+SciPy siempre será 100% software de código abierto, gratuito para todos y liberado bajo los términos liberales de la licencia BSD modificada. Si bien contamos con un gran número de [colaboradores](https://github.com/scipy/scipy/graphs/contributors) que ofrecen su tiempo voluntariamente para mejorar SciPy, se necesitan recursos financieros para dirigir el proyecto y acelerar su desarrollo. If you have
 found SciPy useful in your work, research, or company, please consider
 making a donation to the project commensurate with your resources. Any
 amount helps!
