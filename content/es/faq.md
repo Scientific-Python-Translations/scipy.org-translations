@@ -1,5 +1,5 @@
 ---
-title: Preguntas Frecuentes
+title: Preguntas frecuentes
 sidebar: false
 ---
 
@@ -73,13 +73,13 @@ La última versión de NumPy que soporta Python 2.7 es NumPy 1.16.x. La última 
 
 ## ¿Funciona SciPy con PyPy?
 
-En general, sí. Mejoras recientes en [PyPy](https://pypy.org) han hecho que la pila científica de Python funcione con PyPy. Dado que gran parte de SciPy está implementado como módulos de extensión en C, el código puede no correr más rápido (en la mayoría de los casos es significativamente más lento aún, sin embargo, PyPy está trabajando activamente en mejorar esto). Como siempre en el benchmarking, tu experiencia es la mejor guía.
+En general, sí. Mejoras recientes en [PyPy](https://pypy.org) han hecho que la pila científica de Python funcione con PyPy. Dado que gran parte de SciPy está implementado como módulos de extensión en C, el código puede no correr más rápido (en la mayoría de los casos es significativamente más lento, sin embargo, PyPy está trabajando activamente para mejorar esto). Como siempre en el benchmarking, tu experiencia es la mejor guía.
 
 ## ¿Funciona SciPy con Jython o C\#/.NET?
 
 No, ninguno de los dos es soportado. Jython nunca funcionó, porque se ejecuta sobre la Máquina Virtual de Java y no tiene forma de interactuar con las extensiones escritas en C para el intérprete estándar de Python (CPython).
 
-Hace algunos años, hubo un esfuerzo para hacer que NumPy y SciPy fueran compatibles con .NET. Algunos usuarios en ese momento reportaron éxito al usar NumPy con [Ironclad](https://code.google.com/archive/p/ironclad) en Windows de 32-bits. Por último, [Pyjion](https://www.trypyjion.com) es un nuevo proyecto el cual, se ha reportado, podría funcionar con SciPy.
+Hace algunos años, hubo un esfuerzo para hacer que NumPy y SciPy fueran compatibles con .NET. Algunos usuarios en ese momento reportaron éxito al usar NumPy con [Ironclad](https://code.google.com/archive/p/ironclad) en Windows de 32-bits. Por último, [Pyjion](https://www.trypyjion.com) es un nuevo proyecto el cual se ha reportado, podría funcionar con SciPy.
 
 En cualquier caso, estos compiladores/intérpretes están fuera del alcance de SciPy y no son soportados oficialmente por el equipo de desarrollo.
 
