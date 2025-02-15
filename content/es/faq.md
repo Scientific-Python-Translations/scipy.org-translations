@@ -59,16 +59,12 @@ por ejemplo [Anaconda](https://www.anaconda.com),
 En un mundo ideal, NumPy no contendría más que el tipo de datos del arreglo y las operaciones más básicas: indexar, ordenar, remodelar, funciones básicas
 elementales, etc. Todo el código numérico residiría en SciPy.
 Sin embargo, uno de los objetivos importantes de NumPy es la compatibilidad, por lo que NumPy intenta retener todas las características soportadas por cualquiera de sus predecesores.
-Así, NumPy contiene algunas funciones de álgebra lineal y transformadas de Fourier, aunque estas pertenecen más correctamente a SciPy. In any
-case, SciPy contains more fully-featured versions of the linear algebra
-modules, as well as many other numerical algorithms. If you are doing
-scientific computing with Python, you should probably install both NumPy
-and SciPy. Most new features belong in SciPy rather than NumPy.
+Así, NumPy contiene algunas funciones de álgebra lineal y transformadas de Fourier, aunque estas pertenecen más correctamente a SciPy. En cualquier caso, SciPy contiene versiones más completas de los módulos de álgebra lineal, así como muchos otros algoritmos numéricos. Si estás haciendo computación científica con Python, probablemente deberías instalar tanto NumPy como SciPy. La mayoría de las nuevas características pertenecen a SciPy en lugar de NumPy.
 
-## How do I make plots using SciPy?
+## ¿Cómo hago gráficos usando SciPy?
 
-Plotting functionality is beyond the scope of SciPy, which
-focus on numerical objects and algorithms. Several packages exist that
+La graficación está más allá del alcance de SciPy, el cual
+se centra en objetos numéricos y algoritmos. Several packages exist that
 integrate closely with SciPy to produce high quality plots,
 such as the immensely popular [Matplotlib](https://matplotlib.org). Other
 popular options are [Bokeh](https://bokeh.pydata.org/en/latest),
