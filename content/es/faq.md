@@ -63,64 +63,33 @@ Así, NumPy contiene algunas funciones de álgebra lineal y transformadas de Fou
 
 ## ¿Cómo hago gráficos usando SciPy?
 
-La graficación está más allá del alcance de SciPy, el cual
-se centra en objetos numéricos y algoritmos. Several packages exist that
-integrate closely with SciPy to produce high quality plots,
-such as the immensely popular [Matplotlib](https://matplotlib.org). Other
-popular options are [Bokeh](https://bokeh.pydata.org/en/latest),
-[Plotly](https://plot.ly) and [Altair](https://altair-viz.github.io).
+La funcionalidad de gráficos está más allá del alcance de SciPy, el cual
+se centra en objetos numéricos y algoritmos. Existen varios paquetes que se integran estrechamente con SciPy para producir gráficos de alta calidad, como el inmensamente popular [Matplotlib](https://matplotlib.org). Otros paquetes populares son [Bokeh](https://bokeh.pydata.org/en/latest),
+[Plotly](https://plot.ly) y [Altair](https://altair-viz.github.io).
 
-## How do I make 3D plots/visualizations using SciPy?
+## ¿Cómo puedo hacer gráficos 3D/visualizaciones usando SciPy?
 
-Like 2D plotting, 3D graphics is beyond the scope of SciPy,
-but just as in the 2D case, packages exist that integrate with SciPy.
-[Matplotlib](https://matplotlib.org) provides basic 3D plotting in the
-`mplot3d` subpackage, whereas
-[Mayavi](https://docs.enthought.com/mayavi/mayavi/) provides a wide
-range of high-quality 3D visualization features, utilizing the powerful
-[VTK](https://www.vtk.org/) engine.
+Al igual que el trazado en 2D, los gráficos 3D están más allá del alcance de SciPy, pero como en el caso 2D, existen paquetes que se integran con SciPy.
+[Matplotlib](https://matplotlib.org) proporciona gráficos 3D básicos en el subpaquete `mplot3d`. mientras que [Mayavi](https://docs.enthought.com/mayavi/mayavi/) proporciona una amplia gama de características de visualización 3D de alta calidad, utilizando el potente motor [VTK](https://www.vtk.org/).
 
-## Why both `numpy.linalg` and `scipy.linalg`? What\'s the difference?
+## ¿Por qué `numpy.linalg` y `scipy.linalg`? ¿Cuál es la diferencia?
 
-`scipy.linalg` is a more complete wrapping
-of Fortran [LAPACK](https://www.netlib.org/lapack/) using
-[f2py](https://www.f2py.com).
+`scipy.linalg` es un \"wrapper\" más completo de Fortran [LAPACK](https://www.netlib.org/lapack/) usando [f2py](https://www.f2py.com).
 
-One of the design goals of NumPy was to make it buildable without a
-Fortran compiler, and if you don\'t have LAPACK available, NumPy will
-use its own implementation. SciPy requires a Fortran compiler to be
-built, and heavily depends on wrapped Fortran code.
+Uno de los objetivos de diseño de NumPy era hacerlo construible sin un compilador Fortran, y si usted no tiene LAPACK disponible, NumPy utilizará su propia implementación. SciPy requiere de un compilador Fortran para ser construido, y depende en gran medida de código Fortran envuelto.
 
-The `linalg` modules in NumPy and SciPy
-have some common functions but with different docstrings, and
-`scipy.linalg` contains functions not
-found in `numpy.linalg`, such as functions
-related to LU
-decomposition and the
-Schur
-decomposition,
-multiple ways of calculating the pseudoinverse, and matrix
-transcendentals, like the matrix
-logarithm. Some
-functions that exist in both have augmented functionality in
-`scipy.linalg`; for example,
-`scipy.linalg.eig` can take a second
-matrix argument for solving generalized eigenvalue
-problems.
+Los módulos `linalg` en NumPy y SciPy tienen algunas funciones comunes pero con diferente documentación, y `scipy.linalg` contiene funciones no encontradas en `numpy.linalg`, tales como funciones relacionadas con la [descomposición LU](https://en.wikipedia.org/wiki/LU_decomposition) y la [descomposición de Schur](https://en.wikipedia.org/wiki/Schur_decomposition), múltiples maneras de calcular la pseudoinversa, y matrices transcendentes, como el [logaritmo de una matriz](https://en.wikipedia.org/wiki/Logarithm_of_a_matrix). Algunas funciones que existen en ambos han aumentado su funcionalidad en
+`scipy.linalg`; por ejemplo, `scipy.linalg.eig` puede tomar una segunda matriz como argumento para resolver [problemas de eigenvalor generalizado](https://en.wikipedia.org/wiki/Generalized_eigenvalue_problem).
 
-# Python version support
+# Soporte de versiones de Python
 
-## Do NumPy and SciPy still support Python 2.7?
+## ¿Siguen NumPy y SciPy soportando Python 2.7?
 
-The last version of NumPy to support Python 2.7 is NumPy 1.16.x. The
-last SciPy version to do so is SciPy 1.2.x. The first release of NumPy
-to support Python 3.x was NumPy 1.5.0. Python 3 support in SciPy was
-introduced in SciPy 0.9.0.
+La última versión de NumPy que soporta Python 2.7 es NumPy 1.16.x. La última versión de SciPy en hacerlo es SciPy 1.2.x. La primera versión de NumPy para soportar Python 3.x fue NumPy 1.5.0. El soporte para Python 3 en SciPy fue introducido en SciPy 0.9.0.
 
-## Does SciPy work with PyPy?
+## ¿Funciona SciPy con PyPy?
 
-In general, yes. Recent improvements in [PyPy](https://pypy.org) have
-made the scientific Python stack work with PyPy. Since much of SciPy is
+En general, sí. Mejoras recientes en [PyPy](https://pypy.org) han hecho que la pila científica de Python funcione con PyPy. Since much of SciPy is
 implemented as C
 extension modules, the code may not run any faster (for most cases it\'s
 significantly slower still, however, PyPy is actively working on
