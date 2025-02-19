@@ -9,7 +9,7 @@ sidebar: false
 {{< /admonition >}}
 
 - [JupyterLite](#jupyterlite)
-- [Scientific Python Distributions](#distributions)
+- [科学計算用Pythonディストリビューション](#distributions)
 - [`pip`を使って、グローバルな環境にインストールする](#pip-global)
 
 <a name="jupyterlite"></a>
@@ -20,43 +20,33 @@ SciPyを試してみるだけなら、インストールする必要すらあり
 こちらならアクセスすることで、ブラウザで SciPy を使用できます: https://jupyter.org/try-jupyter/lab/
 Python ノートブックを開き、ノートブックの「セル」に `import scipy` と入力して実行ボタンを押してください。
 
-For next steps, see [the SciPy user guide][scipy-user-guide].
+次のステップに関しては、 [SciPyユーザガイド][scipy-user-guide]を確認ください。
 
 [scipy-user-guide]: https://docs.scipy.org/doc/scipy/tutorial/
 
 <a name="distributions"></a>
 
-## Scientific Python Distributions
+## 科学計算向けPython のディストリビューション
 
-Python distributions provide the language itself, along with the most
-commonly used packages and tools. These downloadable files require
-little configuration, work on almost all setups, and provide all the
-most commonly used scientific Python tools.
-[Anaconda](https://www.anaconda.com/download/) works on Windows, Mac,
-and Linux, and is best suited to beginning users.
-Other options include:
+いくつかの科学計算向けPython のディストリビューションには、Python 言語本体に加えて、広く一般的に使用されるパッケージやツールが初めから含まれています。 これらのダウンロード可能なファイルは、ほとんどの場合、設定不要で、ほぼすべての環境で動作し、最も一般的に使用される科学技術向けの Python ツールを提供しています。
+[Anaconda](https://www.anaconda.com/download/) は、Windows、Mac、
+および Linux 上で動作し、初心者ユーザーに最適なディストリビューションの一つです。
+その他の候補は次のとおりです:
 
-- [WinPython](https://winpython.github.io): Another free distribution
-  including scientific packages and the Spyder IDE; Windows only.
-- [Pyzo](https://pyzo.org): A free distribution based on Anaconda
-  and the IEP interactive development environment; Supports Linux,
-  Windows, and Mac.
+- [WinPython](https://winpython.github.io): 科学的なパッケージとスパイダーIDEを含むフリーのディストリビューション。但し、Windowsのみ。
+- [Pyzo](https://pyzo.org): AnacondaとIEP対話型開発環境に基づく無料のディストリビューション。Linux、Windows、およびMacに対応。
 
 {{< admonition note >}}
-Anaconda is free to use for individuals, universities, and companies smaller than
-200 employees. For more detail, see Anaconda's helpful blog on
-["when is Anaconda free to use?"](https://www.anaconda.com/blog/update-on-anacondas-terms-of-service-for-academia-and-research)
+Anaconda は、個人、大学、および従業員 が200 人未満の企業で無料で利用できます。 詳細については、Anaconda のわかりやすいブログ[Anaconda はいつ無料で利用できるのか？](https://www.anaconda.com/blog/update-on-anacondas-terms-of-service-for-academia-and-research)を参照してください。
 {{< /admonition >}}
 
-After installing a scientific Python distribution,
-see next steps in [the SciPy user guide][scipy-user-guide].
+科学計算向けの Python ディストリビューションをインストールしたら、[SciPy ユーザーガイド][scipy-user-guide]で次のステップを確認してください。
 
 <a name="pip-global"></a>
 
-## Installing globally with `pip`
+## `pip`でグローバル環境にインストールする
 
-If you already have Python installed, you can install SciPy
-with `pip` by executing the following in a terminal/shell:
+すでに Python がインストールされている場合は、ターミナルやシェルで次のコマンドを実行することで`pip`を使用して SciPy をインストールできます。
 
 ```
 python -m pip install scipy
@@ -65,10 +55,10 @@ python -m pip install scipy
 {{< admonition warning >}}
 You may see this recommended in tutorials or classes, but the recommended
 way to install SciPy with `pip` is to use a virtual environment -
-see [Installing with `pip`](./install.md#installing-with-pip).
+see.{{< admonition warning >}}
+チュートリアルや学校の授業で、このインストール方法が推奨されることがあるかもしれませんが、`pip`を使用して SciPy をインストールする我々としての推奨方法は、仮想環境を利用することです。詳しくは、[`pip`を利用したインストール](./install.md#installing-with-pip)を参照してください。
 {{< /admonition >}}
 
 {{< admonition note >}}
-For more information on why this is not a recommended installation method,
-read about [virtual environments in the Python Packaging User Guide](https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments).
+このインストール方法が推奨されない理由について詳しく知りたい場合は、[Pythonのパッケージ化のユーザガイドの仮想環境に関する説明](https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments)を参照してください。
 {{< /admonition >}}
