@@ -1,24 +1,22 @@
 ---
-title: Beginner Installation Guide
+title: 初心者のためのインストールガイド
 sidebar: false
 ---
 
 {{< admonition tip >}}
-This is the beginner installation guide.
-If you are comfortable with using a terminal and happy to learn
-how to use a package manager, check out
-[the main installation guide](./install.md)!
+これは初心者用のインストールガイドです。
+もしあなたがターミナルの使用に慣れていて、パッケージマネージャーの使い方を学ぶ意欲がある方は、こちらの[メインのインストールガイド](./install.md)をチェックしてください！
 {{< /admonition >}}
 
 - [JupyterLite](#jupyterlite)
 - [Scientific Python Distributions](#distributions)
-- [Installing globally with `pip`](#pip-global)
+- [`pip`を使って、グローバルな環境にインストールする](#pip-global)
 
 <a name="jupyterlite"></a>
 
 ## JupyterLite
 
-To try out SciPy, you don't even need to install it!
+SciPyを試してみるだけなら、インストールする必要すらありません！
 You can use SciPy in your browser at https://jupyter.org/try-jupyter/lab/ -
 just open a Python Notebook, then write `import scipy` in one of
 the notebook "cells" and hit play.
