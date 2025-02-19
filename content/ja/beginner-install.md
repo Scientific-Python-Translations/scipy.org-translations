@@ -17,9 +17,8 @@ sidebar: false
 ## JupyterLite
 
 SciPyを試してみるだけなら、インストールする必要すらありません！
-You can use SciPy in your browser at https://jupyter.org/try-jupyter/lab/ -
-just open a Python Notebook, then write `import scipy` in one of
-the notebook "cells" and hit play.
+こちらならアクセスすることで、ブラウザで SciPy を使用できます: https://jupyter.org/try-jupyter/lab/
+Python ノートブックを開き、ノートブックの「セル」に `import scipy` と入力して実行ボタンを押してください。
 
 For next steps, see [the SciPy user guide][scipy-user-guide].
 
