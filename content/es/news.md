@@ -1,104 +1,99 @@
 ---
 title: Noticias
 sidebar: false
-newsHeader: SciPy 1.15.1 released!
+newsHeader: SciPy 1.15.1 lanzado!
 date: 2025-01-10
 ---
 
-### SciPy 1.15.1 released
+### SciPy 1.15.1 lanzado
 
-_January 10, 2025_ -- SciPy 1.15.1 has been released!
+_10 de Enero de 2025_ - ¡Se ha lanzado SciPy 1.15.1!
 
-### SciPy 1.15.0 released
+### SciPy 0.15.1 lanzado
 
-_January 3, 2025_ -- SciPy 1.15.0 has been released! This is the first
-stable release to provide Python 3.13 free-threading binaries on PyPI.
+_3 de Enero de 2025_ - ¡Se ha lanzado SciPy 1.15.0! Esta es la primera versión estable que proporciona binarios de Python 3.13 con hilos en paralelo en PyPI.
 
-### SciPy 1.14.1 released
+### SciPy 1.14.1 lanzado
 
-_August 20, 2024_ -- SciPy 1.14.1 has been released! This is the first
-stable release to support Python 3.13, including PyPI wheels.
+_20 de Agosto de 2024_ - ¡Se ha lanzado SciPy 1.14.1! Esta es la primera versión estable que soporta Python 3.13, incluyendo ' wheels' para PyPI.
 
-### SciPy 1.14.0 released
+### SciPy 0.14.1 lanzado
 
-_June 24, 2024_ -- SciPy 1.14.0 has been released!
+_24 de Junio de 2024_ - ¡Se ha lanzado SciPy 1.14.0!
 
-### SciPy 1.13.1 released
+### SciPy 1.11.3 lanzado
 
-_May 22, 2024_ -- SciPy 1.13.1 has been released!
+_22 de Mayo de 2024_ - ¡Se ha lanzado SciPy 1.13.1!
 
-### SciPy 1.13.0 released
+### SciPy 1.13.0 lanzado
 
-_April 2, 2024_ -- SciPy 1.13.0 has been released. This is the first stable
-release to support the NumPy 2.x series, and is backwards compatible to
-NumPy 1.22.4.
+_2 de Abril de 2024_: se lanzó SciPy 1.13.0. Esta es la primera versión estable que soporta la serie NumPy 2.x y es compatible con versiones anteriores hasta NumPy 1.22.4.
 
-### SciPy 1.12.0 released
+### SciPy 1.10.2 lanzado
 
-_January 20, 2024_ -- SciPy 1.12.0 has been released!
+_20 de Enero de 2024_ - ¡Se ha lanzado SciPy 1.12.0!
 
-### SciPy 1.11.4 released
+### SciPy 4.11.1 lanzado
 
-_November 18, 2023_ -- SciPy 1.11.4 has been released!
+_18 de Noviembre de 2023_ - ¡Se ha lanzado SciPy 1.11.4!
 
-### SciPy 1.11.3 released
+### SciPy 3.11.1 lanzado
 
-_September 27, 2023_ -- SciPy 1.11.3 has been released!
+_27 de Septiembre de 2023_ - ¡Se ha lanzado SciPy 1.11.3!
 
-### SciPy 1.11.2 released
+### SciPy 2.11.1 lanzado
 
-_August 17, 2023_ -- SciPy 1.11.2 has been released, and includes wheels for Python 3.12.
+_17 de Agosto de 2023_: se lanzó SciPy 1.11.2 e incluye ruedas para Python 3.12.
 
-### SciPy 1.11.1 released
+### SciPy 1.11.1 lanzado
 
-_June 28, 2023_ -- SciPy 1.11.1 has been released!
+_28 de Junio de 2023_ - ¡Se ha lanzado SciPy 1.11.1!
 
-### SciPy 1.11.0 released
+### SciPy 1.11.0 lanzado
 
-_June 25, 2023_ -- SciPy 1.11.0 has been released!
+_25 de Junio de 2023_ - ¡Se ha lanzado SciPy 1.11.0!
 
-### Fostering an Inclusive Culture: Call for Participation
+### Fomentando una cultura inclusiva: Convocatoria
 
-_May 10, 2023_ -- Fostering an Inclusive Culture: Call for Participation
+_10 de Mayo de 2023_ -- Fomentando una cultura inclusiva: Convocatoria
 
-How can we be better when it comes to diversity and inclusion?
-Read the report and find out how to get involved here
+¿Cómo podemos ser mejores en lo que respecta a diversidad e inclusión?
+Lea el informe y descubra cómo participar aquí
 <https://contributor-experience.org/docs/posts/dei-report/>
 
-### SciPy 1.10.1 released
+### SciPy 1.10.1 lanzado
 
-_February 19, 2023_ -- SciPy 1.10.1 has been released!
+_19 de Febrero de 2023_ - ¡Se ha lanzado SciPy 1.10.1!
 
-### SciPy 1.10.0 released
+### SciPy 1.10.0 lanzado
 
-_January 3, 2023_ -- SciPy 1.10.0 has been released!
+_3 de Enero de 2023_ - ¡Se ha lanzado SciPy 1.10.0!
 
-### SciPy funding
+### Financiamiento SciPy
 
-_November, 2022_ -- SciPy received a grant from the Chan Zuckerberg
-Initiative!
+_Noviembre de 2022_ -- SciPy recibió una subvención de la Iniciativa Chan Zuckerberg!
 
-See <https://chanzuckerberg.com/eoss/proposals/scipy-fundamental-tools-for-biomedical-research/>
+Ver <https://chanzuckerberg.com/eoss/proposals/scipy-fundamental-tools-for-biomedical-research/>
 
-### SciPy 1.9.3 released
+### SciPy 1.9.3 lanzado
 
-_October 19, 2022_ -- SciPy 1.9.3 has been released!
+_19 de Octubre de 2022_ - ¡Se ha lanzado SciPy 1.9.3!
 
-### SciPy 1.9.2 released
+### SciPy 1.9.2 lanzado
 
-_October 8, 2022_ -- SciPy 1.9.2 is a bug fix release that also includes binary wheels for Python 3.11.
+_8 de Octubre de 2022_: SciPy 1.9.2 es una versión de corrección de errores que también incluye 'wheels' binarios para Python 3.11.
 
-### SciPy 1.9.1 released
+### SciPy 1.9.1 lanzado
 
-_August 26, 2022_ -- SciPy 1.9.1 has been released!
+_26 de Agosto de 2022_ - ¡Se ha lanzado SciPy 1.9.1!
 
-### SciPy 1.9.0 released
+### SciPy 1.9.0 lanzado
 
-_July 29, 2022_ -- SciPy 1.9.0 has been released!
+_29 de Julio de 2022_ - ¡Se ha lanzado SciPy 1.9.0!
 
-### SciPy 2022 Conference
+### Conferencia de SciPy 2022
 
-_June 27, 2022_ -- Join us at [SciPy 2022 July 11th - 17th!](https://www.scipy2022.scipy.org)
+_27 de Junio de 2022_ -- Únase a nosotros en [SciPy 2022 del 11 al 17 de julio!](https://www.scipy2022.scipy.org)
 
 ### SciPy 1.8.1 lanzado
 
@@ -124,92 +119,67 @@ _5 de Noviembre de 2021_ -- SciPy 1.7.2 es una versión de corrección de errore
 
 _2020-07-02_ -- ¡La primera encuesta de la comunidad de NumPy está EN VIVO! Ver <https://numpy.org/news/>
 
-### SciPy funding
+### Financiamiento SciPy
 
 _2019-11-15_ SciPy, NumPy, Matplotlib, Pandas, scikit-learn, scikit-image, Dask,
-Zarr and others received functions from the Chan Zuckerberg
-Initiative! See <https://chanzuckerberg.com/eoss/>
+Zarr y otros recibieron subvenciones de Iniciativa Chan Zuckerberg (CZI) Ver <https://chanzuckerberg.com/eoss/>a
 
-### SciPy user survey results
+### Resultados de la encuesta de usuarios de SciPy
 
-_2019-11-13_ See the survey results
-[here](https://github.com/mkg33/GSoD/blob/master/user_survey_summary.pdf).
+_2019-11-13_ Ver los resultados de la encuesta [aquí](https://github.com/mkg33/GSoD/blob/master/user_survey_summary.pdf).
 
 ### SciPy-NumFOCUS
 
-SciPy becomes a [NumFOCUS](https://numfocus.org/) fiscally sponsored
-project _2019-04-18_
+SciPy se convierte en un proyecto patrocinado fiscalmente por [NumFOCUS](https://numfocus.org/) _2019-04-18_
 
-### SciPy user survey
+### Encuesta de usuarios de SciPy
 
-_2019-10-04_ [Tell us](https://forms.gle/LGxx5hXzrDyChj38A) how we can improve the
-documentation.
+_2019-10-04_ [Cuéntenos](https://forms.gle/LGxx5hXzrDyChj38A) cómo podemos mejorar la
+documentación.
 
 ### SciPy 2019
 
-_2019-07-08_ [SciPy](https://scipy2019.scipy.org/), the 18th annual Scientific
-Computing with Python conference, will be held July 8-14, 2019 in
-Austin, Texas.
+_2019-07-08_ [SciPy](https://scipy2019.scipy.org/), la 18ª  conferencia anual de Computación científica con Python, se llevará a cabo del 8 al 14 de julio de 2019 en Austin, Texas.
 
 ### EuroSciPy 2017 _2017-08-28_
 
-The [EuroSciPy](https://www.euroscipy.org/2017/) meeting is a
-cross-disciplinary gathering focused on the use and development of
-the Python language in scientific research. The 2017 edition will
-take place in Erlangen, Germany, Aug 28\--Sep 1.
+El encuentro [EuroSciPy](https://www.euroscipy.org/2017/) es un encuentro interdisciplinario centrado en el uso y desarrollo del lenguaje Python en la investigación científica. La edición de 2017 se llevará a cabo en Erlangen, Alemania, del 28 de Agosto al 1 de Septiembre.
 
 ### SciPy 2017 _2017-07-10_
 
-[SciPy](https://scipy2017.scipy.org/), the 16th annual Scientific
-Computing with Python conference, will be held July 10-16, 2017 in
-Austin, Texas.
+[SciPy](https://scipy2017.scipy.org/), la 16ª conferencia anual de Computación científica con Python, se llevará a cabo del 10 al 16 de Julio de 2017 en Austin, Texas.
 
 ### EuroSciPy 2014
 
-[EuroSciPy](https://www.euroscipy.org/2014/) is the European
-gathering for scientists using Python. The 2014 edition will take
-place in Cambridge, UK, Aug. 27-31.
+[EuroSciPy](https://www.euroscipy.org/2014/) es el encuentro europeo para científicos que utilizan Python. La edición de 2014 se llevará a cabo en Cambridge, Reino Unido, del 27 al 31 de Agosto.
 
 ### SciPy 2014
 
-[SciPy](https://conference.scipy.org/scipy2014/) is an annual
-conference for scientists using Python. The 2014 edition will take
-place in Austin, Texas, July 6-12.
+[SciPy](https://conference.scipy.org/scipy2014/) es una conferencia anual para científicos que utilizan Python. La edición de 2014 se llevará a cabo en Austin, Texas, del 6 al 12 de Julio.
 
 ### EuroSciPy 2013
 
-[EuroSciPy](https://www.euroscipy.org/) is the European gathering
-for scientists using Python. The 2013 edition will take place in
-Brussels, Aug. 21-24.
+[EuroSciPy](https://www.euroscipy.org/) es el encuentro europeo para científicos que utilizan Python. La edición de 2013 tendrá lugar en Bruselas del 21 al 24 de Agosto.
 
 ### SciPy 2013
 
-[SciPy](https://conference.scipy.org/scipy2013/) is an annual
-conference for scientists using Python. The 2013 edition will take
-place in Austin, Texas, June 24-29.
+[SciPy](https://conference.scipy.org/scipy2013/) es una conferencia anual para científicos que utilizan Python. La edición de 2013 se llevará a cabo en Austin, Texas, del 24 al 29 de Junio.
 
 ### SIAM CSE \'13
 
-The SIAM Conference on Computational Science and
-Engineering will take place in
-Boston, February 25-March 1, 2013, and for this version there will
-be a track focused on the topic of Big Data.
+https://archive.siam.org/meetings/cse13/
 
-### AMS Annual Meeting
+### Reunión Anual de la AMS
 
-The annual meeting of the American Meteorological Society takes
-place January 6-10, 2013, and includes the Third Symposium on
-Advances in Modeling and Analysis Using Python.
+La reunión anual de la Sociedad Meteorológica Estadounidense (AMS) se llevará a cabo del 6 al 10 de Enero de 2013 e incluye el Tercer Simposio sobre avances en modelado y análisis utilizando Python.
 
 ### SciPy 2012
 
-The eleventh annual conference on python in science, SciPy 2012,
-took place July 16 - 21 in Austin, Texas.
+La undécima conferencia anual sobre Python en la ciencia, SciPy 2012, se llevó a cabo del 16 al 21 de Julio en Austin, Texas.
 
 ### EuroSciPy 2012
 
-EuroSciPy is the European gathering for scientists using Python. The
-2012 edition took place in Brussels, Aug. 23-27.
+EuroSciPy es el encuentro europeo para científicos que utilizan Python. La edición de 2012 tuvo lugar en Bruselas del 23 al 27 de Agosto.
 
 ### PyCon 2012
 
