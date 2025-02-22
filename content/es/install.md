@@ -6,44 +6,40 @@ sidebar: false
 {{< admonition tip >}}
 Esta página asume que te acomoda usar una terminal y quieres de aprender
 cómo usar un gestor de paquetes. Si eres principiante y solo quieres empezar
-con SciPy tan pronto como sea posible, dale un vistazo a
-[la guía de instalación para principiantes](./beginner-install.md).
+con SciPy tan pronto como sea posible, dale un vistazo a [la guía de instalación para principiantes](./beginner-install.md).
 Si te acomoda usar una terminal y te interesa aprender
 a utilizar un gestor de paquetes, ¡échale un vistazo a
 [la guía principal de instalación](./install.md)!
 
 El método recomendado para instalar SciPy depende de tu flujo de trabajo preferido.
-The common workflows can roughly be broken down into the following
-categories:
+Los flujos de trabajo más comunes se pueden dividir aproximadamente en las siguientes categorías:
 
-- [Project-based (e.g. `uv`, `pixi`)](#project-based) (recommended for new users)
-- [Environment-based (e.g. `pip`, `conda`)](#environment-based) (the traditional workflow)
-- [System package managers](#system-package-managers) (not recommended)
-- [Building from source](#building-from-source) (for debugging and development)
+- [Basado en proyectos (por ejemplo, `uv`, `pixi`)](#project-based) (recomendado para nuevos usuarios)
+- [Basado en entornos (por ejemplo, `pip`, `conda`)](##environment-based) (el flujo de trabajo tradicional)
+- [Administradores de paquetes del sistema](#system-package-managers) (no recomendado)
+- [Compilación desde el código fuente](#building-from-source) (para depuración y desarrollo)
 
-To install SciPy with [static type stubs],
-see [Installing with type stubs](#type-stubs).
+Para instalar SciPy con \[archivos de tipado], consulte [Instalación con archivos de tipado](#type-stubs).
 
 [static type stubs]: https://typing.readthedocs.io/en/latest/guides/libraries.html
 
 <a name="project-based"></a>
 
-## Project-based workflows
+## Flujos de trabajo basados en proyectos
 
-### Installing with `uv`
+### Instalando con `uv`
 
-Here is a step-by-step guide to setting up a project to use SciPy, with [`uv`],
-a Python package manager.
+Aquí hay una guía paso a paso para configurar un proyecto para usar SciPy, con [`uv`], un administrador de paquetes de Python.
 
 [`uv`]: https://docs.astral.sh/uv/
 
 <!-- prettier-ignore-start -->
 
-1. Install `uv`, following [the instructions in the `uv` documentation][install-uv].
+1. Instale `uv`, siguiendo [las instrucciones en la documentación de `uv`][install-uv].
 
 [install-uv]: https://docs.astral.sh/uv/getting-started/installation/
 
-2. Create a new project in a new subdirectory, by executing the following in a terminal:
+2. Cree un nuevo proyecto en un nuevo subdirectorio, ejecutando el siguiente comando en una terminal:
 
    ```
    uv init try-scipy
@@ -51,25 +47,25 @@ a Python package manager.
    ```
 
    {{< admonition hint >}}
-   The second command changes directory into the directory of your project.
+   El segundo comando cambia el directorio al directorio de su proyecto.
    Si te acomoda usar una terminal y te interesa aprender
    a utilizar un gestor de paquetes, ¡échale un vistazo a
    [la guía principal de instalación](./install.md)!
 
-3. Add SciPy to your project:
+3. Añada SciPy a tu proyecto:
 
    ```
    uv add scipy
    ```
 
    {{< admonition note >}}
-   This will automatically install Python if you don't already have it installed!
+   ¡Esto instalará Python automáticamente si aún no lo tiene instalado!
    Si te acomoda usar una terminal y te interesa aprender
    a utilizar un gestor de paquetes, ¡échale un vistazo a
    [la guía principal de instalación](./install.md)!
 
    {{< admonition tip >}}
-   You can install other Python libraries in the same way, e.g.
+   Puede instalar otras librerías de Python de la misma manera, por ejemplo
 
    uv add matplotlib
 
@@ -77,7 +73,7 @@ a Python package manager.
    a utilizar un gestor de paquetes, ¡échale un vistazo a
    [la guía principal de instalación](./install.md)!
 
-4. Try out SciPy!
+4. ¡Pruebe SciPy!
 
    ```
    uv run python
@@ -133,13 +129,13 @@ tool [`pixi`] are very similar to the steps for `uv`:
    cd try-scipy
    ```
 
-3. Add SciPy to your project:
+3. Añada SciPy a tu proyecto:
 
    ```
    pixi add scipy
    ```
 
-4. Try out SciPy!
+4. ¡Pruebe SciPy!
 
    ```
    pixi run python
@@ -161,7 +157,7 @@ which you can activate and deactivate from any directory.
 These workflows are well-established,
 but lack some reproducibility benefits of project-based workflows.
 
-### Installing with `pip`
+### Instalando con `pip`
 
 <!-- prettier-ignore-start -->
 
@@ -175,7 +171,7 @@ but lack some reproducibility benefits of project-based workflows.
    a utilizar un gestor de paquetes, ¡échale un vistazo a
    [la guía principal de instalación](./install.md)!
 
-3. Install SciPy, using [`pip`]:
+3. Instala SciPy, utilizando [`pip`]:
 
    ```
    python -m pip install scipy
@@ -183,13 +179,12 @@ but lack some reproducibility benefits of project-based workflows.
 
 <!-- prettier-ignore-end -->
 
-[`pip`]: https://pip.pypa.io/en/stable/getting-started/
+[`pip`]: https://pip.pypa.io/es/stable/getting-started/
 
-### Installing with `conda`
+### Instalando con `conda`
 
-[Miniforge] is the recommended way to install `conda` and [`mamba`],
-two Conda-based environment managers.
-After creating an environment, you can install SciPy from conda-forge as follows:
+[Miniforge] es la forma recomendada de instalar `conda` y [`mamba`], dos administradores de entorno basados ​​en Conda.
+Después de crear un entorno, puede instalar SciPy desde conda-forge de la siguiente manera:
 
 ```
 conda install scipy # or
@@ -197,20 +192,18 @@ mamba install scipy
 ```
 
 [Miniforge]: https://conda-forge.org/download/
-[`mamba`]: https://mamba.readthedocs.io/en/latest/
+[`mamba`]: https://mamba.readthedocs.io/es/latest/
 
 <a name="system-package-managers"></a>
 
-## Installing system-wide via a system package manager
+## Instalación en todo el sistema a través de un administrador de paquetes del sistema
 
-System package managers can install the most common Python packages.
-They install packages for the entire computer, often use older versions,
-and don't have as many available versions. They are not the recommended
-installation method.
+Los administradores de paquetes del sistema pueden instalar los paquetes de Python más comunes.
+Instalan paquetes para toda la computadora, a menudo usan versiones anteriores y no tienen tantas versiones disponibles. No son el método de instalación recomendado.
 
-### Ubuntu and Debian
+### Ubuntu y Debian
 
-Using `apt-get`:
+Usando `apt-get`:
 
 ```
 sudo apt-get install python3-scipy
@@ -218,7 +211,7 @@ sudo apt-get install python3-scipy
 
 ### Fedora
 
-Using `dnf`:
+Usando `dnf`:
 
 ```
 sudo dnf install python3-scipy
@@ -226,36 +219,28 @@ sudo dnf install python3-scipy
 
 ### macOS
 
-macOS doesn't have a preinstalled package manager, but you can install
-[Homebrew](https://brew.sh/) and use it to install SciPy (and Python itself):
+macOS no tiene un administrador de paquetes preinstalado, pero puedes instalar [Homebrew](https://brew.sh/) y usarlo para instalar SciPy (y el propio Python):
 
 ```
 brew install scipy
 ```
 
-<a name="building-from-source"></a>
+<0></0>
 
-## Building from source
+## Compilando desde el código fuente
 
-A word of warning: building SciPy from source can be a nontrivial exercise. We
-recommend using binaries instead if those are available for your platform
-via one of the above methods.
-For details on how to build from source, see
-[the building from source guide in the SciPy docs][building-docs].
+Una advertencia: compilar SciPy desde el código fuente puede ser un ejercicio no trivial. Recomendamos utilizar binarios para su plataforma si están disponibles a través de uno de los métodos anteriores.
+Para obtener detalles sobre cómo compilar desde el código fuente, consulte [la guía de compilación desde el código fuente en los documentos de SciPy][building-docs].
 
 [building-docs]: https://scipy.github.io/devdocs/building/index.html
 
-<a name="type-stubs"></a>
+<0></0>
 
-## Installing with type stubs
+## Instalación con archivos de tipado
 
-Static type stubs are available via a separate package, `scipy-stubs`, on
-PyPI and conda-forge.
-You can also install SciPy and `scipy-stubs` as a single package,
-via the `scipy-stubs[scipy]` extra on PyPI, or the `scipy-typed`
-package on conda-forge.
-To get a specific version `x.y.z` of SciPy (such as `1.14.1`),
-you should install version `x.y.z.*`, for example:
+Los archivos de tipado están disponibles a través de un paquete separado, "scipy-stubs", en PyPI y conda-forge.
+También puede instalar SciPy y `scipy-stubs` como un solo paquete, a través del paquete adicional `scipy-stubs[scipy]` en PyPI, o el paquete `scipy-typed` en conda-forge.
+Para obtener una versión específica `x.y.z` de SciPy (como `1.14.1`), debe instalar la versión `x.y.z.*`, por ejemplo:
 
 ```
 uv add "scipy-stubs[scipy]==1.14.1.*" # or
@@ -264,5 +249,4 @@ python -m pip install "scipy-stubs[scipy]" # or
 conda install "scipy-typed>=1.14"
 ```
 
-Please direct questions about static typing support to
-[the `scipy-stubs` GitHub repository](https://github.com/jorenham/scipy-stubs).
+Dirija sus preguntas sobre la compatibilidad y soporte de tipado al [repositorio GitHub `scipy-stubs`] (https://github.com/jorenham/scipy-stubs).
