@@ -79,22 +79,20 @@ Aquí hay una guía paso a paso para configurar un proyecto para usar SciPy, con
    uv run python
    ```
 
-   This will launch a Python interpreter session, from which you can `import scipy`.
+   Esto iniciará una sesión del intérprete de Python, desde la cual podrá ejecutar `import scipy`.
 
 <!-- prettier-ignore-end -->
 
-See next steps in [the SciPy user guide][scipy-user-guide].
+Consulte los siguientes pasos en [la guía del usuario de SciPy][scipy-user-guide].
 
 [scipy-user-guide]: <>
 
 {{< admonition note >}}
 
-After rebooting your computer, you'll want to navigate to your `try-scipy`
-project directory and execute `uv run python` to drop back into a Python interpreter
-with SciPy importable.
-To execute a Python script, you can use `uv run myscript.py`.
+Después de reiniciar su computadora, querrá navegar al directorio de su proyecto `try-scipy` y ejecutar `uv run python` para volver a un intérprete de Python con SciPy disponible para su uso.
+Para ejecutar un script de Python, puede usar `uv run myscript.py`.
 
-Read more at [the uv guide to working on projects][uv-projects].
+Lea más en \[la guía de `uv` para trabajar en proyectos]\[uv-proyects].
 
 [uv-projects]: https://docs.astral.sh/uv/guides/projects/
 
@@ -102,27 +100,23 @@ Si te acomoda usar una terminal y te interesa aprender
 a utilizar un gestor de paquetes, ¡échale un vistazo a
 [la guía principal de instalación](./install.md)!
 
-### Installing with `pixi`
+### Instalando con `pixi`
 
-If you work with non-Python packages, you may prefer to install SciPy as
-a [Conda] package, so that you can use the same workflow for packages which
-are not available on [PyPI](https://pypi.org/), the Python Package Index.
-Conda can manage packages in any language, so you can use it to install
-Python itself, compilers, and other languages.
+Si trabaja con paquetes que no son de Python, es posible que prefiera instalar SciPy como un paquete de [Conda], de modo que pueda usar el mismo flujo de trabajo para paquetes que no están disponibles en [PyPI](https://pypi.org/), el índice de paquetes de Python.
+Conda puede administrar paquetes en cualquier lenguaje, por lo que puede usarlo para instalar Python, compiladores y otros lenguajes.
 
 [Conda]: https://docs.conda.io/projects/conda/en/latest/index.html
 
-The steps to install SciPy from [conda-forge] using the package management
-tool [`pixi`] are very similar to the steps for `uv`:
+Los pasos para instalar SciPy desde [conda-forge] usando la herramienta de administración de paquetes [`pixi`] son ​​muy similares a los pasos para `uv`:
 
 [conda-forge]: https://conda-forge.org/
 [`pixi`]: https://pixi.sh/latest/
 
-1. Install `pixi`, following [the instructions in the `pixi` documentation][install-pixi].
+1. Instale `pixi`, siguiendo [las instrucciones en la documentación de `pixi`][install-pixi].
 
 [install-pixi]: https://pixi.sh/latest/
 
-2. Create a new project in a new subdirectory:
+2. Cree un nuevo proyecto en un nuevo subdirectorio:
 
    ```
    pixi init try-scipy
@@ -141,32 +135,27 @@ tool [`pixi`] are very similar to the steps for `uv`:
    pixi run python
    ```
 
-See next steps in [the SciPy user guide][scipy-user-guide].
+Consulte los siguientes pasos en [la guía del usuario de SciPy][scipy-user-guide].
 
 <a name="environment-based"></a>
 
-## Environment-based workflows
+## Flujos de trabajo basados ​​en ambientes
 
-In project-based workflows, a project is a directory containing a manifest
-file describing the project, a lock-file describing the exact dependencies
-of the project, and the project's (potentially multiple) environments.
+En los flujos de trabajo basados ​​en proyectos, un proyecto es un directorio que contiene un archivo que describe el proyecto, un archivo que describe las dependencias exactas del proyecto y los entornos (potencialmente múltiples) del proyecto.
 
-In contrast,
-in environment-based workflows you install packages into an environment,
-which you can activate and deactivate from any directory.
-These workflows are well-established,
-but lack some reproducibility benefits of project-based workflows.
+Por el contrario, en los flujos de trabajo basados ​​en entornos, usted instala paquetes en un entorno, que puede activar y desactivar desde cualquier directorio.
+Estos flujos de trabajo están bien establecidos, pero carecen de algunos beneficios de reproducibilidad de los flujos de trabajo basados ​​en proyectos.
 
 ### Instalando con `pip`
 
 <!-- prettier-ignore-start -->
 
-1. [Install Python](https://www.python.org/downloads/).
+1. [Instale Python](https://www.python.org/downloads/).
 
-2. Create and activate a virtual environment with `venv`.
+2. Crea y activa un entorno virtual con `venv`.
 
    {{< admonition hint >}}
-   See [the tutorial in the Python Packaging User Guide](https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments).
+   Consulte [el tutorial en la Guía del usuario de empaquetado de Python](https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments).
    Si te acomoda usar una terminal y te interesa aprender
    a utilizar un gestor de paquetes, ¡échale un vistazo a
    [la guía principal de instalación](./install.md)!
