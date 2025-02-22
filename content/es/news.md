@@ -100,29 +100,29 @@ _July 29, 2022_ -- SciPy 1.9.0 has been released!
 
 _June 27, 2022_ -- Join us at [SciPy 2022 July 11th - 17th!](https://www.scipy2022.scipy.org)
 
-### SciPy 1.8.1 released
+### SciPy 1.8.1 lanzado
 
-_May 18, 2022_ -- SciPy 1.8.1 has been released!
+_Febrero 5, 2022_ -- ¡SciPy 1.8.0 ha sido lanzado!
 
-### SciPy 1.8.0 released
+### SciPy 1.8.0 lanzado
 
-_February 5, 2022_ -- SciPy 1.8.0 has been released!
+_5 de Febrero de 2022_ -- ¡SciPy 1.8.0 ha sido lanzado!
 
-### SciPy 1.7.3 released
+### SciPy 1.7.3 lanzado
 
-_November 24, 2021_ -- SciPy 1.7.3 is a bug-fix release that adds MacOS 12+ arm64 binary wheels.
+_24 de Noviembre de 2021_ -- SciPy 1.7.3 es una versión de corrección de errores que agrega 'wheels' de arm64 para MacOS 12+.
 
-### SciPy 1.7.2 released
+### SciPy 1.7.2 lanzado
 
-_November 5, 2021_ -- SciPy 1.7.2 is a bug-fix release that adds support and binary wheels for Python 3.10.
+_5 de Noviembre de 2021_ -- SciPy 1.7.2 es una versión de corrección de errores que agrega soporte y 'wheels' para Python 3.10.
 
-### SciPy 1.7.1 released
+### SciPy 1.7.1 lanzado
 
-_August 1, 2021_ -- SciPy 1.7.1 is a bug-fix release with no new features compared to 1.7.0.
+_5 de Noviembre de 2021_ -- SciPy 1.7.2 es una versión de corrección de errores que agrega soporte y 'wheels' para Python 3.10.
 
-### NumPy survey
+### Encuesta de NumPy
 
-_2020-07-02_ -- The first-ever NumPy community survey is LIVE! See <https://numpy.org/news/>
+_2020-07-02_ -- ¡La primera encuesta de la comunidad de NumPy está EN VIVO! Ver <https://numpy.org/news/>
 
 ### SciPy funding
 
