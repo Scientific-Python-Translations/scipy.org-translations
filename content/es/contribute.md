@@ -3,16 +3,14 @@ title: Contribuir a SciPy
 sidebar: false
 ---
 
-¡El proyecto SciPy agradece su experiencia y entusiasmo!
+¡El proyecto SciPy agradece tu experiencia y entusiasmo!
 Tus opciones no se limitan a programar. Como puedes ver más abajo, existen muchas áreas en las que necesitamos **tu** ayuda.
 
-Si no sabes por dónde empezar o cómo encajan tus habilidades, _contáctanos!_
+Si no sabes por dónde empezar o cómo encajan tus habilidades, _¡contáctanos!_
 Para ello, revisa la página [Comunidad](/community).
 
 Nuestra comunidad aspira a tratar a todas las personas por igual y a valorar todas las contribuciones.
-Tenemos un
-[Código de Conducta](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
-para cultivar un ambiente abierto y colaborativo.
+Tenemos un [Código de Conducta](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html) para fomentar un ambiente abierto y colaborativo.
 
 ### Escribir código
 
@@ -27,24 +25,23 @@ y muchos colaboradores de código abierto esperando respuesta. Si eres
 un desarrollador que conoce SciPy, puedes ayudar incluso si no estás familiarizado con el código base. Puedes:
 
 - resumir una discusión larga
-- gestionar PRs de documentación
+- categorizar PRs de documentación
 - testear cambios propuestos
 
 ### Desarrollar materiales educativos
 
-La [Guía de usuario] de SciPy (https://docs.scipy.org/doc/scipy/tutorial/index.html)
-merece atención.
-Necesitamos nuevos tutoriales, instructivos y explicaciones detalladas, y la página necesita una reestructuración. Las oportunidades no se limitan a quienes escriben. También necesitamos ejemplos prácticos, notebooks y videos.
+La [Guía de Usuario](https://docs.scipy.org/doc/scipy/tutorial/index.html) de SciPy merece atención.
+Necesitamos nuevos tutoriales, instructivos y explicaciones detalladas, y la página necesita reestructuración. Las oportunidades no se limitan a escritores. También necesitamos ejemplos prácticos, notebooks y videos.
 
-### Gestionar issues
+### Clasificación de issues
 
 El [issue tracker de SciPy](https://github.com/scipy/scipy/issues) tiene un _montón_
 de issues abiertos. Algunos ya no son válidos, otros deberían priorizarse y otros serían buenos issues para nuevos colaboradores. Puedes:
 
-- revisa si bugs antiguos siguen presentes
-- encuentra issues duplicados y enlaza los que estén relacionados
-- añade buenos ejemplos reproducibles a los issues
-- etiqueta correctamente los issues (para ello, es necesario tener derechos de _triage_ en el repositorio; solo solicítalo)
+- revisar si errores antiguos siguen presentes
+- encuentrar issues duplicados y enlazar los que estén relacionados
+- añadir buenos ejemplos reproducibles a los issues
+- etiquetar issues correctamente (para ello, es necesario tener derechos de _triage_ en el repositorio; solo solicítalo)
 
 Por favor, simplemente explora.
 
