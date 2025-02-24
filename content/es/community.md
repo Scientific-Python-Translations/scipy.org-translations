@@ -88,15 +88,13 @@ son anunciados en el
 
 ## Conferencias
 
-El proyecto SciPy no organiza sus propias conferencias. Las conferencias que
-tradicionalmente han sido más populares entre quienes mantienen de SciPy, sus colaboradores y usuarios
-son las series de conferencias SciPy y PyData:
+El proyecto SciPy no organiza sus propias conferencias. Las conferencias que tradicionalmente han sido más populares entre los responsables, colaboradores y usuarios de SciPy son la serie de conferencias de SciPy y PyData:
 
 - [SciPy US](https://conference.scipy.org)
 - [EuroSciPy](https://www.euroscipy.org)
 - [SciPy Latinoamérica](https://scipy-latinamerica.github.io)
 - [SciPy India](https://scipy.in)
-- [SciPy Japan](https://conference.scipy.org)
+- [SciPy Japón](https://conference.scipy.org)
 - [Conferencias PyData](https://pydata.org/event-schedule/) (de 15 a 20 eventos al año, repartidos entre muchos países)
 
 Muchas de estas conferencias incluyen días de tutorial que cubren SciPy y/o sprints
