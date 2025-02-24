@@ -29,7 +29,7 @@ Amplia NumPy proporcionando herramientas adicionales para la computación de mat
 type = 'card'
 title = 'Alto Rendimiento'
 body = '''
-SciPy envuelve implementaciones altamente optimizadas escritas en lenguajes de bajo nivel como Fortran, C y C++. Disfruta de la fexibilidad de Pyhton con la velocidad del código compilado.
+SciPy envuelve implementaciones altamente optimizadas escritas en lenguajes de bajo nivel como Fortran, C y C++. Disfruta de la flexibilidad de Python con la velocidad del código compilado.
 '''
 
 [[item]]
@@ -41,7 +41,7 @@ La sintaxis de alto nivel de SciPy lo hace accesible y productivo para cualquier
 
 [[item]]
 type = 'card'
-title = 'Software libre'
+title = 'Código abierto'
 body = '''
 Distribuido bajo la licencia liberal [BSD](https://github.com/scipy/scipy/blob/main/LICENSE.txt), SciPy es desarrollado y mantenido [públicamente en GitHub](https://github.com/scipy/scipy) por una [comunidad](/community) vibrante, atenta y diversa.
 '''
