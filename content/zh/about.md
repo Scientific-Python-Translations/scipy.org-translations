@@ -21,7 +21,7 @@ consists of the following members (in alphabetical order):
 - CJ Carey
 - Eric Larson
 - Evgeni Burovski
-- Ilhan Polat
+- İlhan Polat
 - Josef Perktold
 - Josh Wilson
 - Matt Haberland
@@ -104,7 +104,7 @@ development infrastructure:
 
 - [JetBrains](https://jb.gg/OpenSourceSupport): licenses of all their
   products for all active maintainers
-- [Tidelift](https://tidelift.com/subscription/pkg/pypi-scipy?utm_source=pypi-scipy\&utm_medium=referral\&utm_campaign=readme):
+- Tidelift:
   financial support for SciPy through the Tidelift open source
   subscription
 - [CircleCI](https://circleci.com): continuous integration credit
@@ -131,5 +131,5 @@ last updated in January 2022._
 
 ## Social Media
 
-- [@scipy on Mastodon](https://mastodon.social/@scipy@fosstodon.org)
+- [@scipy on Mastodon](https://fosstodon.org/@scipy)
 - [@SciPy_team on X](https://x.com/scipy_team)
