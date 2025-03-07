@@ -56,6 +56,7 @@ in the community. To join, please [follow this invite link](https://join.slack.c
 ### [Scientific Python Discord](https://discord.com/invite/vur45CbwMz)
 
 You can also join the `#scipy` channel on the Scientific Python discord.
+To join, please [follow this invite link](https://discord.com/invite/vur45CbwMz).
 
 ### [StackOverflow](https://stackoverflow.com/questions/tagged/scipy)
 
@@ -97,9 +98,9 @@ users are the SciPy and PyData conference series:
 
 - [SciPy US](https://conference.scipy.org)
 - [EuroSciPy](https://www.euroscipy.org)
-- [SciPy Latin America](https://www.scipyla.org)
+- [SciPy Latin America](https://github.com/scipy-latinamerica)
 - [SciPy India](https://scipy.in)
-- [SciPy Japan](https://conference.scipy.org)
+- [SciPyData (Japan)](https://scipydata.connpass.com/)
 - [PyData conferences](https://pydata.org/event-schedule/) (15-20 events a year spread over many countries)
 
 Many of these conferences include tutorial days that cover SciPy and/or sprints
