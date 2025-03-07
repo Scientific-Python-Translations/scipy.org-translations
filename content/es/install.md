@@ -229,11 +229,8 @@ brew install scipy
 name = 'Building from Source'
 content = ''' <a name="building-from-source"></a>
 
-A word of warning: building SciPy from source can be a nontrivial exercise. We
-recommend using binaries instead if those are available for your platform
-via one of the above methods.
-For details on how to build from source, see
-[the building from source guide in the SciPy docs][building-docs].
+Una advertencia: compilar SciPy desde el código fuente puede ser un ejercicio no trivial. Recomendamos utilizar binarios para su plataforma si están disponibles a través de uno de los métodos anteriores.
+Para obtener detalles sobre cómo compilar desde el código fuente, consulte [la guía de compilación desde el código fuente en los documentos de SciPy][building-docs].
 
 [building-docs]: https://scipy.github.io/devdocs/building/index.html
 
