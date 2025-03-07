@@ -89,7 +89,7 @@ infraestrutura de desenvolvimento:
 
 - [JetBrains](https://jb.gg/OpenSourceSupport): licenças de todos os seus produtos
   para todos os mantenedores ativos
-- [Tidelift](https://tidelift.com/subscription/pkg/pypi-scipy?utm_source=pypi-scipy\&utm_medium=referral\&utm_campaign=readme):
+- Tidelift:
   suporte financeiro para SciPy através da assinatura do Tidelift open source
 - [CircleCI](https://circleci.com): crédito para serviços de integração contínua (CI)
 - [TravisCI](https://travis-ci.com): crédito para serviços de integração contínua (CI)
