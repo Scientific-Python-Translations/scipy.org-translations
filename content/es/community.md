@@ -54,6 +54,7 @@ en la comunidad. Para unirte, por favor [sigue este enlace de invitación](https
 ### [Discord de Scientific Python](https://discord.com/invite/vur45CbwMz)
 
 También puedes unirte al canal `#scipy` en el servidor de Discord de Scientific de Python.
+To join, please [follow this invite link](https://discord.com/invite/vur45CbwMz).
 
 ### [StackOverflow](https://stackoverflow.com/questions/tagged/scipy)
 
