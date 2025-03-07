@@ -23,71 +23,76 @@ Para instalar SciPy con \[archivos de tipado], consulte [Instalación con archiv
 
 [static type stubs]: https://typing.readthedocs.io/en/latest/guides/libraries.html
 
-<a name="project-based"></a>
+{{< admonition tip >}}
+Installing type stubs may be required for
+Interactive Development Environments (IDEs) to provide accurate type hints.
+Si te acomoda usar una terminal y te interesa aprender
+a utilizar un gestor de paquetes, ¡échale un vistazo a
+[la guía principal de instalación](./install.md)!
 
-## Flujos de trabajo basados en proyectos
+{{< tabs >}}
 
-### Instalando con `uv`
+[[tab]]
+name = 'Project Based'
+content = ''' <a name="project-based"></a>
 
-Aquí hay una guía paso a paso para configurar un proyecto para usar SciPy, con [`uv`], un administrador de paquetes de Python.
+### Installing with uv
 
-[`uv`]: https://docs.astral.sh/uv/
+Here is a step-by-step guide to setting up a project to use SciPy, with uv, a Python package manager.
 
-<!-- prettier-ignore-start -->
-
-1. Instale `uv`, siguiendo [las instrucciones en la documentación de `uv`][install-uv].
-
-[install-uv]: https://docs.astral.sh/uv/getting-started/installation/
+1. Install `uv` following, [the instructions in the uv documentation](https://docs.astral.sh/uv/getting-started/installation/).
 
 2. Cree un nuevo proyecto en un nuevo subdirectorio, ejecutando el siguiente comando en una terminal:
 
-   ```
-   uv init try-scipy
-   cd try-scipy
-   ```
+```bash
+uv init try-scipy
+cd try-scipy
+```
 
-   {{< admonition hint >}}
-   El segundo comando cambia el directorio al directorio de su proyecto.
-   Si te acomoda usar una terminal y te interesa aprender
-   a utilizar un gestor de paquetes, ¡échale un vistazo a
-   [la guía principal de instalación](./install.md)!
+{{< admonition hint >}}
+El segundo comando cambia el directorio al directorio de su proyecto.
+Si te acomoda usar una terminal y te interesa aprender
+a utilizar un gestor de paquetes, ¡échale un vistazo a
+[la guía principal de instalación](./install.md)!
 
-3. Añada SciPy a tu proyecto:
+3. Cree un nuevo proyecto en un nuevo subdirectorio, ejecutando el siguiente comando en una terminal:
 
-   ```
-   uv add scipy
-   ```
+```bash
+uv add scipy
+```
 
-   {{< admonition note >}}
-   ¡Esto instalará Python automáticamente si aún no lo tiene instalado!
-   Si te acomoda usar una terminal y te interesa aprender
-   a utilizar un gestor de paquetes, ¡échale un vistazo a
-   [la guía principal de instalación](./install.md)!
+{{< admonition note >}}
+¡Esto instalará Python automáticamente si aún no lo tiene instalado!
+Si te acomoda usar una terminal y te interesa aprender
+a utilizar un gestor de paquetes, ¡échale un vistazo a
+[la guía principal de instalación](./install.md)!
 
-   {{< admonition tip >}}
-   Puede instalar otras librerías de Python de la misma manera, por ejemplo
+{{< admonition tip >}}
+Puede instalar otras librerías de Python de la misma manera, por ejemplo
 
-   uv add matplotlib
+```bash
+uv add matplotlib
+```
 
-   Si te acomoda usar una terminal y te interesa aprender
-   a utilizar un gestor de paquetes, ¡échale un vistazo a
-   [la guía principal de instalación](./install.md)!
+Si te acomoda usar una terminal y te interesa aprender
+a utilizar un gestor de paquetes, ¡échale un vistazo a
+[la guía principal de instalación](./install.md)!
 
 4. ¡Pruebe SciPy!
 
-   ```
-   uv run python
-   ```
+```bash
+uv run python
+```
 
-   Esto iniciará una sesión del intérprete de Python, desde la cual podrá ejecutar `import scipy`.
+This will launch a Python interpreter session, from which you can `import scipy`.
 
 <!-- prettier-ignore-end -->
 
 Consulte los siguientes pasos en [la guía del usuario de SciPy][scipy-user-guide].
 
-[scipy-user-guide]: <>
+[scipy-user-guide]: https://docs.conda.io/projects/conda/en/latest/index.html
 
-{{< admonition note >}}
+Los pasos para instalar SciPy desde [conda-forge] usando la herramienta de administración de paquetes [`pixi`] son ​​muy similares a los pasos para `uv`:
 
 Después de reiniciar su computadora, querrá navegar al directorio de su proyecto `try-scipy` y ejecutar `uv run python` para volver a un intérprete de Python con SciPy disponible para su uso.
 Para ejecutar un script de Python, puede usar `uv run myscript.py`.
@@ -118,28 +123,28 @@ Los pasos para instalar SciPy desde [conda-forge] usando la herramienta de admin
 
 2. Cree un nuevo proyecto en un nuevo subdirectorio:
 
-   ```
-   pixi init try-scipy
-   cd try-scipy
-   ```
+```bash
+pixi init try-scipy
+cd try-scipy
+```
 
-3. Añada SciPy a tu proyecto:
+3. Cree un nuevo proyecto en un nuevo subdirectorio, ejecutando el siguiente comando en una terminal:
 
-   ```
-   pixi add scipy
-   ```
+```bash
+pixi add scipy
+```
 
 4. ¡Pruebe SciPy!
 
-   ```
-   pixi run python
-   ```
+```bash
+pixi run python
+```
 
-Consulte los siguientes pasos en [la guía del usuario de SciPy][scipy-user-guide].
+'''
 
-<a name="environment-based"></a>
-
-## Flujos de trabajo basados ​​en ambientes
+[[tab]]
+name = 'Environment Based'
+content = ''' <a name="environment-based"></a>
 
 En los flujos de trabajo basados ​​en proyectos, un proyecto es un directorio que contiene un archivo que describe el proyecto, un archivo que describe las dependencias exactas del proyecto y los entornos (potencialmente múltiples) del proyecto.
 
@@ -154,17 +159,17 @@ Estos flujos de trabajo están bien establecidos, pero carecen de algunos benefi
 
 2. Crea y activa un entorno virtual con `venv`.
 
-   {{< admonition hint >}}
-   Consulte [el tutorial en la Guía del usuario de empaquetado de Python](https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments).
-   Si te acomoda usar una terminal y te interesa aprender
-   a utilizar un gestor de paquetes, ¡échale un vistazo a
-   [la guía principal de instalación](./install.md)!
+{{< admonition hint >}}
+Consulte [el tutorial en la Guía del usuario de empaquetado de Python](https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments).
+Si te acomoda usar una terminal y te interesa aprender
+a utilizar un gestor de paquetes, ¡échale un vistazo a
+[la guía principal de instalación](./install.md)!
 
 3. Instala SciPy, utilizando [`pip`]:
 
-   ```
-   python -m pip install scipy
-   ```
+```bash
+python -m pip install scipy
+```
 
 <!-- prettier-ignore-end -->
 
@@ -175,7 +180,7 @@ Estos flujos de trabajo están bien establecidos, pero carecen de algunos benefi
 [Miniforge] es la forma recomendada de instalar `conda` y [`mamba`], dos administradores de entorno basados ​​en Conda.
 Después de crear un entorno, puede instalar SciPy desde conda-forge de la siguiente manera:
 
-```
+```bash
 conda install scipy # or
 mamba install scipy
 ```
@@ -183,9 +188,13 @@ mamba install scipy
 [Miniforge]: https://conda-forge.org/download/
 [`mamba`]: https://mamba.readthedocs.io/es/latest/
 
-<a name="system-package-managers"></a>
+'''
 
-## Instalación en todo el sistema a través de un administrador de paquetes del sistema
+[[tab]]
+name = 'Package Manager'
+content = ''' <a name="system-package-managers"></a>
+
+## Instalación con archivos de tipado
 
 Los administradores de paquetes del sistema pueden instalar los paquetes de Python más comunes.
 Instalan paquetes para toda la computadora, a menudo usan versiones anteriores y no tienen tantas versiones disponibles. No son el método de instalación recomendado.
@@ -194,7 +203,7 @@ Instalan paquetes para toda la computadora, a menudo usan versiones anteriores y
 
 Usando `apt-get`:
 
-```
+```bash
 sudo apt-get install python3-scipy
 ```
 
@@ -202,7 +211,7 @@ sudo apt-get install python3-scipy
 
 Usando `dnf`:
 
-```
+```bash
 sudo dnf install python3-scipy
 ```
 
@@ -210,28 +219,39 @@ sudo dnf install python3-scipy
 
 macOS no tiene un administrador de paquetes preinstalado, pero puedes instalar [Homebrew](https://brew.sh/) y usarlo para instalar SciPy (y el propio Python):
 
-```
+```bash
 brew install scipy
 ```
 
-<0></0>
+'''
 
-## Compilando desde el código fuente
+[[tab]]
+name = 'Building from Source'
+content = ''' <a name="building-from-source"></a>
 
-Una advertencia: compilar SciPy desde el código fuente puede ser un ejercicio no trivial. Recomendamos utilizar binarios para su plataforma si están disponibles a través de uno de los métodos anteriores.
-Para obtener detalles sobre cómo compilar desde el código fuente, consulte [la guía de compilación desde el código fuente en los documentos de SciPy][building-docs].
+A word of warning: building SciPy from source can be a nontrivial exercise. We
+recommend using binaries instead if those are available for your platform
+via one of the above methods.
+For details on how to build from source, see
+[the building from source guide in the SciPy docs][building-docs].
 
 [building-docs]: https://scipy.github.io/devdocs/building/index.html
 
+'''
+
+{{</ tabs >}}
+
+See next steps in the [SciPy user guide](https://docs.scipy.org/doc/scipy/tutorial/).
+
 <0></0>
 
-## Instalación con archivos de tipado
+## Installing with Type Stubs
 
 Los archivos de tipado están disponibles a través de un paquete separado, "scipy-stubs", en PyPI y conda-forge.
 También puede instalar SciPy y `scipy-stubs` como un solo paquete, a través del paquete adicional `scipy-stubs[scipy]` en PyPI, o el paquete `scipy-typed` en conda-forge.
 Para obtener una versión específica `x.y.z` de SciPy (como `1.14.1`), debe instalar la versión `x.y.z.*`, por ejemplo:
 
-```
+```bash
 uv add "scipy-stubs[scipy]==1.14.1.*" # or
 pixi add "scipy-typed=1.15.0.*" # or
 python -m pip install "scipy-stubs[scipy]" # or
