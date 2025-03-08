@@ -11,7 +11,7 @@ sidebar: false
 
 {{< grid file="triage-team.toml" columns="2 3 4 5" />}}
 
-### ウェブページチーム
+### ウェブチーム
 
 {{< grid file="web-team.toml" columns="2 3 4 5" />}}
 
