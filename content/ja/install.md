@@ -30,7 +30,7 @@ content = ''' <a name="project-based"></a>
 
 ### uvを使ってインストールする
 
-Here is a step-by-step guide to setting up a project to use SciPy, with uv, a Python package manager.
+ここではPythonのパッケージマネージャー[`uv`]を使用してSciPyを導入するための、各ステップ毎の手順を紹介します。
 
 1. Install `uv` following, [the instructions in the uv documentation](https://docs.astral.sh/uv/getting-started/installation/).
 
