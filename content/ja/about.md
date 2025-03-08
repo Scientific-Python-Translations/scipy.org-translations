@@ -23,12 +23,12 @@ SciPy運営委員会の役割は、SciPyのコミュニティと協力し、コ�
 - Matthew Brett
 - Nikolay Mayorov
 - Paul van Mulbregt
-- Pauli Virtanen (優しい終身の独裁者)
+- Pauli Virtanen (慈悲深い終身の独裁者)
 - Ralf Gommers (議長)
 - Tyler Redy (リリースマネージャー)
 - Warren Weckesser
 
-終身名誉メンバー
+終身名誉委員
 
 - Anne Archibald
 - Eric Jones (SciPyの共同初期開発者)
@@ -36,10 +36,10 @@ SciPy運営委員会の役割は、SciPyのコミュニティと協力し、コ�
 - Eric Quintero
 - Jaime Fernández del Río
 - Jarrod Millman
-- Pearu Peterson (SciPyの共同初期開発者)
-- ロバート・カーニング
-- Nathaniel Smith
-- Travis Oliphant (SciPyの共同初期開発者)
+- Pearu Peterson (SciPyの共同創作者)
+- Robert Kern
+- Stéfan van der Walt
+- Travis Oliphant (SciPyの共同創作者)
 
 ## チーム
 
@@ -107,5 +107,5 @@ _このリストはサポート開始の次期順に並べられており、
 
 ## ソーシャルメディア
 
-- [マストドン上での @scipy](https://mastodon.social/@scipy@fosstodon.org)
-- [X上での @SciPy_team](https://x.com/scipy_team)
+- [マストドン @scipy](https://mastodon.social/@scipy@fosstodon.org)
+- [X @SciPy_team](https://x.com/scipy_team)
