@@ -71,8 +71,8 @@ SciPyは、以下の方法で直接的に資金を受け取っています。
 
 ## 寄付をする
 
-SciPyは、常に全てのソフトウェアが、オープンソースのソフトウェアであり、すべての人は無料で利用できます。
-また、SciPyは、修正BSDライセンスの自l条件下でリリースされています。 すでに、沢山のボランティアの
+SciPyは、いつまでも 100% オープンソースのソフトウェアであり、すべての人は無料で利用できます。
+また、SciPyは修正BSDライセンスの寛大な条件下でリリースされています。 すでに、沢山のボランティアの
 [開発者](https://github.com/scipy/scipy/graphs/contributors)
 がSciPyを改善するために多くの時間を使ってくれていますが, 資金補助により、プロジェクトを運営したり、開発を加速することが可能になります。 SciPy があなたの仕事や研究、ビジネスで役に立った場合、できる範囲で良いので、是非、SciPyプロジェクトへの寄付を検討して頂けると助かります。 少額の寄付でも大きな助けになります。 すべての寄付は、SciPyのオープンソースのソフトウェアや、ドキュメント、コミュニティの開発のために使用されることが約束されています。 少額の寄付でも大きな助けになります。
 
@@ -92,9 +92,9 @@ SciPy 開発チームは、経済的支援、サービス、または開発イ�
 - [TravisCI](https://travis-ci.com): CIサービスのクレジット付与
 - [Appveyor](https://ci.appveyor.com): CIサービスのクレジット付与
 - [Azure](https://dev.azure.com): CIサービスへのクレジット付与
-- [Enthought](https://www.enthought.com): scipy.org のサイトとメーリングリストのホスティング。そしてSciPy 商標の保持
-- [NumFOCUS](https://numfocus.org): いくつかの小さな開発のための補助金のサポート、およびMac Mini ビルドマシンのホスティング
-- [Google](https://google.com): 多くのGoogle Summer of Codeの生徒に対するサポート
+- [Enthought](https://www.enthought.com): scipy.org サイトとメーリングリストのホスティング。そしてSciPy 商標の保持
+- [NumFOCUS](https://numfocus.org): いくつかの小さな開発助成金と Mac Mini ビルドマシンのホスティング
+- [Google](https://google.com): 多くのGoogle Summer of Codeの学生に対するサポート
 - [Intel](https://www.intel.com): Intel
   [MKL](https://software.intel.com/en-us/intel-mkl/) ライセンスの付与
 - [BYU](https://www.byu.edu): SciPyの開発中のTravisOliphantの雇用
