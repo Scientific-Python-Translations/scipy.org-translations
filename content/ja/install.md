@@ -19,9 +19,7 @@ SciPyのインストール方法は、実施したいワークフローによっ
 
 [static type stubs]: https://typing.readthedocs.io/en/latest/guides/libraries.html
 
-{{< admonition tip >}}
-Installing type stubs may be required for
-Interactive Development Environments (IDEs) to provide accurate type hints.
+統合開発環境（IDE）が正確な型ヒントを提供するために、型スタブのインストールが必要になる場合があります。
 {{< /admonition >}}
 
 {{< tabs >}}
@@ -30,7 +28,7 @@ Interactive Development Environments (IDEs) to provide accurate type hints.
 name = 'Project Based'
 content = ''' <a name="project-based"></a>
 
-### Installing with uv
+### uvを使ってインストールする
 
 Here is a step-by-step guide to setting up a project to use SciPy, with uv, a Python package manager.
 
