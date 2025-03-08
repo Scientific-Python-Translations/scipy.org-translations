@@ -32,7 +32,7 @@ content = ''' <a name="project-based"></a>
 
 ここではPythonのパッケージマネージャー[`uv`]を使用してSciPyを導入するための、各ステップ毎の手順を紹介します。
 
-1. Install `uv` following, [the instructions in the uv documentation](https://docs.astral.sh/uv/getting-started/installation/).
+1. こちらの[uvのドキュメントのマニュアル](https://docs.astral.sh/uv/getting-started/installation/)に従って、`uv`をインストールします。
 
 2. ターミナルで以下を実行して、新しいサブディレクトリに新しいプロジェクトを作成します。
 
@@ -228,11 +228,11 @@ content = ''' <a name="building-from-source"></a>
 
 {{</ tabs >}}
 
-See next steps in the [SciPy user guide](https://docs.scipy.org/doc/scipy/tutorial/).
+[SciPyユーザーガイド](https://docs.scipy.org/doc/scipy/tutorial/)の次のステップを確認下さい。
 
 <a name="type-stubs"></a>
 
-## Installing with Type Stubs
+## 型スタブのインストール
 
 SciPyの静的型スタブに関しては、PyPI と conda-forge 上で配布されている、別のパッケージである `scipy-stubs`から利用できます。
 SciPy と `scipy-stubs` を単一のパッケージとしてインストールすることも可能です。
