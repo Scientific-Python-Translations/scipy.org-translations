@@ -41,7 +41,7 @@ SciPyの開発チームには、独自のSlackスペースもあり、参加す�
 ### [Scientific Python Discordチャンネル](https://discord.com/invite/vur45CbwMz)
 
 Scientific Python discord上で `#scipy` チャンネルに参加することもできます。
-To join, please [follow this invite link](https://discord.com/invite/vur45CbwMz).
+参加したい方は、こちらの [招待リンク](https://discord.com/invite/vur45CbwMz) から参加をよろしくお願いします。
 
 ### [StackOverflow](https://stackoverflow.com/questions/tagged/scipy)
 
