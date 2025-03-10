@@ -23,21 +23,20 @@ veja [Instalando com stubs para tipagem](#type-stubs).
 [static type stubs]: https://typing.readthedocs.io/en/latest/guides/libraries.html
 
 {{< admonition tip >}}
-Installing type stubs may be required for
-Interactive Development Environments (IDEs) to provide accurate type hints.
+A instalação de tipos sub pode ser necessário para
+Ambientes de Desenvolvimento Interativo (IDEs) para fornecer dicas de tipo precisas.
 {{< /admonition >}}
 
 {{< tabs >}}
 
-[[tab]]
-name = 'Project Based'
-content = ''' <a name="project-based"></a>
 
-### Installing with uv
 
-Here is a step-by-step guide to setting up a project to use SciPy, with uv, a Python package manager.
+### Instalando com uv
 
-1. Install `uv` following, [the instructions in the uv documentation](https://docs.astral.sh/uv/getting-started/installation/).
+Aqui está um guia passo-a-passo para criar um projeto para usar a SciPy, com uv,
+um gerenciador de pacotes Python.
+
+1. Instale `uv` seguindo [as instruções na documentação do uv](https://docs.astral.sh/uv/getting-started/installation/).
 
 2. Criar um novo projeto em um novo subdiretório, executando o seguinte em um terminal:
 
@@ -234,7 +233,7 @@ Para mais detalhes sobre como compilar a partir do código fonte, consulte
 
 {{</ tabs >}}
 
-See next steps in the [SciPy user guide](https://docs.scipy.org/doc/scipy/tutorial/).
+Veja os próximos passos no [guia do usuário SciPy](https://docs.scipy.org/doc/scipy/tutorial/).
 
 <a name="type-stubs"></a>
 
