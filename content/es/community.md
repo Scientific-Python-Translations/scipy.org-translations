@@ -53,7 +53,7 @@ en la comunidad. Para unirte, por favor [sigue este enlace de invitación](https
 
 ### [Discord de Scientific Python](https://discord.com/invite/vur45CbwMz)
 
-También puedes unirte al canal `#scipy` en el servidor de Discord de Scientific de Python.
+También puedes unirte al canal `#scipy` en el servidor de Discord de Scientific Python.
 Para unirte, por favor [sigue este enlace de invitación](https://discord.com/invite/vur45CbwMz).
 
 ### [StackOverflow](https://stackoverflow.com/questions/tagged/scipy)
@@ -69,7 +69,7 @@ StackOverflow.
 - problemas en la documentación (por ejemplo, "Esta sección me pareció poco clara");
 - y solicitudes de características (por ejemplo, "Me gustaría que existiera una nueva prueba estadística en `scipy.stats`").
 
-_Tenga en cuenta que GitHub no es el lugar adecuado para reportar una vulnerabilidad
+_Ten en cuenta que GitHub no es el lugar adecuado para reportar una vulnerabilidad
 de seguridad. Si crees que has encontrado una vulnerabilidad de seguridad en SciPy,
 por favor infórmanos [acá](https://tidelift.com/docs/security)._
 
