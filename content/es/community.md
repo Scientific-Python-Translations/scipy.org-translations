@@ -3,7 +3,7 @@ title: Comunidad
 sidebar: false
 ---
 
-SciPy es un proyecto de código abierto impulsado por la comunidad que es desarrollado por un diverso grupo de
+SciPy es un proyecto de código abierto impulsado por la comunidad, que es desarrollado por un diverso grupo de
 [contribuidores](/teams/). El equipo de liderazgo de SciPy ha asumido un fuerte compromiso con
 crear una comunidad abierta, inclusiva y positiva. Por favor, lee el
 [Código de Conducta de SciPy](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
@@ -16,10 +16,10 @@ conectar con otras personas dentro de la comunidad SciPy.
 
 Las siguientes son formas de relacionarse directamente con el proyecto y la comunidad de SciPy.
 
-Por favor ten en cuenta que incentivamos a usuarios y miembros de la comunidad a que se apoyen entre sí para preguntas relacionadas con el uso. Busca una respuesta primero, porque alguien puede que
+Por favor ten en cuenta que incentivamos a usuarios y miembros de la comunidad a que se apoyen entre sí para preguntas relacionadas con el uso. Busca si ya existe una respuesta primero, porque alguien puede que
 ya haya encontrado una solución a tu problema.
 
-Por último, los mantenedores están en su mayoría monitoreando el foro y GitHub.
+Por último, la mayoría de quienes mantienen el proyecto están monitoreando el foro y GitHub.
 
 ### [Reuniones de la comunidad SciPy](https://scientific-python.org/calendars/)
 
@@ -39,7 +39,7 @@ o busca los anuncios en nuestro foro de desarrollo.
 
 Este espacio es el foro principal para discusiones más largas, como añadir nuevas características
 a SciPy, hacer cambios en la hoja de ruta de SciPy, y todo tipo de
-toma de decisiones relacionadas con el proyecto. En este foro también se hacen anuncios sobre SciPy, tales como para publicaciones,
+toma de decisiones relacionadas con el proyecto. En este foro también se hacen anuncios sobre SciPy, tales como para lanzamientos,
 reuniones de desarrolladores, sprints o charlas en conferencias.
 
 Existe un [archivo de la antigua lista de correos](https://mail.python.org/archives/list/scipy-dev@python.org/)
