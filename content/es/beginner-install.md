@@ -1,5 +1,5 @@
 ---
-title: Guía de instalación inicial
+title: Guía de instalación para principiantes
 sidebar: false
 ---
 
