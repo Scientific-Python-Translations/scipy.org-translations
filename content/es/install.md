@@ -23,9 +23,7 @@ Para instalar SciPy con \[archivos de tipado], consulte [Instalación con archiv
 
 [static type stubs]: https://typing.readthedocs.io/en/latest/guides/libraries.html
 
-{{< admonition tip >}}
-Installing type stubs may be required for
-Interactive Development Environments (IDEs) to provide accurate type hints.
+Es posible que se requiera instalar archivos de anotaciones de tipos para que los Entornos de Desarrollo Interactivos (IDEs) ofrezcan sugerencias de tipos más precisas.
 Si te acomoda usar una terminal y te interesa aprender
 a utilizar un gestor de paquetes, ¡échale un vistazo a
 [la guía principal de instalación](./install.md)!
@@ -36,11 +34,11 @@ a utilizar un gestor de paquetes, ¡échale un vistazo a
 name = 'Project Based'
 content = ''' <a name="project-based"></a>
 
-### Installing with uv
+### Instalación con uv
 
-Here is a step-by-step guide to setting up a project to use SciPy, with uv, a Python package manager.
+Aquí hay una guía paso a paso para configurar un proyecto para usar SciPy, con [`uv`], un administrador de paquetes de Python.
 
-1. Install `uv` following, [the instructions in the uv documentation](https://docs.astral.sh/uv/getting-started/installation/).
+1. Instala `uv` siguiendo, [las instrucciones en la documentación de uv](https://docs.astral.sh/uv/getting-started/installation/).
 
 2. Cree un nuevo proyecto en un nuevo subdirectorio, ejecutando el siguiente comando en una terminal:
 
@@ -84,7 +82,7 @@ a utilizar un gestor de paquetes, ¡échale un vistazo a
 uv run python
 ```
 
-This will launch a Python interpreter session, from which you can `import scipy`.
+Esto iniciará una sesión del intérprete de Python, desde la cual podrás ejecutar `import scipy`.
 
 <!-- prettier-ignore-end -->
 
@@ -226,7 +224,7 @@ brew install scipy
 '''
 
 [[tab]]
-name = 'Building from Source'
+name = 'Package Manager'
 content = ''' <a name="building-from-source"></a>
 
 Una advertencia: compilar SciPy desde el código fuente puede ser un ejercicio no trivial. Recomendamos utilizar binarios para su plataforma si están disponibles a través de uno de los métodos anteriores.
@@ -238,15 +236,15 @@ Para obtener detalles sobre cómo compilar desde el código fuente, consulte [la
 
 {{</ tabs >}}
 
-See next steps in the [SciPy user guide](https://docs.scipy.org/doc/scipy/tutorial/).
+Revisa los siguientes pasos en la [Guía de usuario de SciPy](https://docs.scipy.org/doc/scipy/tutorial/).
 
 <0></0>
 
-## Installing with Type Stubs
+## Instalación con archivos de tipado
 
 Los archivos de tipado están disponibles a través de un paquete separado, "scipy-stubs", en PyPI y conda-forge.
 También puede instalar SciPy y `scipy-stubs` como un solo paquete, a través del paquete adicional `scipy-stubs[scipy]` en PyPI, o el paquete `scipy-typed` en conda-forge.
-Para obtener una versión específica `x.y.z` de SciPy (como `1.14.1`), debe instalar la versión `x.y.z.*`, por ejemplo:
+Para obtener una versión específica `x.y.z` de SciPy (como `1.14.1`), debes instalar la versión `x.y.z.*`, por ejemplo:
 
 ```bash
 uv add "scipy-stubs[scipy]==1.14.1.*" # or
