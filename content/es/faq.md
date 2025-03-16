@@ -5,11 +5,11 @@ sidebar: false
 
 ## ¿Qué es SciPy?
 
-SciPy es un conjunto de herramientas científicas y numéricas de código abierto (licencia BSD) para Python. Actualmente soporta funciones especiales, integración, solucionadores de ecuaciones diferenciales ordinarias (ODE), optimización gradiente, herramientas de programación en paralelo, un compilador expresión-a-C++ para ejecución rápida, entre otros. Como regla general, si está cubierto en un libro de texto general sobre computación numérica (por ejemplo, la conocida serie Numerical Recipes), probablemente está implementado en SciPy.
+SciPy es un conjunto de herramientas científicas y numéricas de código abierto (bajo licencia BSD) para Python. Actualmente soporta funciones especiales, integración, solucionadores de ecuaciones diferenciales ordinarias (ODE), optimización de gradiente, herramientas de programación en paralelo, un compilador expresión-a-C++ para ejecución rápida, entre otros. Como regla general, si está cubierto en un manual general sobre computación numérica (por ejemplo, la conocida serie Numerical Recipes), probablemente está implementado en SciPy.
 
 ## ¿Cuánto cuesta?
 
-SciPy está disponible libremente. Se distribuye como software de código abierto, eso significa que se tiene acceso completo al código fuente y puede ser usado de cualquier forma permitida por su licencia liberal de BSD.
+SciPy está disponible de forma gratuita. Se distribuye como software de código abierto, lo que significa que se tiene acceso completo al código fuente y puede ser usado de cualquier forma permitida por su licencia liberal BSD.
 
 ## ¿Cuáles son los términos de licencia de SciPy?
 
