@@ -7,9 +7,7 @@ sidebar: false
 Esta página asume que te acomoda usar una terminal y quieres de aprender
 cómo usar un gestor de paquetes. Si eres principiante y solo quieres empezar
 con SciPy tan pronto como sea posible, dale un vistazo a [la guía de instalación para principiantes](./beginner-install.md).
-Si te acomoda usar una terminal y te interesa aprender
-a utilizar un gestor de paquetes, ¡échale un vistazo a
-[la guía principal de instalación](./install.md)!
+{{< /admonition >}}
 
 El método recomendado para instalar SciPy depende de tu flujo de trabajo preferido.
 Los flujos de trabajo más comunes se pueden dividir aproximadamente en las siguientes categorías:
@@ -24,9 +22,7 @@ Para instalar SciPy con \[archivos de tipado], consulte [Instalación con archiv
 [static type stubs]: https://typing.readthedocs.io/en/latest/guides/libraries.html
 
 Es posible que se requiera instalar archivos de anotaciones de tipos para que los Entornos de Desarrollo Interactivos (IDEs) ofrezcan sugerencias de tipos más precisas.
-Si te acomoda usar una terminal y te interesa aprender
-a utilizar un gestor de paquetes, ¡échale un vistazo a
-[la guía principal de instalación](./install.md)!
+{{< /admonition >}}
 
 {{< tabs >}}
 
@@ -49,9 +45,7 @@ cd try-scipy
 
 {{< admonition hint >}}
 El segundo comando cambia el directorio al directorio de su proyecto.
-Si te acomoda usar una terminal y te interesa aprender
-a utilizar un gestor de paquetes, ¡échale un vistazo a
-[la guía principal de instalación](./install.md)!
+{{< /admonition >}}
 
 3. Cree un nuevo proyecto en un nuevo subdirectorio, ejecutando el siguiente comando en una terminal:
 
@@ -61,9 +55,7 @@ uv add scipy
 
 {{< admonition note >}}
 ¡Esto instalará Python automáticamente si aún no lo tiene instalado!
-Si te acomoda usar una terminal y te interesa aprender
-a utilizar un gestor de paquetes, ¡échale un vistazo a
-[la guía principal de instalación](./install.md)!
+{{< /admonition >}}
 
 {{< admonition tip >}}
 Puede instalar otras librerías de Python de la misma manera, por ejemplo
@@ -72,9 +64,7 @@ Puede instalar otras librerías de Python de la misma manera, por ejemplo
 uv add matplotlib
 ```
 
-Si te acomoda usar una terminal y te interesa aprender
-a utilizar un gestor de paquetes, ¡échale un vistazo a
-[la guía principal de instalación](./install.md)!
+{{< /admonition >}}
 
 4. ¡Pruebe SciPy!
 
@@ -99,9 +89,7 @@ Lea más en \[la guía de `uv` para trabajar en proyectos]\[uv-proyects].
 
 [uv-projects]: https://docs.astral.sh/uv/guides/projects/
 
-Si te acomoda usar una terminal y te interesa aprender
-a utilizar un gestor de paquetes, ¡échale un vistazo a
-[la guía principal de instalación](./install.md)!
+{{< /admonition >}}
 
 ### Instalando con `pixi`
 
@@ -159,9 +147,7 @@ Estos flujos de trabajo están bien establecidos, pero carecen de algunos benefi
 
 {{< admonition hint >}}
 Consulte [el tutorial en la Guía del usuario de empaquetado de Python](https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments).
-Si te acomoda usar una terminal y te interesa aprender
-a utilizar un gestor de paquetes, ¡échale un vistazo a
-[la guía principal de instalación](./install.md)!
+{{< /admonition >}}
 
 3. Instala SciPy, utilizando [`pip`]:
 
