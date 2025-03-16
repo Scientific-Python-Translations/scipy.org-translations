@@ -11,7 +11,7 @@ sidebar: false
 
 
 
-### Equipo de la página web
+### Equipo del sitio web
 
 
 
