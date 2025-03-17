@@ -27,7 +27,7 @@ Es posible que se requiera instalar archivos de anotaciones de tipos para que lo
 {{< tabs >}}
 
 [[tab]]
-name = 'Project Based'
+name = 'Basado en proyectos'
 content = ''' <a name="project-based"></a>
 
 ### Instalación con uv
@@ -129,7 +129,7 @@ pixi run python
 '''
 
 [[tab]]
-name = 'Environment Based'
+name = 'Basado en entornos'
 content = ''' <a name="environment-based"></a>
 
 En los flujos de trabajo basados ​​en proyectos, un proyecto es un directorio que contiene un archivo que describe el proyecto, un archivo que describe las dependencias exactas del proyecto y los entornos (potencialmente múltiples) del proyecto.
@@ -175,7 +175,7 @@ mamba install scipy
 '''
 
 [[tab]]
-name = 'Package Manager'
+name = 'Administrador de paquetes'
 content = ''' <a name="system-package-managers"></a>
 
 ## Instalación con archivos de tipado
@@ -210,7 +210,7 @@ brew install scipy
 '''
 
 [[tab]]
-name = 'Package Manager'
+name = 'Construir desde el código fuente'
 content = ''' <a name="building-from-source"></a>
 
 Una advertencia: compilar SciPy desde el código fuente puede ser un ejercicio no trivial. Recomendamos utilizar binarios para su plataforma si están disponibles a través de uno de los métodos anteriores.
