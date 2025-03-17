@@ -17,7 +17,7 @@ La licencia de SciPy es gratuita tanto para su uso comercial como no comercial, 
 
 ## ¿Cómo puede SciPy ser rápido si está escrito en un lenguaje interpretado como Python?
 
-En realidad, los bucles de tiempo crítico generalmente se implementan en C, C++, o Fortran. Las partes de SciPy son capas delgadas de código encima de rutinas científicas que están disponibles libremente en <https://www.netlib.org/>. Netlib es un enorme repositorio de algoritmos científicos increíblemente valiosos y robustos escritos en C y Fortran. Sería absurdo reescribir estos algoritmos y tomaría años depurarlos. SciPy utiliza una variedad de métodos para generar \"wrappers\" alrededor de estos algoritmos para que puedan ser usados en Python. Algunos \"wrappers\" fueron generados al codificarlos a mano en C. El resto fueron generados usando ya sea SWIG o [f2py](https://www.f2py.com). Algunas de las nuevas contribuciones a SciPy están escritas enteramente o envueltas en [Cython](https://cython.org/) o [Pythran](https://pythran.readthedocs.io).
+En realidad, los bucles de tiempo crítico generalmente se implementan en C, C++, o Fortran. Partes de SciPy son capas delgadas de código encima de rutinas científicas que están disponibles libremente en <https://www.netlib.org/>. Netlib es un enorme repositorio de algoritmos científicos increíblemente valiosos y robustos escritos en C y Fortran. Sería absurdo reescribir estos algoritmos y tomaría años depurarlos. SciPy utiliza una variedad de métodos para generar \"wrappers\" alrededor de estos algoritmos para que puedan ser usados en Python. Algunos \"wrappers\" fueron generados al codificarlos a mano en C. El resto fueron generados usando ya sea SWIG o [f2py](https://www.f2py.com). Algunas de las nuevas contribuciones a SciPy están escritas enteramente o envueltas en [Cython](https://cython.org/) o [Pythran](https://pythran.readthedocs.io).
 
 Una segunda respuesta es que para problemas difíciles un mejor algoritmo puede marcar una tremenda diferencia en el tiempo que tarda en resolver un problema.
 Por lo tanto, el uso de los algoritmos incorporados de SciPy puede ser mucho más rápido que un simple algoritmo codificado en C.
@@ -40,30 +40,29 @@ Sí, una serie de empresas ofrecen apoyo comercial para SciPy, por ejemplo [Anac
 
 ## ¿Cuál es la diferencia entre NumPy y SciPy?
 
-En un mundo ideal, NumPy no contendría más que el tipo de datos del arreglo y las operaciones más básicas: indexar, ordenar, remodelar, funciones básicas
+En un mundo ideal, NumPy no contendría más que el tipo de datos arreglo (array) y las operaciones más básicas: indexar, ordenar, remodelar, funciones básicas
 elementales, etc. Todo el código numérico residiría en SciPy.
 Sin embargo, uno de los objetivos importantes de NumPy es la compatibilidad, por lo que NumPy intenta retener todas las características soportadas por cualquiera de sus predecesores.
-Así, NumPy contiene algunas funciones de álgebra lineal y transformadas de Fourier, aunque estas pertenecen más correctamente a SciPy. En cualquier caso, SciPy contiene versiones más completas de los módulos de álgebra lineal, así como muchos otros algoritmos numéricos. Si estás haciendo computación científica con Python, probablemente deberías instalar tanto NumPy como SciPy. La mayoría de las nuevas características pertenecen a SciPy en lugar de NumPy.
+Por esa razón, NumPy contiene algunas funciones de álgebra lineal y transformadas de Fourier, aunque estas pertenecen más correctamente a SciPy. En cualquier caso, SciPy contiene versiones más completas de los módulos de álgebra lineal, así como muchos otros algoritmos numéricos. Si estás haciendo computación científica con Python, probablemente deberías instalar tanto NumPy como SciPy. La mayoría de las nuevas características pertenecen a SciPy en lugar de NumPy.
 
 ## ¿Cómo hago gráficos usando SciPy?
 
-El soporte para gráficos está más allá del alcance de SciPy, el cual
+El soporte para gráficos está más allá del alcance de SciPy, el que
 se centra en objetos numéricos y algoritmos. Existen varios paquetes que se integran estrechamente con SciPy para producir gráficos de alta calidad, como el inmensamente popular [Matplotlib](https://matplotlib.org). Otros paquetes populares son [Bokeh](https://bokeh.pydata.org/en/latest),
 [Plotly](https://plot.ly) y [Altair](https://altair-viz.github.io).
 
-## ¿Cómo puedo hacer gráficos 3D/visualizaciones usando SciPy?
+## ¿Cómo puedo hacer gráficos/visualizaciones 3D usando SciPy?
 
-Al igual que el trazado en 2D, los gráficos 3D están más allá del alcance de SciPy, pero como en el caso 2D, existen paquetes que se integran con SciPy.
+Al igual que las visualizaciones en 2D, los gráficos 3D están más allá del alcance de SciPy, pero como en el caso 2D, existen paquetes que se integran con SciPy.
 [Matplotlib](https://matplotlib.org) proporciona gráficos 3D básicos en el subpaquete `mplot3d`. mientras que [Mayavi](https://docs.enthought.com/mayavi/mayavi/) proporciona una amplia gama de características de visualización 3D de alta calidad, utilizando el potente motor [VTK](https://www.vtk.org/).
 
 ## ¿Por qué `numpy.linalg` y `scipy.linalg`? ¿Cuál es la diferencia?
 
 `scipy.linalg` es un \"wrapper\" más completo de Fortran [LAPACK](https://www.netlib.org/lapack/) usando [f2py](https://www.f2py.com).
 
-Uno de los objetivos de diseño de NumPy era hacerlo construible sin usar un compilador Fortran, y si usted no tiene LAPACK disponible, NumPy utilizará su propia implementación. SciPy requiere de un compilador Fortran para ser construido, y depende en gran medida de código Fortran envuelto.
+Uno de los objetivos de diseño de NumPy era hacerlo construible sin usar un compilador Fortran, así que si no tienes LAPACK disponible, NumPy utilizará su propia implementación. SciPy requiere de un compilador Fortran para ser construido y depende en gran medida de código Fortran \"envuelto\".
 
-Los módulos `linalg` en NumPy y SciPy tienen algunas funciones comunes pero con diferente documentación, y `scipy.linalg` contiene funciones no encontradas en `numpy.linalg`, tales como funciones relacionadas con la [descomposición LU](https://en.wikipedia.org/wiki/LU_decomposition) y la [descomposición de Schur](https://en.wikipedia.org/wiki/Schur_decomposition), múltiples maneras de calcular la pseudoinversa y matrices transcendentes, como el [logaritmo de una matriz](https://en.wikipedia.org/wiki/Logarithm_of_a_matrix). Algunas funciones que existen en ambos han aumentado su funcionalidad en
-`scipy.linalg`; por ejemplo, `scipy.linalg.eig` puede tomar una segunda matriz como argumento para resolver [problemas de eigenvalor generalizado](https://en.wikipedia.org/wiki/Generalized_eigenvalue_problem).
+Los módulos `linalg` en NumPy y SciPy tienen algunas funciones comunes pero con diferente documentación, y `scipy.linalg` contiene funciones que no se encuentran en `numpy.linalg`, tales como funciones relacionadas con la [descomposición LU](https://es.wikipedia.org/wiki/Factorizaci%C3%B3n_LU) y la [descomposición de Schur](https://es.wikipedia.org/wiki/Factorizaci%C3%B3n_de_Schur), múltiples maneras de calcular la pseudoinversa y matrices transcendentes, como el [logaritmo de una matriz](https://es.wikipedia.org/wiki/Logaritmo_de_una_matriz). Algunas funciones que existen en ambos tienen una funcionalidad aumentada `scipy.linalg`; por ejemplo, `scipy.linalg.eig` puede tomar una segunda matriz como argumento para resolver [problemas de eigenvalor generalizado](https://en.wikipedia.org/wiki/Generalized_eigenvalue_problem).
 
 # Soporte de versiones de Python
 
