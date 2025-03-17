@@ -38,7 +38,7 @@ Necesitamos nuevos tutoriales, instructivos y explicaciones detalladas, y la pá
 El [issue tracker de SciPy](https://github.com/scipy/scipy/issues) tiene un _montón_
 de issues abiertos. Algunos ya no son válidos, otros deberían priorizarse y otros serían buenos issues para nuevos colaboradores. Puedes:
 
-- revisar si errores antiguos siguen presentes
+- revisa si errores antiguos siguen presentes
 - encuentrar issues duplicados y enlazar los que estén relacionados
 - añadir buenos ejemplos reproducibles a los issues
 - etiquetar issues correctamente (para ello, es necesario tener derechos de _triage_ en el repositorio; solo solicítalo)
@@ -58,5 +58,5 @@ Nuestra documentación reclama ilustraciones; nuestro sitio web, en pleno crecim
 
 ### Recaudación de fondos
 
-SciPy fue durante muchos años un proyecto voluntario, pero a medida que creció su importancia se hizo evidente que necesitaríamos apoyo financiero para garantizar su estabilidad y crecimiento. [Esta charla en SciPy'19](https://www.youtube.com/watch?v=dBTJD_FDVjU) explica cuánta diferencia ha supuesto este apoyo. Al igual que todo el mundo en el ámbito de los proyectos sin fines de lucro, estamos en
+SciPy fue durante muchos años un proyecto voluntario, pero a medida que creció su importancia se hizo evidente que necesitaríamos apoyo financiero para garantizar su estabilidad y crecimiento. [Esta charla en SciPy'19](https://www.youtube.com/watch?v=dBTJD_FDVjU) explica cuánta diferencia ha supuesto este apoyo. Al igual que todo el mundo en el ámbito de los proyectos sin fines de lucro, estamos
 buscando constantemente subvenciones, patrocinios y otros tipos de apoyo. Tenemos varias ideas y, por supuesto, aceptamos más. La recaudación de fondos es una habilidad escasa aquí -- apreciaríamos tu ayuda.
