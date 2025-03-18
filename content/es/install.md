@@ -137,19 +137,19 @@ En los flujos de trabajo basados ​​en proyectos, un proyecto es un directori
 Por el contrario, en los flujos de trabajo basados ​​en entornos, instalas paquetes en un entorno, que puedes activar y desactivar desde cualquier directorio.
 Estos flujos de trabajo están bien establecidos, pero carecen de algunos beneficios de reproducibilidad de los flujos de trabajo basados ​​en proyectos.
 
-### Instalando con `pip`
+### Instalación con `pip`
 
 <!-- prettier-ignore-start -->
 
-1. [Instale Python](https://www.python.org/downloads/).
+1. [Instala Python](https://www.python.org/downloads/).
 
 2. Crea y activa un entorno virtual con `venv`.
 
 {{< admonition hint >}}
-Consulte [el tutorial en la Guía del usuario de empaquetado de Python](https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments).
+Consulta [el tutorial en la Guía de usuario de empaquetado de Python](https://packaging.python.org/en/latest/tutorials/installing-packages/#creating-virtual-environments).
 {{< /admonition >}}
 
-3. Instala SciPy, utilizando [`pip`]:
+3. Instala SciPy utilizando [`pip`]:
 
 ```bash
 python -m pip install scipy
@@ -159,10 +159,10 @@ python -m pip install scipy
 
 [`pip`]: https://pip.pypa.io/es/stable/getting-started/
 
-### Instalando con `conda`
+### Instalación con `conda`
 
 [Miniforge] es la forma recomendada de instalar `conda` y [`mamba`], dos administradores de entorno basados ​​en Conda.
-Después de crear un entorno, puede instalar SciPy desde conda-forge de la siguiente manera:
+Después de crear un entorno, puedes instalar SciPy desde conda-forge de la siguiente manera:
 
 ```bash
 conda install scipy # or
@@ -178,9 +178,9 @@ mamba install scipy
 name = 'Administrador de paquetes'
 content = ''' <a name="system-package-managers"></a>
 
-## Instalación con archivos de tipado
+## Instalación mediante un gestor de paquetes
 
-Los administradores de paquetes del sistema pueden instalar los paquetes de Python más comunes.
+Los gestores de paquetes del sistema pueden instalar los paquetes de Python más comunes.
 Instalan paquetes para toda la computadora, a menudo usan versiones anteriores y no tienen tantas versiones disponibles. No son el método de instalación recomendado.
 
 ### Ubuntu y Debian
@@ -213,8 +213,8 @@ brew install scipy
 name = 'Construir desde el código fuente'
 content = ''' <a name="building-from-source"></a>
 
-Una advertencia: compilar SciPy desde el código fuente puede ser un ejercicio no trivial. Recomendamos utilizar binarios para su plataforma si están disponibles a través de uno de los métodos anteriores.
-Para obtener detalles sobre cómo compilar desde el código fuente, consulte [la guía de compilación desde el código fuente en los documentos de SciPy][building-docs].
+Una advertencia: compilar SciPy desde el código fuente puede ser un ejercicio no trivial. Recomendamos utilizar binarios si es que están disponibles para tu plataforma, a través de uno de los métodos anteriores.
+Para obtener detalles sobre cómo compilar desde el código fuente, consulta [la guía de compilación desde el código fuente en la documentación de SciPy][building-docs].
 
 [building-docs]: https://scipy.github.io/devdocs/building/index.html
 
@@ -229,7 +229,7 @@ Revisa los siguientes pasos en la [Guía de usuario de SciPy](https://docs.scipy
 ## Instalación con archivos de tipado
 
 Los archivos de tipado están disponibles a través de un paquete separado, "scipy-stubs", en PyPI y conda-forge.
-También puede instalar SciPy y `scipy-stubs` como un solo paquete, a través del paquete adicional `scipy-stubs[scipy]` en PyPI, o el paquete `scipy-typed` en conda-forge.
+También puedes instalar SciPy y `scipy-stubs` como un solo paquete, a través del paquete adicional `scipy-stubs[scipy]` en PyPI, o el paquete `scipy-typed` en conda-forge.
 Para obtener una versión específica `x.y.z` de SciPy (como `1.14.1`), debes instalar la versión `x.y.z.*`, por ejemplo:
 
 ```bash
@@ -239,4 +239,4 @@ python -m pip install "scipy-stubs[scipy]" # or
 conda install "scipy-typed>=1.14"
 ```
 
-Dirija sus preguntas sobre la compatibilidad y soporte de tipado al [repositorio GitHub `scipy-stubs`] (https://github.com/jorenham/scipy-stubs).
+Dirige tus preguntas sobre la compatibilidad y soporte de tipado al [repositorio GitHub `scipy-stubs`] (https://github.com/jorenham/scipy-stubs).
