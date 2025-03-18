@@ -6,18 +6,18 @@ sidebar: false
 {{< admonition tip >}}
 Esta página asume que te acomoda usar una terminal y quieres de aprender
 cómo usar un gestor de paquetes. Si eres principiante y solo quieres empezar
-con SciPy tan pronto como sea posible, dale un vistazo a [la guía de instalación para principiantes](./beginner-install.md).
+con SciPy tan pronto como sea posible, revisa [la guía de instalación para principiantes](./beginner-install.md).
 {{< /admonition >}}
 
 El método recomendado para instalar SciPy depende de tu flujo de trabajo preferido.
 Los flujos de trabajo más comunes se pueden dividir aproximadamente en las siguientes categorías:
 
-- [Basado en proyectos (por ejemplo, `uv`, `pixi`)](#project-based) (recomendado para nuevos usuarios)
-- [Basado en entornos (por ejemplo, `pip`, `conda`)](##environment-based) (el flujo de trabajo tradicional)
-- [Administradores de paquetes del sistema](#system-package-managers) (no recomendado)
-- [Compilación desde el código fuente](#building-from-source) (para depuración y desarrollo)
+- **Basado en proyectos** (por ejemplo, `uv`, `pixi`) _(recomendado para nuevos usuarios)_
+- **Basado en entornos** (por ejemplo, `pip`, `conda`) _(el flujo de trabajo tradicional)_
+- **Gestores de paquetes del sistema** _(no recomendado)_
+- **Compilación desde el código fuente** _(para depuración y desarrollo)_
 
-Para instalar SciPy con \[archivos de tipado], consulte [Instalación con archivos de tipado](#type-stubs).
+Para instalar SciPy con \[archivos de tipado estáticos], revisa [Instalación con archivos de tipado](#type-stubs).
 
 [static type stubs]: https://typing.readthedocs.io/en/latest/guides/libraries.html
 
@@ -32,11 +32,11 @@ content = ''' <a name="project-based"></a>
 
 ### Instalación con uv
 
-Aquí hay una guía paso a paso para configurar un proyecto para usar SciPy, con [`uv`], un administrador de paquetes de Python.
+Aquí hay una guía paso a paso para configurar un proyecto para usar SciPy con [`uv`], un administrador de paquetes de Python.
 
-1. Instala `uv` siguiendo, [las instrucciones en la documentación de uv](https://docs.astral.sh/uv/getting-started/installation/).
+1. Instala `uv` siguiendo [las instrucciones en la documentación de uv](https://docs.astral.sh/uv/getting-started/installation/).
 
-2. Cree un nuevo proyecto en un nuevo subdirectorio, ejecutando el siguiente comando en una terminal:
+2. Crea un nuevo proyecto en un nuevo subdirectorio, ejecutando el siguiente comando en una terminal:
 
 ```bash
 uv init try-scipy
@@ -44,21 +44,21 @@ cd try-scipy
 ```
 
 {{< admonition hint >}}
-El segundo comando cambia el directorio al directorio de su proyecto.
+El segundo comando cambia el directorio al directorio de tu proyecto.
 {{< /admonition >}}
 
-3. Cree un nuevo proyecto en un nuevo subdirectorio, ejecutando el siguiente comando en una terminal:
+3. Añade SciPy a tu proyecto:
 
 ```bash
 uv add scipy
 ```
 
 {{< admonition note >}}
-¡Esto instalará Python automáticamente si aún no lo tiene instalado!
+¡Esto instalará Python automáticamente si aún no lo tienes instalado!
 {{< /admonition >}}
 
 {{< admonition tip >}}
-Puede instalar otras librerías de Python de la misma manera, por ejemplo
+Puedes instalar otras librerías de Python de la misma manera, por ejemplo
 
 ```bash
 uv add matplotlib
@@ -66,7 +66,7 @@ uv add matplotlib
 
 {{< /admonition >}}
 
-4. ¡Pruebe SciPy!
+4. ¡Prueba SciPy!
 
 ```bash
 uv run python
@@ -76,51 +76,51 @@ Esto iniciará una sesión del intérprete de Python, desde la cual podrás ejec
 
 <!-- prettier-ignore-end -->
 
-Consulte los siguientes pasos en [la guía del usuario de SciPy][scipy-user-guide].
+Consulta los siguientes pasos en [la guía de usuario de SciPy][scipy-user-guide].
 
 [scipy-user-guide]: https://docs.conda.io/projects/conda/en/latest/index.html
 
-Los pasos para instalar SciPy desde [conda-forge] usando la herramienta de administración de paquetes [`pixi`] son ​​muy similares a los pasos para `uv`:
+{{< admonition note >}}
 
-Después de reiniciar su computadora, querrá navegar al directorio de su proyecto `try-scipy` y ejecutar `uv run python` para volver a un intérprete de Python con SciPy disponible para su uso.
-Para ejecutar un script de Python, puede usar `uv run myscript.py`.
+Después de reiniciar tu computadora, vas a querer navegar al directorio de tu proyecto `try-scipy` y ejecutar `uv run python` para volver a un intérprete de Python con SciPy disponible para su uso.
+Para ejecutar un script de Python, puedes usar `uv run myscript.py`.
 
-Lea más en \[la guía de `uv` para trabajar en proyectos]\[uv-proyects].
+Lee más en \[la guía de `uv` para trabajar en proyectos]\[uv-proyects].
 
 [uv-projects]: https://docs.astral.sh/uv/guides/projects/
 
 {{< /admonition >}}
 
-### Instalando con `pixi`
+### Instalación con `pixi`
 
-Si trabaja con paquetes que no son de Python, es posible que prefiera instalar SciPy como un paquete de [Conda], de modo que pueda usar el mismo flujo de trabajo para paquetes que no están disponibles en [PyPI](https://pypi.org/), el índice de paquetes de Python.
-Conda puede administrar paquetes en cualquier lenguaje, por lo que puede usarlo para instalar Python, compiladores y otros lenguajes.
+Si trabajas con paquetes que no son de Python, es posible que prefieras instalar SciPy como un paquete de [Conda], de modo que puedas usar el mismo flujo de trabajo para paquetes que no están disponibles en [PyPI](https://pypi.org/), el índice de paquetes de Python.
+Conda puede administrar paquetes en cualquier lenguaje, por lo que puedes usarlo para instalar Python, compiladores y otros lenguajes.
 
 [Conda]: https://docs.conda.io/projects/conda/en/latest/index.html
 
-Los pasos para instalar SciPy desde [conda-forge] usando la herramienta de administración de paquetes [`pixi`] son ​​muy similares a los pasos para `uv`:
+Los pasos para instalar SciPy desde [conda-forge] usando la herramienta de gestión de paquetes [`pixi`] son ​​muy similares a los pasos para `uv`:
 
 [conda-forge]: https://conda-forge.org/
 [`pixi`]: https://pixi.sh/latest/
 
-1. Instale `pixi`, siguiendo [las instrucciones en la documentación de `pixi`][install-pixi].
+1. Instala `pixi`, siguiendo [las instrucciones en la documentación de `pixi`][install-pixi].
 
 [install-pixi]: https://pixi.sh/latest/
 
-2. Cree un nuevo proyecto en un nuevo subdirectorio:
+2. Crea un nuevo proyecto en un nuevo subdirectorio:
 
 ```bash
 pixi init try-scipy
 cd try-scipy
 ```
 
-3. Cree un nuevo proyecto en un nuevo subdirectorio, ejecutando el siguiente comando en una terminal:
+3. Añade SciPy a tu proyecto:
 
 ```bash
 pixi add scipy
 ```
 
-4. ¡Pruebe SciPy!
+4. ¡Prueba SciPy!
 
 ```bash
 pixi run python
@@ -132,9 +132,9 @@ pixi run python
 name = 'Basado en entornos'
 content = ''' <a name="environment-based"></a>
 
-En los flujos de trabajo basados ​​en proyectos, un proyecto es un directorio que contiene un archivo que describe el proyecto, un archivo que describe las dependencias exactas del proyecto y los entornos (potencialmente múltiples) del proyecto.
+En los flujos de trabajo basados ​​en proyectos, un proyecto es un directorio que contiene un archivo que describe el proyecto, un archivo que describe las dependencias exactas del proyecto y los entornos (potencialmente múltiples) del mismo.
 
-Por el contrario, en los flujos de trabajo basados ​​en entornos, usted instala paquetes en un entorno, que puede activar y desactivar desde cualquier directorio.
+Por el contrario, en los flujos de trabajo basados ​​en entornos, instalas paquetes en un entorno, que puedes activar y desactivar desde cualquier directorio.
 Estos flujos de trabajo están bien establecidos, pero carecen de algunos beneficios de reproducibilidad de los flujos de trabajo basados ​​en proyectos.
 
 ### Instalando con `pip`
