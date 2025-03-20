@@ -12,7 +12,7 @@ jobs:
       - name: Sync Pandas Content
         uses: Scientific-Python-Translations/content-sync@main
         with:
-          source-repo: "scipy/scipy.org/content/en/"
+          source-repo: "scipy/scipy.org/"
           source-folder: "scipy.org/content/en/"
           source-ref: "main"
           translations-repo: "Scientific-Python-Translations/scipy.org-translations"
