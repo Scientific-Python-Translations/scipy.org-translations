@@ -16,7 +16,7 @@ jobs:
           source-folder: "scipy.org/content/en/"
           source-ref: "main"
           translations-repo: "Scientific-Python-Translations/scipy.org-translations"
-          translations-folder: "scipy.org-translations/content/en/"
+          translations-folder: "scipy.org-translations/content/"
           translations-ref: "main"
           # These are provided by the Scientific Python Project and allow
           # automation with bots
