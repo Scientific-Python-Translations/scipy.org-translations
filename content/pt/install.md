@@ -17,7 +17,7 @@ Os fluxos de trabalho comuns podem ser divididos nas seguintes categorias:
 - [Gerenciador de pacotes do sistema](#system-package-managers) (não recomendado)
 - [Compilando a partir do código-fonte](#building-from-source) (para depuração e desenvolvimento)
 
-Para instalar a SciPy com \[stubs para tipagem estática],
+Para instalar a SciPy com \\[stubs para tipagem estática],
 veja [Instalando com stubs para tipagem](#type-stubs).
 
 [static type stubs]: https://typing.readthedocs.io/en/latest/guides/libraries.html
@@ -29,7 +29,7 @@ Ambientes de Desenvolvimento Interativo (IDEs) para fornecer dicas de tipo preci
 
 {{< tabs >}}
 
-
+Criar um novo projeto em um novo subdiretório, executando o seguinte em um terminal:
 
 ### Instalando com uv
 
@@ -225,7 +225,7 @@ content = ''' <a name="building-from-source"></a>
 
 Cuidado: compilar a SciPy a partir do código fonte pode ser um exercício não trivial. Recomendamos o uso de binários, em vez disso, se eles estiverem disponíveis para a sua plataforma em um dos métodos acima.
 Para mais detalhes sobre como compilar a partir do código fonte, consulte
-\[o guia de compilação a partir do código fonte na documentação da SciPy[building-docs].
+\\[o guia de compilação a partir do código fonte na documentação da SciPy[building-docs].
 
 [building-docs]: https://scipy.github.io/devdocs/building/index.html
 
