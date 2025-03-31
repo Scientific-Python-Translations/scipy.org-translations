@@ -21,6 +21,7 @@ jobs:
           translation-percentage: "90"
           approval-percentage: "0"
           use-precommit: "true"
+          create-toml-file: "true"
           # Provided by organization secrets
           gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
           passphrase: ${{ secrets.PASSPHRASE }}
