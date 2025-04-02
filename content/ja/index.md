@@ -1,20 +1,20 @@
 ---
-title: Equipes
+title: チーム
 sidebar: false
 ---
 
-### Mantenedores
+### メンテナー
 
 {{< grid file="maintainers.toml" columns="2 3 4 5" >}}
 
-### Equipe de Triagem
+### トリアージチーム
 
 {{< grid file="triage-team.toml" columns="2 3 4 5" >}}
 
-### Equipe Web
+### ウェブチーム
 
 {{< grid file="web-team.toml" columns="2 3 4 5" >}}
 
-### Mantenedores Eméritos
+### 名誉メンテナー
 
 {{< grid file="emeritus-maintainers.toml" columns="2 3 4 5" >}}

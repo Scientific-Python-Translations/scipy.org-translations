@@ -1,17 +1,17 @@
 ---
-title: Equipes
+title: Equipos
 sidebar: false
 ---
 
-### Mantenedores
+### Responsables de mantenimiento
 
 {{< grid file="maintainers.toml" columns="2 3 4 5" >}}
 
-### Equipe de Triagem
+### Equipo de Triaje
 
 {{< grid file="triage-team.toml" columns="2 3 4 5" >}}
 
-### Equipe Web
+### Equipo del sitio web
 
 {{< grid file="web-team.toml" columns="2 3 4 5" >}}
 

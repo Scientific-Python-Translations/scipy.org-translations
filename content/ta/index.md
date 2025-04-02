@@ -1,20 +1,20 @@
 ---
-title: Equipes
+title: Teams
 sidebar: false
 ---
 
-### Mantenedores
+### பராமரிப்பாளர்கள்
 
 {{< grid file="maintainers.toml" columns="2 3 4 5" >}}
 
-### Equipe de Triagem
+### வரிசைப்படுத்தல் குழு
 
 {{< grid file="triage-team.toml" columns="2 3 4 5" >}}
 
-### Equipe Web
+### வலை குழு
 
 {{< grid file="web-team.toml" columns="2 3 4 5" >}}
 
-### Mantenedores Eméritos
+### ஓய்வு பெற்ற பராமரிப்பாளர்கள்
 
 {{< grid file="emeritus-maintainers.toml" columns="2 3 4 5" >}}
