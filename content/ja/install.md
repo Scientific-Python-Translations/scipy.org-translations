@@ -11,11 +11,11 @@ SciPyのインストール方法は、実施したいワークフローによっ
 一般的なワークフローは大まかに下記のカテゴリに分類できます。
 
 - [プロジェクトベースのワークフロー (例: `uv`, `pixi`を利用)](#project-based) (こちらは新規ユーザ向けに推奨)
-- [環境ベースのワークフロー(例: `pip`, `conda`を利用)](#environment-based) (従来のワークフロー)
-- [システムパッケージマネージャーを利用](#system-package-managers) (非推奨)
-- [ソースコードのビルド](#building-from-source) (デバッグと開発用)
+- **環境ベース**（例: `pip`, `conda`）※従来のワークフロー
+- **システムパッケージマネージャー**（非推奨）
+- **ソースからビルド**（デバッグ・開発向け）
 
-\[静的型スタブ]を使用してSciPyをインストールしたい場合は、こちらの[静的方スタブを利用したインストール方法](#type-stubs)を参照してください。
+\[静的型スタブ]を含めて SciPy をインストールする方法は、[型スタブを使ったインストール](#type-stubs)を参照してください。
 
 [static type stubs]: https://typing.readthedocs.io/en/latest/guides/libraries.html
 
@@ -230,23 +230,26 @@ content = ''' <a name="building-from-source"></a>
 
 [SciPyユーザーガイド](https://docs.scipy.org/doc/scipy/tutorial/)の次のステップを確認下さい。
 
-<a name="type-stubs"></a>
+{{< admonition tip >}}
+IDE（統合開発環境）で正確な型ヒントを提供するために、型スタブのインストールが必要になる場合があります。
+{{< /admonition >}}
 
-## 型スタブのインストール
+## 型スタブを使ったインストール <a name="type-stubs"></a>
 
-SciPyの静的型スタブに関しては、PyPI と conda-forge 上で配布されている、別のパッケージである `scipy-stubs`から利用できます。
+型スタブは `scipy-stubs` パッケージとして PyPI および conda-forge で提供されています。
 SciPy と `scipy-stubs` を単一のパッケージとしてインストールすることも可能です。
 PyPI の場合は、追加の `scipy-stubs[scipy]` 経由でインストールする方法や、conda-forge の `scipy-typed`
 パッケージ経由でインストールする方法があります。
-SciPy の特定のバージョン `x.y.z` (`1.14.1`など) をインストールするには、
-`x.y.*` をインストールする必要があります。例:
+特定バージョンの SciPy（例: 1.14.1）を取得するには、以下のようにインストールします：
 
 ```bash
-uv add "scipy-stubs[scipy]==1.14.1.*" # or
-pixi add "scipy-typed=1.15.0.*" # or
-python -m pip install "scipy-stubs[scipy]" # or
+uv add "scipy-stubs[scipy]==1.14.1.*"
+# または
+pixi add "scipy-typed=1.15.0.*"
+# または
+python -m pip install "scipy-stubs[scipy]"
+# または
 conda install "scipy-typed>=1.14"
 ```
 
-静的型サポートについての質問は、
-[`scipy-stubs` のGitHub リポジトリ](https://github.com/jorenham/scipy-stubs)で直接問い合わせてください。
+型サポートに関する質問は [`scipy-stubs` の GitHub リポジトリ](https://github.com/jorenham/scipy-stubs)へどうぞ。
