@@ -1,5 +1,5 @@
 ---
-title: プレス用資料
+title: プレスキット
 sidebar: false
 ---
 
