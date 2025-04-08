@@ -227,7 +227,7 @@ Here is a list of SciPy releases, with links to release notes. Bugfix
 releases (only the `z` changes in the `x.y.z` version number) have no new
 features; minor releases (the `y` increases) do.
 
-- SciPy 1.15.2 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.15.2)) -- _2025-02-16_.
+- .
 - SciPy 1.15.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.15.1)) -- _2025-01-10_.
 - SciPy 1.15.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.15.0)) -- _2025-01-03_.
 - SciPy 1.14.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.14.1)) -- _2024-08-20_.
