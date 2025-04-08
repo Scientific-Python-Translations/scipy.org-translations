@@ -15,6 +15,6 @@ sidebar: false
 
 {{< grid file="web-team.toml" columns="2 3 4 5" >}}
 
-### Emeritus maintainers
+### 명예 메인테이너
 
 {{< grid file="emeritus-maintainers.toml" columns="2 3 4 5" >}}
