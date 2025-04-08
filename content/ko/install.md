@@ -230,7 +230,7 @@ brew install scipy
 '''
 
 [[tab]]
-name = 'Building from Source'
+name='Building from Source'
 content = ''' <a name="building-from-source"></a>
 
 A word of warning: building SciPy from source can be a nontrivial exercise. We
