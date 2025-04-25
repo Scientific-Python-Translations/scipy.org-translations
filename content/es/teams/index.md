@@ -11,7 +11,7 @@ Colaboradores con derechos de commit en GitHub.
 
 ### Equipo de Clasificación
 
-Colaboradores con derechos de commit en GitHub.
+Colaboradores con derechos de clasificación en GitHub.
 
 {{< grid file="triage-team.toml" columns="2 3 4 5" />}}
 
