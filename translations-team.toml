@@ -1,0 +1,119 @@
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://production-enterprise-static.cf-downloads.crowdin.com/avatar/131/large/d69601adfc914c8f475e3c5f8b3733fc.png'
+alt = 'Avatar of Oriol Abril-Pla'
+{{< /image >}}
+Oriol Abril-Pla'''
+link = 'https://scientific-python-translations.github.io/contributors/'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://production-enterprise-static.cf-downloads.crowdin.com/avatar/159/large/08ba42ad7a86bb65dfb892a21b52dc0c.png'
+alt = 'Avatar of Gonzalo Peña-Castellanos'
+{{< /image >}}
+Gonzalo Peña-Castellanos'''
+link = 'https://scientific-python-translations.github.io/contributors/'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://production-enterprise-static.cf-downloads.crowdin.com/avatar/173/large/4a21daa58a4f86783101730947601d2b.png'
+alt = 'Avatar of Linderman Dominguez'
+{{< /image >}}
+Linderman Dominguez'''
+link = 'https://scientific-python-translations.github.io/contributors/'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://production-enterprise-static.cf-downloads.crowdin.com/avatar/143/large/d84181fc314a335096fef91bac4192f9.png'
+alt = 'Avatar of Riva Quiroga'
+{{< /image >}}
+Riva Quiroga'''
+link = 'https://scientific-python-translations.github.io/contributors/'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://production-enterprise-static.cf-downloads.crowdin.com/avatar/2/large/ff1cb97cef3163bc6f0f6c5d17bcf37b.jpg'
+alt = 'Avatar of scientific-python'
+{{< /image >}}
+scientific-python'''
+link = 'https://scientific-python-translations.github.io/contributors/'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://production-enterprise-static.cf-downloads.crowdin.com/avatar/200/large/3b29b2b0df3a073270ecc5d63e211279.png'
+alt = 'Avatar of Scientific Python Translations'
+{{< /image >}}
+Scientific Python Translations'''
+link = 'https://scientific-python-translations.github.io/contributors/'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://production-enterprise-static.cf-downloads.crowdin.com/avatar/44/large/3bb9c6b3fe518ea5932fae2418c55d17.JPG'
+alt = 'Avatar of Atsushi Sakai'
+{{< /image >}}
+Atsushi Sakai'''
+link = 'https://scientific-python-translations.github.io/contributors/'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://production-enterprise-static.cf-downloads.crowdin.com/avatar/127/large/ed14b4e68675fcb1d46d28512da0d894.jpeg'
+alt = 'Avatar of Kozo Nishida'
+{{< /image >}}
+Kozo Nishida'''
+link = 'https://scientific-python-translations.github.io/contributors/'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://production-enterprise-static.cf-downloads.crowdin.com/avatar/187/large/156cbfa6517976663ca7a221c1d0a6e6.jpeg'
+alt = 'Avatar of Kangwon Lee'
+{{< /image >}}
+Kangwon Lee'''
+link = 'https://scientific-python-translations.github.io/contributors/'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://production-enterprise-static.cf-downloads.crowdin.com/avatar/24/large/86c090db47578559b8a4e26bd0b1a82d.jpeg'
+alt = 'Avatar of Melissa Weber Mendonça'
+{{< /image >}}
+Melissa Weber Mendonça'''
+link = 'https://scientific-python-translations.github.io/contributors/'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://production-enterprise-static.cf-downloads.crowdin.com/avatar/179/large/a33d23a08e29e6a788c73598315b6b5f_default.png'
+alt = 'Avatar of Rafael Fontenelle'
+{{< /image >}}
+Rafael Fontenelle'''
+link = 'https://scientific-python-translations.github.io/contributors/'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://production-enterprise-static.cf-downloads.crowdin.com/avatar/195/large/cc684c260872db23b8984dfd17b66012.jpeg'
+alt = 'Avatar of Melissa FF'
+{{< /image >}}
+Melissa FF'''
+link = 'https://scientific-python-translations.github.io/contributors/'
