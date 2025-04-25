@@ -29,7 +29,9 @@ Ambientes de Desenvolvimento Interativo (IDEs) para fornecer dicas de tipo preci
 
 {{< tabs >}}
 
-Criar um novo projeto em um novo subdiretório, executando o seguinte em um terminal:
+[[tab]]
+name = 'Baseado em Projetos'
+content = ''' <a name="project-based"></a>
 
 ### Instalando com uv
 
@@ -82,8 +84,7 @@ Para as próximas etapas, consulte [o guia do usuário SciPy][scipy-user-guide].
 
 [scipy-user-guide]: https://docs.conda.io/projects/conda/en/latest/index.html
 
-Os passos para instalar SciPy a partir do [conda-forge] usando a ferramenta
-de gerenciamento de pacotes [`pixi`] são muito semelhantes aos passos para o `uv`:
+{{< admonition note >}}
 
 Depois de reiniciar o computador, você deve navegar até o diretório do seu projeto `try-scipy`
 e executar `uv run python` para entrar novamente em uma sessão do interpretador Python
@@ -137,7 +138,7 @@ pixi run python
 
 [[tab]]
 name = 'Environment Based'
-content = ''' <a name="environment-based"></a>
+content = '''<a name="environment-based"></a>
 
 Em fluxos de trabalho baseados em projetos, um projeto é um diretório que contém um arquivo manifesto descrevendo o projeto, um arquivo <i>lock-file</i> descrevendo as dependências exatas do projeto, e os (potencialmente vários) ambientes do projeto.
 
