@@ -17,8 +17,7 @@ Os fluxos de trabalho comuns podem ser divididos nas seguintes categorias:
 - [Gerenciador de pacotes do sistema](#system-package-managers) (não recomendado)
 - [Compilando a partir do código-fonte](#building-from-source) (para depuração e desenvolvimento)
 
-Para instalar a SciPy com \\[stubs para tipagem estática],
-veja [Instalando com stubs para tipagem](#type-stubs).
+Para instalar a SciPy com [stubs para tipagem estática][static type stubs], veja [Instalando com stubs para tipagem](#type-stubs).
 
 [static type stubs]: https://typing.readthedocs.io/en/latest/guides/libraries.html
 
@@ -237,7 +236,7 @@ Veja os próximos passos no [guia do usuário SciPy](https://docs.scipy.org/doc/
 
 <a name="type-stubs"></a>
 
-## Installing with Type Stubs
+## Instalando com os stubs de tipagem
 
 Os stubs de tipagem estática estão disponíveis através de um pacote separado, `scipy-stubs`, no PyPI e conda-forge.
 Você também pode instalar a SciPy e `scipy-stubs` como um único pacote,
