@@ -33,5 +33,5 @@ jobs:
         # https://stackoverflow.com/a/71510189/992102
         if: contains(github.event.pull_request.labels.*.name, 'do-not-merge')
         run: |
-          echo "Failed to retrieve PR labels."
+          echo "This PR cannot be merged"
           exit 1
