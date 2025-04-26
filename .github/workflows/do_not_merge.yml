@@ -27,7 +27,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh pr edit --add-label do-not-merge
+          gh pr ${{ github.event.pull_request.number }} edit --add-label do-not-merge
       - name: Check for "do-not-merge" Label
         id: check_label
         # https://stackoverflow.com/a/71510189/992102
