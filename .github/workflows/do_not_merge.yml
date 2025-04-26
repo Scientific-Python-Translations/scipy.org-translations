@@ -11,20 +11,20 @@ jobs:
     steps:
       - name: Create "do-not-merge" Label
         id: create_label
-        if: contains(github.event.pull_request.labels.*.name, 'New Crowdin updates')
+        if: contains(github.event.pull_request.title, 'New Crowdin updates')
         continue-on-error: true
         run: |
           gh label create do-not-merge --description "A PR with this label should not be merged" --color CC0202  --force
       - name: Add "do-not-merge" Label to Crowdin update PR
         id: add_label
-        if: contains(github.event.pull_request.labels.*.name, 'New Crowdin updates')
+        if: contains(github.event.pull_request.title, 'New Crowdin updates')
         continue-on-error: true
         run: |
           gh pr edit --add-label do-not-merge
       - name: Check for "do-not-merge" Label
         id: check_label
         # https://stackoverflow.com/a/71510189/992102
-        if: contains(github.event.pull_request.title, 'do-not-merge')
+        if: contains(github.event.pull_request.labels.*.name, 'do-not-merge')
         run: |
           echo "Failed to retrieve PR labels."
           exit 1
