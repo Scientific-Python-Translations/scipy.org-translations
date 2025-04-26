@@ -9,9 +9,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
       - name: Create "do-not-merge" Label
         id: create_label
         if: contains(github.event.pull_request.title, 'New Crowdin updates')
@@ -28,6 +25,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh pr edit ${{ github.event.pull_request.number }} --add-label do-not-merge
+          sleep 10
       - name: Check for "do-not-merge" Label
         id: check_label
         # https://stackoverflow.com/a/71510189/992102
