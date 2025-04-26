@@ -13,12 +13,16 @@ jobs:
         id: create_label
         if: contains(github.event.pull_request.title, 'New Crowdin updates')
         continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           gh label create do-not-merge --description "A PR with this label should not be merged" --color CC0202  --force
       - name: Add "do-not-merge" Label to Crowdin update PR
         id: add_label
         if: contains(github.event.pull_request.title, 'New Crowdin updates')
         continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           gh pr edit --add-label do-not-merge
       - name: Check for "do-not-merge" Label
