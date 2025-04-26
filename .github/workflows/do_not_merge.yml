@@ -9,6 +9,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Create "do-not-merge" Label
         id: create_label
         if: contains(github.event.pull_request.title, 'New Crowdin updates')
