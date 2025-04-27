@@ -5,24 +5,24 @@ sidebar: false
 
 ### メンテナー
 
-Contributors with merge rights on GitHub.
+GitHubでマージ権をもつ開発者
 
 {{< grid file="maintainers.toml" columns="2 3 4 5" />}}
 
 ### トリアージチーム
 
-Contributors with triage rights on GitHub.
+GitHubでトリアージ権をもつ開発者
 
 {{< grid file="triage-team.toml" columns="2 3 4 5" />}}
 
 ### ウェブチーム
 
-People who have contributed to the development of the SciPy.org website.
+SciPy.orgウェブサイトの開発に貢献した開発者
 
 {{< grid file="web-team.toml" columns="2 3 4 5" />}}
 
 ### 名誉メンテナー
 
-Maintainers who have contributed to SciPy in the past.
+過去にSciPyに貢献したメンテナー
 
 {{< grid file="emeritus-maintainers.toml" columns="2 3 4 5" />}}
