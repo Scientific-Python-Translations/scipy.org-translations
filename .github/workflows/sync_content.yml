@@ -11,10 +11,10 @@ jobs:
         uses: Scientific-Python-Translations/content-sync@main
         with:
           source-repo: "scipy/scipy.org"
-          source-folder: "scipy.org/content/en/"
+          source-folder: "content/en/"
           source-ref: "main"
           translations-repo: "Scientific-Python-Translations/scipy.org-translations"
-          translations-folder: "scipy.org-translations/content/"
+          translations-folder: "content/"
           translations-ref: "main"
           # These are provided by the Scientific Python Project and allow
           # automation with bots
