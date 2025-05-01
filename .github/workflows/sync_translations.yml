@@ -13,15 +13,18 @@ jobs:
           # Provided by user
           crowdin-project: "scipy.org"
           source-repo: "scipy/scipy.org"
-          source-folder: "scipy.org/content/en/"
+          source-path: "content/en/"
           source-ref: "main"
           translations-repo: "Scientific-Python-Translations/scipy.org-translations"
-          translations-folder: "scipy.org-translations/content/en/"
+          translations-path: "content/"
+          translations-source-path: "content/en/"
           translations-ref: "main"
           translation-percentage: "90"
           approval-percentage: "0"
           use-precommit: "true"
           create-toml-file: "true"
+          create-upstream-pr: "true"
+          auto-merge: "false"
           # Provided by organization secrets
           gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
           passphrase: ${{ secrets.PASSPHRASE }}
