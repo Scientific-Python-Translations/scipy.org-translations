@@ -1,7 +1,7 @@
 name: Sync Content
 on:
-  schedule:
-    - cron: '0 5 * * *'
+  # schedule:
+  #   - cron: '0 5 * * *'
   workflow_dispatch:
 jobs:
   sync:
@@ -11,11 +11,13 @@ jobs:
         uses: Scientific-Python-Translations/content-sync@main
         with:
           source-repo: "scipy/scipy.org"
-          source-folder: "content/en/"
+          source-path: "content/en/"
           source-ref: "main"
           translations-repo: "Scientific-Python-Translations/scipy.org-translations"
-          translations-folder: "content/"
+          translations-path: "content/"
+          translations-source-path: "content/en/"
           translations-ref: "main"
+          auto-merge: "false"
           # These are provided by the Scientific Python Project and allow
           # automation with bots
           gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
