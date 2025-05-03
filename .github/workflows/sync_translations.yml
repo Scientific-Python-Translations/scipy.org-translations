@@ -10,7 +10,6 @@ jobs:
       - name: Sync Scipy translations
         uses: Scientific-Python-Translations/translations-sync@main
         with:
-          # Provided by user
           crowdin-project: "scipy.org"
           source-repo: "scipy/scipy.org"
           source-path: "content/en/"
@@ -25,7 +24,8 @@ jobs:
           create-toml-file: "true"
           create-upstream-pr: "true"
           auto-merge: "false"
-          # Provided by organization secrets
+          # These are provided by the Scientific Python Project and allow
+          # automation with bots
           gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
           passphrase: ${{ secrets.PASSPHRASE }}
           token: ${{ secrets.TOKEN }}
