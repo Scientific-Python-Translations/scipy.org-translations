@@ -1,7 +1,7 @@
 name: Sync Translations
 on:
-  # schedule:
-  #   - cron: '0 12 * * WED'  # Every Wednesday at midnight
+  schedule:
+    - cron: '0 0 * * WED'  # Every Wednesday at midnight
   workflow_dispatch:
 jobs:
   sync_translations:
@@ -23,7 +23,7 @@ jobs:
           use-precommit: "true"
           create-toml-file: "true"
           create-upstream-pr: "true"
-          auto-merge: "false"
+          auto-merge: "true"
           # These are provided by the Scientific Python Project and allow
           # automation with bots
           gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
