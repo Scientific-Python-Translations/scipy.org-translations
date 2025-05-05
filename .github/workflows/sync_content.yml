@@ -1,7 +1,7 @@
 name: Sync Content
 on:
-  # schedule:
-  #   - cron: '0 5 * * *'
+  schedule:
+    - cron: '0 5 * * *'  # Every day at 5 AM
   workflow_dispatch:
 jobs:
   sync_content:
