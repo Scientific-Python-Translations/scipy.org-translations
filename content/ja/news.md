@@ -5,6 +5,10 @@ newsHeader: SciPy 1.15.2 がリリースされました！
 date: 2025-02-16
 ---
 
+### SciPy 1.15.3 released
+
+_May 8, 2025_ -- SciPy 1.15.3 has been released!
+
 ### SciPy 1.15.2 がリリースされました
 
 _2025年2月16日_ -- SciPy 1.15.2 がリリースされました！
@@ -196,6 +200,7 @@ PyConはオープンソースのPythonプログラミング言語を開発して
 
 以下は、SciPyの各リリースのリリースノートのリンク一覧です。 バグ修正リリース（バージョン番号の x.y.z のうち z だけが変更されるもの）には新機能は追加されません。マイナーリリース（y が増加するもの）には新機能が含まれます。
 
+- SciPy 1.15.3 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.15.3)) -- _2025-05-08_.
 - SciPy 1.15.2 ([リリースノート](https://github.com/scipy/scipy/releases/tag/v1.15.2)) -- _2025-02-16_
 - SciPy 1.15.1 ([リリースノート](https://github.com/scipy/scipy/releases/tag/v1.15.1)) -- _2025-01-10_.
 - SciPy 1.15.0 ([リリースノート](https://github.com/scipy/scipy/releases/tag/v1.15.0)) -- _2025-01-03_.
