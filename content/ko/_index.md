@@ -34,9 +34,9 @@ SciPy wraps highly-optimized implementations written in low-level languages like
 
 [[item]]
 type = 'card'
-title = 'Easy to use'
+title = '사용상 용이성'
 body = '''
-SciPy's high level syntax makes it accessible and productive for programmers from any background or experience level.
+사이파이의 고수준 문법은 여러 분야의 다양한 역량의 프로그래머들도 효율적으로 사용할 수 있습니다.
 '''
 
 [[item]]
