@@ -5,9 +5,9 @@ newsHeader: SciPy 1.15.3 released!
 date: 2025-05-08
 ---
 
-### SciPy 1.15.3 released
+### SciPy 1.15.3 배포되었습니다
 
-_May 8, 2025_ -- SciPy 1.15.3 has been released!
+_2025-05-08_ -- SciPy 1.15.3 이 배포되었습니다!
 
 ### SciPy 1.15.2 released
 
