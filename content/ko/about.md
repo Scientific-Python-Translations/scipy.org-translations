@@ -10,9 +10,7 @@ approach, please see our
 
 ## Steering Council
 
-The role of the SciPy Steering Council is to ensure, through working with and
-serving the broader SciPy community, the long-term well-being of the project,
-both technically and as a community. The SciPy Steering Council currently
+사이파이 운영위원회의 역할은 너른 사이파이 공동체에 공동 작업을 통해 봉사하고 프로젝트의 장기적 안녕을 기술적으로 또한 공동체적으로 확보하는 것입니다. The SciPy Steering Council currently
 consists of the following members (in alphabetical order):
 
 - Andrew Nelson
