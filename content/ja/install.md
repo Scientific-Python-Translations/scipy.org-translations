@@ -57,12 +57,12 @@ uv add scipy
 ```
 
 {{< admonition note >}}
-Python がまだインストールされていない場合、自動的にインストールされます！
-{{< /admonition >}}
+これは、Pythonがまだインストールされていない場合に、自動的にPythonをインストールします！
 {{< /admonition >}}
 
 {{< admonition tip >}}
-他の Python ライブラリも同様の方法でインストールできます。例：
+他のPythonライブラリも同じようにインストールできます。
+例:
 
 ```bash
 uv add matplotlib
