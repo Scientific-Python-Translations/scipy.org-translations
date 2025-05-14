@@ -39,6 +39,9 @@ ja:
   name: scientific-python
   username: scientific-python
 ko:
+- img_link: https://production-enterprise-static.cf-downloads.crowdin.com/avatar/153/large/a6a758dee542f0037172806471eba2a8.jpeg
+  name: Kangwon Lee
+  username: kangwon
 - img_link: https://production-enterprise-static.cf-downloads.crowdin.com/avatar/187/large/156cbfa6517976663ca7a221c1d0a6e6.jpeg
   name: Kangwon Lee
   username: kangwonlee_ieee
