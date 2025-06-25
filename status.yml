@@ -23,7 +23,7 @@ hi:
   language_name: Hindi
   progress: 0
 ja:
-  approval: 19
+  approval: 7
   language_name: Japanese
   progress: 100
 ko:
@@ -37,7 +37,7 @@ pl:
 pt-BR:
   approval: 14
   language_name: Portuguese, Brazilian
-  progress: 99
+  progress: 98
 ru:
   approval: 0
   language_name: Russian
