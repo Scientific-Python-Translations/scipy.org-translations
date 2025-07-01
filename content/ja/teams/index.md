@@ -9,6 +9,12 @@ GitHubでマージ権をもつ開発者
 
 {{< grid file="maintainers.toml" columns="2 3 4 5" />}}
 
+### Typing team
+
+Contributors with merge rights on `scipy-stubs`.
+
+{{< grid file="typing-team.toml" columns="2 3 4 5" />}}
+
 ### トリアージチーム
 
 GitHubでトリアージ権をもつ開発者
