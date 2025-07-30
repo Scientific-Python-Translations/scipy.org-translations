@@ -7,9 +7,9 @@ ca:
   language_name: Catalan
   progress: 2
 es:
-  approval: 77
+  approval: 76
   language_name: Spanish
-  progress: 99
+  progress: 98
 fa:
   approval: 0
   language_name: Persian
@@ -25,7 +25,7 @@ hi:
 ja:
   approval: 7
   language_name: Japanese
-  progress: 100
+  progress: 99
 ko:
   approval: 0
   language_name: Korean
