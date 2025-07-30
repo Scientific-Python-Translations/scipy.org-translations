@@ -137,3 +137,13 @@ alt = 'Avatar of Helder Geovane Gomes de Lima'
 {{< /image >}}
 Helder Geovane Gomes de Lima'''
 link = 'https://scientific-python-translations.github.io/contributors/'
+
+[[item]]
+type = 'card'
+classcard = 'text-center'
+body = '''{{< image >}}
+src = 'https://production-enterprise-static.cf-downloads.crowdin.com/avatar/161/large/45e76aee57d7b3b6fc60d4c0551f411a.jpeg'
+alt = 'Avatar of Rajasekaran Karunanithi'
+{{< /image >}}
+Rajasekaran Karunanithi'''
+link = 'https://scientific-python-translations.github.io/contributors/'

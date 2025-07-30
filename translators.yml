@@ -76,4 +76,7 @@ ta:
 - img_link: https://production-enterprise-static.cf-downloads.crowdin.com/avatar/2/large/ff1cb97cef3163bc6f0f6c5d17bcf37b.jpg
   name: scientific-python
   username: scientific-python
+- img_link: https://production-enterprise-static.cf-downloads.crowdin.com/avatar/161/large/45e76aee57d7b3b6fc60d4c0551f411a.jpeg
+  name: Rajasekaran Karunanithi
+  username: rajasekaran86
 zh-CN: []
