@@ -5,10 +5,9 @@ newsHeader: SciPy 1.15.2 がリリースされました！
 date: 2025-02-16
 ---
 
-### SciPy 1.16.2 released
+### SciPy 1.16.2 がリリースされました
 
-_September 11, 2025_ -- SciPy 1.16.2 has been released! This is the
-first stable release to provide Windows on ARM wheels on PyPI.
+_2025年9月11日_ -- SciPy 1.16.2 がリリースされました！ このリリースは、PyPIのARM上でWindows OSに対する最初の安定版wheelです。
 
 ### SciPy 1.16.1 がリリースされました
 
@@ -215,7 +214,7 @@ PyConはオープンソースのPythonプログラミング言語を開発して
 
 以下は、SciPyの各リリースのリリースノートのリンク一覧です。 バグ修正リリース（バージョン番号の x.y.z のうち z だけが変更されるもの）には新機能は追加されません。マイナーリリース（y が増加するもの）には新機能が含まれます。
 
-- SciPy 1.16.2 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.16.2)) -- _2025-09-11_.
+- SciPy 1.16.2 ([リリースノート](https://github.com/scipy/scipy/releases/tag/v1.16.2)) -- _2025-09-11_.
 - SciPy 1.16.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.16.1)) -- _2025-07-27_.
 - SciPy 1.16.0 ([リリースノート](https://github.com/scipy/scipy/releases/tag/v1.16.0)) -- _2025-06-22_.
 - SciPy 1.15.3 ([リリースノート](https://github.com/scipy/scipy/releases/tag/v1.15.3)) -- _2022-05-08_.
