@@ -5,6 +5,11 @@ newsHeader: Lançamento da SciPy versão 1.14.1!
 date: 2024-08-20
 ---
 
+### SciPy 1.16.2 released
+
+_September 11, 2025_ -- SciPy 1.16.2 has been released! This is the
+first stable release to provide Windows on ARM wheels on PyPI.
+
 ### SciPy 1.16.1 released
 
 _July 27, 2025_ -- SciPy 1.16.1 has been released! This is the
@@ -222,6 +227,7 @@ a conferência será realizada de 7 a 15 de março em Santa Clara, Califórnia.
 
 Aqui está uma lista de versões da SciPy, com links para notas de lançamento. Versões de correção de bugs (apenas o `z` muda no número de versão `x.y.z`) não tem novas funcionalidades; versões menores (o `y` muda) tem novas funcionalidades.
 
+- SciPy 1.16.2 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.16.2)) -- _2025-09-11_.
 - SciPy 1.16.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.16.1)) -- _2025-07-27_.
 - SciPy 1.16.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.16.0)) -- _2025-06-22_.
 - SciPy 1.15.3 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.15.3)) -- _2025-05-08_.
