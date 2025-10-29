@@ -5,6 +5,10 @@ newsHeader: SciPy 1.15.2 lanzado
 date: 2025-02-16
 ---
 
+### SciPy 1.16.3 released
+
+_October 28, 2025_ -- SciPy 1.16.3 has been released!
+
 ### SciPy 1.16.2 released
 
 _September 11, 2025_ -- SciPy 1.16.2 has been released! This is the
@@ -215,6 +219,7 @@ PyCon es la reunión anual más grande para la comunidad que utiliza y desarroll
 
 Here is a list of SciPy releases, with links to release notes. Las versiones de corrección de errores (solo los cambios `z` en el número de versión `x.y.z`) no tienen características nuevas; las versiones menores (los aumentos de `y`) sí.
 
+- SciPy 1.16.3 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.16.3)) -- _2025-10-28_.
 - SciPy 1.16.2 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.16.2)) -- _2025-09-11_.
 - SciPy 1.16.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.16.1)) -- _2025-07-27_.
 - SciPy 1.16.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.16.0)) -- _2025-06-22_.
