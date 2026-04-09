@@ -11,7 +11,7 @@ Colaboradores con derechos de commit en GitHub.
 
 ### Typing team
 
-Contributors with merge rights on `scipy-stubs`.
+Colaboradores con derechos de merge en `scipy-stubs`.
 
 {{< grid file="typing-team.toml" columns="2 3 4 5" />}}
 
