@@ -11,7 +11,7 @@ _October 28, 2025_ -- SciPy 1.16.3 has been released!
 
 ### SciPy 1.16.2 released
 
-_September 11, 2025_ -- SciPy 1.16.2 has been released! This is the
+_11 de septiembre de 2025_ -- ¡Se ha lanzado SciPy 1.16.2! This is the
 first stable release to provide Windows on ARM wheels on PyPI.
 
 ### SciPy 1.16.1 released
