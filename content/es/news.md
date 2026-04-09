@@ -1,82 +1,79 @@
 ---
 title: Noticias
 sidebar: false
-newsHeader: SciPy 1.15.2 lanzado
-date: 2025-02-16
+newsHeader: ¡SciPy 1.16.3 publicado!
+date: 28-10-2025
 ---
 
-### SciPy 1.16.3 released
+### SciPy 1.16.3 publicado
 
-_October 28, 2025_ -- SciPy 1.16.3 has been released!
+_28 de octubre de 2025_ -- ¡Se ha publicado SciPy 1.16.3!
 
-### SciPy 1.16.2 released
+### SciPy 1.16.2 publicado
 
-_11 de septiembre de 2025_ -- ¡Se ha lanzado SciPy 1.16.2! This is the
-first stable release to provide Windows on ARM wheels on PyPI.
+_11 de septiembre de 2025_ -- ¡Se ha publicado SciPy 1.16.2! Esta es la primera versión estable que proporciona wheels para Windows para ARM en PyPI.
 
-### SciPy 1.16.1 released
+### SciPy 1.16.1 publicado
 
-_July 27, 2025_ -- SciPy 1.16.1 has been released! This is the
-first stable release to support Python 3.14 and provide corresponding
-binaries on PyPI.
+_27 de junio de 2025_ -- ¡Se ha publicado SciPy 1.16.1! Esta es la primera versión estable compatible con Python 3.14 y que proporciona los binarios correspondientes en PyPI.
 
-### SciPy 1.16.0 released
+### SciPy 1.16.0 publicado
 
-_June 22, 2025_ -- SciPy 1.16.0 has been released!
+_22 de junio de 2025_ -- ¡Se ha publicado SciPy 1.16.0!
 
-### SciPy 1.15.3 released
+### SciPy 1.15.3 publicado
 
-_May 8, 2025_ -- SciPy 1.15.3 has been released!
+_8 de mayo de 2025_ -- ¡Se ha publicado SciPy 1.15.3!
 
-### SciPy 1.15.2 lanzado
+### SciPy 1.15.2 publicado
 
-_16 de febrero de 2025_ -- ¡Se ha lanzado SciPy 1.15.2!
+_16 de febrero de 2025_ -- ¡Se ha publicado SciPy 1.15.2!
 
-### SciPy 1.15.1 lanzado
+### SciPy 1.15.1 publicado
 
-_10 de enero de 2025_ - ¡Se ha lanzado SciPy 1.15.1!
+_10 de enero de 2025_ -- ¡Se ha publicado SciPy 1.15.1!
 
-### SciPy 0.15.1 lanzado
+### SciPy 1.15.0 publicado
 
-_3 de enero de 2025_ - ¡Se ha lanzado SciPy 1.15.0! Esta es la primera versión estable que proporciona binarios de Python 3.13 con free-threading en PyPI.
+_3 de enero de 2025_ -- ¡Se ha publicado SciPy 1.15.0! Esta es la primera versión estable que proporciona binarios de Python 3.13 con 'free-threading' en PyPI.
 
-### SciPy 1.14.1 lanzado
+### SciPy 1.14.1 publicado
 
-_20 de agosto de 2024_ - ¡Se ha lanzado SciPy 1.14.1! Esta es la primera versión estable que soporta Python 3.13, incluyendo ' wheels' para PyPI.
+_20 de agosto de 2024_ -- ¡Se ha publicado SciPy 1.14.1! Esta es la primera versión estable que soporta Python 3.13, incluyendo 'wheels' para PyPI.
 
-### SciPy 0.14.1 lanzado
+### SciPy 1.14.0 publicado
 
-_24 de junio de 2024_ - ¡Se ha lanzado SciPy 1.14.0!
+_24 de junio de 2024_ -- ¡Se ha publicado SciPy 1.14.0!
 
-### SciPy 1.11.3 lanzado
+### SciPy 1.13.1 publicado
 
-_22 de mayo de 2024_ - ¡Se ha lanzado SciPy 1.13.1!
+_22 de mayo de 2024_ -- ¡Se ha lanzado SciPy 1.13.1!
 
-### SciPy 1.13.0 lanzado
+### SciPy 1.13.0 publicado
 
-_2 de abril de 2024_: se lanzó SciPy 1.13.0. Esta es la primera versión estable que soporta la serie NumPy 2.x y es compatible con versiones anteriores hasta NumPy 1.22.4.
+_2 de abril de 2024_ -- Se publicó SciPy 1.13.0. Esta es la primera versión estable que soporta la serie NumPy 2.x y es compatible con versiones anteriores hasta NumPy 1.22.4.
 
-### SciPy 1.10.2 lanzado
+### SciPy 1.12.0 publicado
 
-_20 de enero de 2024_ - ¡Se ha lanzado SciPy 1.12.0!
+_20 de enero de 2024_ -- ¡Se ha publicado SciPy 1.12.0!
 
-### SciPy 4.11.1 lanzado
+### SciPy 1.11.4 publicado
 
-_18 de Noviembre de 2023_ - ¡Se ha lanzado SciPy 1.11.4!
+_18 de Noviembre de 2023_ -- ¡Se ha publicado SciPy 1.11.4!
 
-### SciPy 3.11.1 lanzado
+### SciPy 1.11.3 publicado
 
-_27 de septiembre de 2023_ - ¡Se ha lanzado SciPy 1.11.3!
+_27 de septiembre de 2023_ -- ¡Se ha publicado SciPy 1.11.3!
 
-### SciPy 2.11.1 lanzado
+### SciPy 2.11.1 publicado
 
-_17 de agosto de 2023_: se lanzó SciPy 1.11.2 e incluye ruedas para Python 3.12.
+_17 de agosto de 2023_ -- Se publicó SciPy 1.11.2 e incluye 'wheels' para Python 3.12.
 
-### SciPy 1.11.1 lanzado
+### SciPy 1.11.1 publicado
 
-_28 de junio de 2023_ - ¡Se ha lanzado SciPy 1.11.1!
+_28 de junio de 2023_ -- ¡Se ha publicado SciPy 1.11.1!
 
-### SciPy 1.11.0 lanzado
+### SciPy 1.11.0 publicado
 
 _25 de junio de 2023_ - ¡Se ha lanzado SciPy 1.11.0!
 
@@ -219,11 +216,11 @@ PyCon es la reunión anual más grande para la comunidad que utiliza y desarroll
 
 Here is a list of SciPy releases, with links to release notes. Las versiones de corrección de errores (solo los cambios `z` en el número de versión `x.y.z`) no tienen características nuevas; las versiones menores (los aumentos de `y`) sí.
 
-- SciPy 1.16.3 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.16.3)) -- _2025-10-28_.
-- SciPy 1.16.2 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.16.2)) -- _2025-09-11_.
-- SciPy 1.16.1 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.16.1)) -- _2025-07-27_.
-- SciPy 1.16.0 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.16.0)) -- _2025-06-22_.
-- SciPy 1.15.3 ([release notes](https://github.com/scipy/scipy/releases/tag/v1.15.3)) -- _2025-05-08_.
+- SciPy 1.16.3 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.16.3)) -- _28-10-2025_.
+- SciPy 1.16.2 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.16.2)) -- _11-09-2025_.
+- SciPy 1.16.1 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.16.1)) -- _27-07-2025_.
+- SciPy 1.16.0 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.16.0)) -- _22-06-2025_.
+- SciPy 1.15.3 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.15.3)) -- _08-05-2025_.
 - SciPy 1.15.2 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.15.2)) -- _2025-02-16_.
 - SciPy 1.15.1 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.15.1)) -- _2015-01-18_.
 - SciPy 1.15.0 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.15.0)) -- _2014-01-03_.
