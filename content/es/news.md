@@ -129,13 +129,13 @@ _5 de febrero de 2022_ -- ¡SciPy 1.8.0 ha sido publicado!
 
 ### SciPy 1.7.3 publicado
 
-_24 de noviembre de 2021_ -- SciPy 1.7.3 es una versión de corrección de errores que agrega 'wheels' de arm64 para MacOS 12+.
+**24 de noviembre de 2021** -- SciPy 1.7.3 es una versión de corrección de errores que añade 'wheels' binarios para macOS 12+ arm64.
 
-### SciPy 1.7.2 lanzado
+### SciPy 1.7.2 publicado
 
 _5 de noviembre de 2021_ -- SciPy 1.7.2 es una versión de corrección de errores que agrega soporte y 'wheels' para Python 3.10.
 
-### SciPy 1.7.1 lanzado
+### SciPy 1.7.1 publicado
 
 _1 de agosto de 2021_ -- SciPy 1.7.2 es una versión de corrección de errores que agrega soporte y 'wheels' para Python 3.10.
 
