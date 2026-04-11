@@ -145,8 +145,7 @@ _2020-07-02_ -- ¡La primera encuesta de la comunidad de NumPy está EN VIVO! Ve
 
 ### Financiamiento SciPy
 
-_2019-11-15_ SciPy, NumPy, Matplotlib, Pandas, scikit-learn, scikit-image, Dask,
-Zarr y otros recibieron subvenciones de Iniciativa Chan Zuckerberg (CZI) Ver <https://chanzuckerberg.com/eoss/>a
+_2019-11-15_ -- SciPy, NumPy, Matplotlib, Pandas, scikit-learn, scikit-image, Dask, Zarr y otros recibieron apoyo financiero de la iniciativa Chan Zuckerberg. Ver <https://chanzuckerberg.com/eoss/>
 
 ### Resultados de la encuesta de usuarios de SciPy
 
@@ -214,71 +213,71 @@ PyCon es la reunión anual más grande para la comunidad que utiliza y desarroll
 
 ## Lanzamientos
 
-Here is a list of SciPy releases, with links to release notes. Las versiones de corrección de errores (solo los cambios `z` en el número de versión `x.y.z`) no tienen características nuevas; las versiones menores (los aumentos de `y`) sí.
+Esta es una lista de lanzamientos NumPy, con enlaces a notas de publicación. Las versiones de corrección de errores (solo los cambios `z` en el número de versión `x.y.z`) no tienen características nuevas; las versiones menores (los aumentos de `y`) sí.
 
-- SciPy 1.16.3 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.16.3)) -- _28-10-2025_.
-- SciPy 1.16.2 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.16.2)) -- _11-09-2025_.
-- SciPy 1.16.1 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.16.1)) -- _27-07-2025_.
-- SciPy 1.16.0 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.16.0)) -- _22-06-2025_.
-- SciPy 1.15.3 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.15.3)) -- _08-05-2025_.
-- SciPy 1.15.2 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.15.2)) -- _16-02-2025_.
-- SciPy 1.15.1 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.15.1)) -- _10-01-2025_.
-- SciPy 1.15.0 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.15.0)) -- _03-01-2025_.
-- SciPy 1.14.1 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.14.1)) -- _20-08-2025_.
-- SciPy 1.14.0 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.14.0)) -- _24-06-2024_.
-- SciPy 1.13.1 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.13.1)) -- _22-05-2024_.
-- SciPy 1.13.0 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.13.0)) -- _02-04-2024_.
-- SciPy 1.12.0 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.12.0)) -- _20-01-2024_.
-- SciPy 1.11.4 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.11.4)) -- _18-11-2023_.
-- SciPy 1.11.3 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.11.3)) -- _27-09-2023_.
-- SciPy 1.11.2 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.11.2)) -- _17-08-2023_.
-- SciPy 1.11.1 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.11.1)) -- _28-06-2023_.
-- SciPy 1.11.0 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.11.0)) -- _2016-06-25_.
-- SciPy 1.10.1 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.10.1)) -- _2016-02-19_.
-- SciPy 1.10.0 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.10.0)) -- _2014-01-03_.
-- SciPy 1.9.3 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.9.3)) -- _2017-10-09_.
-- SciPy 1.9.2 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.9.2)) -- _2013-10-08_.
-- SciPy 1.9.1 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.9.1))-- _2012-08-25_.
-- SciPy 1.9.0 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.9.0))-- _2012-07-25_.
-- SciPy 1.8.1 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.8.1)) -- _2013-05-08_.
-- SciPy 1.8.0 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.8.0)) -- _2014-02-04_.
-- SciPy 1.7.3 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.7.3)) -- _2014-11-04_.
-- SciPy 1.7.2 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.7.2)) -- _2014-11-04_.
-- SciPy 1.7.1 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.7.1)) -- _2014-08-04_.
-- SciPy 1.7.0 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.7.0)) -- _2016-06-25_.
-- SciPy 1.6.3 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.6.3)) -- _2016-04-25_.
-- SciPy 1.6.2 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.6.2)) -- _2014-03-04_.
-- SciPy 1.6.1 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.6.1)) -- _2013-02-07_.
-- SciPy 1.6.0 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.6.0)) -- _2013-12-08_.
-- SciPy 1.5.0 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.5.0)) -- _2016-06-25_.
-- SciPy 1.5.4 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.5.4)) -- _2014-11-04_.
-- SciPy 1.5.3 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.5.3)) -- _2013-10-07_.
-- SciPy 1.5.2 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.5.2)) -- _2015-07-23_.
-- SciPy 1.5.1 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.5.1)) -- _2014-07-04_.
-- SciPy 1.2.3 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.2.3)) -- _2016-01-23_.
-- SciPy 1.4.1 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.4.1)) -- _2016-12-19_.
-- SciPy 1.4.0 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.4.0)) -- _2013-12-08_.
-- SciPy 1.3.2 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.3.2)) -- _2017-11-09_.
-- SciPy 1.3.1 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.3.1)) -- _2013-08-08_.
-- SciPy 1.3.0 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.3.0)) -- _2013-05-07_.
-- SciPy 1.2.2 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.2.2)) -- _2014-06-04_.
-- SciPy 1.2.1 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.2.1)) -- _2014-02-04_.
-- SciPy 1.2.0 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.2.0)) -- _2013-12-07_.
-- SciPy 1.1.0 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.1.0)) -- _2014-05-03_.
-- SciPy 1.0.0 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v1.0.0)) -- _2016-10-25_.
-- SciPy 0.19.1 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v0.19.1)) -- _2015-06-24_.
-- SciPy 0.19.0 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v0.19.0)) -- _2017-03-09_.
-- SciPy 0.18.1 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v0.18.1)) -- _2016-09-19_.
-- SciPy 0.18.0 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v0.18.0)) -- _2016-07-25_.
-- SciPy 0.17.1 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v0.17.1)) -- _2016-05-12_.
-- SciPy 0.17.0 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v0.17.0)) -- _2016-01-23_.
-- SciPy 0.16.1 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v0.16.1)) -- _2015-10-24_.
-- SciPy 0.16.0 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v0.16.0)) -- _2015-07-23_.
-- SciPy 0.15.1 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v0.15.1)) -- _2015-01-18_.
-- SciPy 0.15.0 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v0.15.0)) -- _2015-01-11_.
-- SciPy 0.14.1 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v0.14.1)) -- _2014-12-30_.
-- SciPy 0.14.0 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v0.14.0)) -- _2014-05-03_.
-- SciPy 0.13.3 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v0.13.3)) -- _2014-02-04_.
-- SciPy 0.13.2 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v0.13.2)) -- _2013-12-08_.
-- SciPy 0.12.0 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v0.12.0)) -- _2013-04-07_.
-- SciPy 0.11.0 ([notas de lanzamiento](https://github.com/scipy/scipy/releases/tag/v0.11.0))-- _2012-09-25_.
+- SciPy 1.16.3 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.16.3)) -- _2025-10-28_.
+- SciPy 1.16.2 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.16.2)) -- _2025-09-11_.
+- SciPy 1.16.1 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.16.1)) -- _2025-07-27_.
+- SciPy 1.16.0 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.16.0)) -- _2025-06-22_.
+- SciPy 1.15.3 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.15.3)) -- _2025-05-08_.
+- SciPy 1.15.2 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.15.2)) -- _2025-02-16_.
+- SciPy 1.15.1 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.15.1)) -- _2025-01-10_.
+- SciPy 1.15.0 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.15.0)) -- _2025-01-03_.
+- SciPy 1.14.1 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.14.1)) -- _2024-08-20_.
+- SciPy 1.14.0 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.14.0)) -- _2024-06-24_.
+- SciPy 1.13.1 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.13.1)) -- _2024-05-22_.
+- SciPy 1.13.0 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.13.0)) -- _2024-04-02_.
+- SciPy 1.12.0 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.12.0)) -- _2024-01-20_.
+- SciPy 1.11.4 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.11.4)) -- _2023-11-18_.
+- SciPy 1.11.3 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.11.3)) -- _2023-09-27_.
+- SciPy 1.11.2 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.11.2)) -- _2023-08-17_.
+- SciPy 1.11.1 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.11.1)) -- _2023-06-28_.
+- SciPy 1.11.0 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.11.0)) -- _2023-06-25_.
+- SciPy 1.10.1 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.10.1)) -- _2023-02-19_.
+- SciPy 1.10.0 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.10.0)) -- _2023-01-03_.
+- SciPy 1.9.3 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.9.3)) -- _2022-10-19_.
+- SciPy 1.9.2 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.9.2)) -- _2022-10-08_.
+- SciPy 1.9.1 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.9.1))-- _2022-08-26_.
+- SciPy 1.9.0 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.9.0))-- _2022-07-29_.
+- SciPy 1.8.1 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.8.1)) -- _2022-05-18_.
+- SciPy 1.8.0 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.8.0)) -- _2022-02-05_.
+- SciPy 1.7.3 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.7.3)) -- _2021-11-24_.
+- SciPy 1.7.2 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.7.2)) -- _2021-11-05_.
+- SciPy 1.7.1 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.7.1)) -- _2021-08-01_.
+- SciPy 1.7.0 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.7.0)) -- _2021-06-20_.
+- SciPy 1.6.3 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.6.3)) -- _2021-04-25_.
+- SciPy 1.6.2 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.6.2)) -- _2021-03-24_.
+- SciPy 1.6.1 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.6.1)) -- _2021-02-17_.
+- SciPy 1.6.0 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.6.0)) -- _2020-12-31_.
+- SciPy 1.5.0 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.5.0)) -- _2020-06-21_.
+- SciPy 1.5.4 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.5.4)) -- _2020-11-04_.
+- SciPy 1.5.3 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.5.3)) -- _2020-10-17_.
+- SciPy 1.5.2 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.5.2)) -- _2020-07-23_.
+- SciPy 1.5.1 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.5.1)) -- _2020-07-04_.
+- SciPy 1.2.3 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.2.3)) -- _2020-01-21_.
+- SciPy 1.4.1 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.4.1)) -- _2019-12-19_.
+- SciPy 1.4.0 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.4.0)) -- _2019-12-16_.
+- SciPy 1.3.2 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.3.2)) -- _2019-11-09_.
+- SciPy 1.3.1 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.3.1)) -- _2019-08-08_.
+- SciPy 1.3.0 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.3.0)) -- _2019-05-17_.
+- SciPy 1.2.2 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.2.2)) -- _2019-06-06_.
+- SciPy 1.2.1 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.2.1)) -- _2019-02-08_.
+- SciPy 1.2.0 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.2.0)) -- _2018-12-17_.
+- SciPy 1.1.0 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.1.0)) -- _2018-05-05_.
+- SciPy 1.0.0 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v1.0.0)) -- _2017-10-25_.
+- SciPy 0.19.1 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v0.19.1)) -- _2017-06-21_.
+- SciPy 0.19.0 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v0.19.0)) -- _2017-03-09_.
+- SciPy 0.18.1 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v0.18.1)) -- _2016-09-19_.
+- SciPy 0.18.0 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v0.18.0)) -- _2016-07-25_.
+- SciPy 0.17.1 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v0.17.1)) -- _2016-05-12_.
+- SciPy 0.17.0 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v0.17.0)) -- _2016-01-23_.
+- SciPy 0.16.1 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v0.16.1)) -- _2015-10-24_.
+- SciPy 0.16.0 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v0.16.0)) -- _2015-07-23_.
+- SciPy 0.15.1 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v0.15.1)) -- _2015-01-18_.
+- SciPy 0.15.0 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v0.15.0)) -- _2015-01-11_.
+- SciPy 0.14.1 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v0.14.1)) -- _2014-12-30_.
+- SciPy 0.14.0 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v0.14.0)) -- _2014-05-03_.
+- SciPy 0.13.3 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v0.13.3)) -- _2014-02-04_.
+- SciPy 0.13.2 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v0.13.2)) -- _2013-12-08_.
+- SciPy 0.12.0 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v0.12.0)) -- _2013-04-07_.
+- SciPy 0.11.0 ([notas de publicación](https://github.com/scipy/scipy/releases/tag/v0.11.0))-- _2012-09-25_.
