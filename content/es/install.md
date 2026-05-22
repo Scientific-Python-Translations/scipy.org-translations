@@ -22,7 +22,7 @@ Para instalar SciPy con \[archivos de tipado estáticos], revisa [Instalación c
 [static type stubs]: https://typing.readthedocs.io/en/latest/guides/libraries.html
 
 {{< admonition tip >}}
-Es posible que se requiera instalar archivos de anotaciones de tipos para que los Entornos de Desarrollo Interactivos (IDEs) ofrezcan sugerencias de tipos más precisas.
+Puede ser necesario instalar 'type stubs' para que los Entornos de Desarrollo Integrados (IDEs) proporcionen anotaciones de tipo precisas.
 {{< /admonition >}}
 
 {{< tabs >}}
@@ -79,7 +79,7 @@ Esto iniciará una sesión del intérprete de Python, desde la cual podrás ejec
 
 Consulta los siguientes pasos en [la guía de usuario de SciPy][scipy-user-guide].
 
-[scipy-user-guide]: https://docs.conda.io/projects/conda/en/latest/index.html
+[scipy-user-guide]: https://docs.scipy.org/doc/scipy/tutorial/
 
 {{< admonition note >}}
 
