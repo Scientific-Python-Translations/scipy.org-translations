@@ -3,7 +3,7 @@ title: 소개
 sidebar: false
 ---
 
-SciPy는 SciPy 커뮤니티와 더 넓은 과학 파이썬 커뮤니티의 합의를 통해
+사이파이는 SciPy 커뮤니티와 더 넓은 과학 파이썬 커뮤니티의 합의를 통해
 GitHub에서 공개적으로 개발됩니다. 저희의 거버넌스 방식에 대한 자세한 내용은
 [거버넌스 문서](https://docs.scipy.org/doc/scipy/dev/governance.html)
 를 참고해 주십시오.
@@ -60,13 +60,13 @@ SciPy 프로젝트는 성장하고 있으며, 다음과 같은 팀이 있습니�
 
 ## 스폰서
 
-SciPy는 다음과 같은 곳에서 직접적인 자금 지원을 받고 있습니다:
+사이파이는 다음과 같은 곳에서 직접적인 자금 지원을 받고 있습니다:
 
 {{< sponsors >}}
 
 ## 기관 파트너
 
-기관 파트너란, 자사 직원이 업무의 일환으로 SciPy에 기여하도록 함으로써
+기관 파트너란, 자사 직원이 업무의 일환으로 사이파이에 기여하도록 함으로써
 프로젝트를 지원하는 조직을 말합니다. 현재 기관
 파트너는 다음과 같습니다:
 
@@ -79,19 +79,19 @@ SciPy는 다음과 같은 곳에서 직접적인 자금 지원을 받고 있습�
 
 ## 기부
 
-SciPy는 앞으로도 항상 100% 오픈 소스 소프트웨어로 모두가 자유롭게 사용할 수 있으며,
+사이파이는 앞으로도 항상 100% 오픈 소스 소프트웨어로 모두가 자유롭게 사용할 수 있으며,
 수정된 BSD 라이선스의 관대한 조건으로 배포됩니다. [기여자](https://github.com/scipy/scipy/graphs/contributors)
-분들이 자원하여 시간을 들여 SciPy를 개선하고 계시지만,
+분들이 자원하여 시간을 들여 사이파이를 개선하고 계시지만,
 프로젝트를 운영하고 개발을 가속화하기 위해서는
 재정적 자원도 필요합니다. 여러분의 업무, 연구, 또는 회사에서
-SciPy가 유용했다면, 본인의 형편에 맞는 범위 내에서
+사이파이가 유용했다면, 본인의 형편에 맞는 범위 내에서
 프로젝트에 기부하시는 것을 고려해 주시기 바랍니다. 어떤
 금액이라도 도움이 됩니다!
 
 기부금은 [NumFOCUS](https://numfocus.org) 재단이
 관리하며, 여러분의 기여를 SciPy 프로젝트로 전달하고,
 SciPy 개발팀에게 기본적인 행정 및 법무 지원을
-제공합니다. NumFOCUS는 501(c)3 비영리
+제공합니다. NumFOCUS 는 501(c)3 비영리
 재단이므로, 미국 세법의 적용을 받으시는 경우 여러분의 기부금은
 세액 공제 대상입니다.
 
@@ -120,9 +120,9 @@ SciPy 개발팀은 재정적 지원, 서비스, 또는 개발 인프라를 제�
   대한 지원
 - [Intel](https://www.intel.com): Intel
   [MKL](https://software.intel.com/en-us/intel-mkl/) 라이선스 제공
-- [BYU](https://www.byu.edu): Travis Oliphant이 SciPy에 종사하던 시기에
+- [BYU](https://www.byu.edu): Travis Oliphant이 사이파이에 종사하던 시기에
   고용
-- [Mayo Clinic](https://www.mayoclinic.org): Travis Oliphant이 SciPy에
+- [Mayo Clinic](https://www.mayoclinic.org): Travis Oliphant이 사이파이에
   종사하던 시기에 고용
 
 _이 목록은 시간 순서로 정렬되어 있으며 (가장 최근 기여 순), 2022년 1월에 마지막으로
@@ -132,5 +132,5 @@ _이 목록은 시간 순서로 정렬되어 있으며 (가장 최근 기여 순
 
 ## 소셜 미디어
 
-- [Mastodon의 @scipy](https://fosstodon.org/@scipy)
+- [Mastodon 의 @scipy](https://fosstodon.org/@scipy)
 - [X(구 Twitter)의 @SciPy_team](https://x.com/scipy_team)
