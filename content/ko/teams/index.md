@@ -1,34 +1,34 @@
 ---
-title: Teams
+title: 팀
 sidebar: false
 ---
 
-### Maintainers
+### 메인테이너
 
-Contributors with merge rights on GitHub.
+GitHub에서 병합 권한을 가진 기여자입니다.
 
 {{< grid file="maintainers.toml" columns="2 3 4 5" />}}
 
-### Typing team
+### 타이핑팀
 
-Contributors with merge rights on `scipy-stubs`.
+`scipy-stubs`에서 병합 권한을 가진 기여자입니다.
 
 {{< grid file="typing-team.toml" columns="2 3 4 5" />}}
 
-### Triage team
+### 진단팀
 
-Contributors with triage rights on GitHub.
+GitHub에서 진단 권한을 가진 기여자입니다.
 
 {{< grid file="triage-team.toml" columns="2 3 4 5" />}}
 
-### Web team
+### 웹팀
 
-People who have contributed to the development of the SciPy.org website.
+SciPy.org 웹사이트 개발에 기여하신 분들입니다.
 
 {{< grid file="web-team.toml" columns="2 3 4 5" />}}
 
 ### 명예 메인테이너
 
-Maintainers who have contributed to SciPy in the past.
+과거에 SciPy에 기여하신 메인테이너입니다.
 
 {{< grid file="emeritus-maintainers.toml" columns="2 3 4 5" />}}
