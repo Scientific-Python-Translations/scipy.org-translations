@@ -11,13 +11,13 @@ _2025년 10월 28일_ -- SciPy 1.16.3이 배포되었습니다!
 
 ### SciPy 1.16.2 배포
 
-_2025년 9월 11일_ -- SciPy 1.16.2이 배포되었습니다! PyPI에서 Windows on ARM 휠을 제공하는
+_2025년 9월 11일_ -- SciPy 1.16.2이 배포되었습니다! PyPI 에서 Windows on ARM 휠을 제공하는
 첫 안정 배포입니다.
 
 ### SciPy 1.16.1 배포
 
 _2025년 7월 27일_ -- SciPy 1.16.1이 배포되었습니다! Python 3.14를 지원하고 그에 해당하는
-바이너리를 PyPI에서 제공하는 첫 안정 배포입니다.
+바이너리를 PyPI 에서 제공하는 첫 안정 배포입니다.
 
 ### SciPy 1.16.0 배포
 
@@ -37,7 +37,7 @@ _2025년 1월 10일_ -- SciPy 1.15.1이 배포되었습니다!
 
 ### SciPy 1.15.0 배포
 
-_2025년 1월 3일_ -- SciPy 1.15.0이 배포되었습니다! PyPI에서 Python 3.13 자유 스레드(free-threading) 바이너리를 제공하는
+_2025년 1월 3일_ -- SciPy 1.15.0이 배포되었습니다! PyPI 에서 Python 3.13 자유 스레드(free-threading) 바이너리를 제공하는
 첫 안정 배포입니다.
 
 ### SciPy 1.14.1 배포
@@ -100,7 +100,7 @@ _2023년 1월 3일_ -- SciPy 1.10.0이 배포되었습니다!
 
 ### SciPy 자금 지원
 
-_2022년 11월_ -- SciPy가 Chan Zuckerberg
+_2022년 11월_ -- SciPy 가 Chan Zuckerberg
 Initiative로부터 지원금을 받았습니다!
 
 <https://chanzuckerberg.com/eoss/proposals/scipy-fundamental-tools-for-biomedical-research/> 를 참고해 주십시오
@@ -162,7 +162,7 @@ _2019-11-13_ 설문 조사 결과는
 
 ### SciPy-NumFOCUS
 
-SciPy가 [NumFOCUS](https://numfocus.org/)의 재정 후원 프로젝트가
+SciPy 가 [NumFOCUS](https://numfocus.org/)의 재정 후원 프로젝트가
 되었습니다 _2019-04-18_
 
 ### SciPy 사용자 설문 조사
@@ -231,12 +231,12 @@ _2019-07-08_ 제18회 Scientific Computing with Python 연례 컨퍼런스인
 
 ### EuroSciPy 2012
 
-EuroSciPy는 파이썬을 사용하는 과학자들이 모이는 유럽 행사입니다. 2012년
+EuroSciPy 는 파이썬을 사용하는 과학자들이 모이는 유럽 행사입니다. 2012년
 행사는 2012년 8월 23-27일, 벨기에 브뤼셀에서 개최되었습니다.
 
 ### PyCon 2012
 
-PyCon은 오픈 소스 파이썬 프로그래밍 언어를 사용하고
+PyCon 은 오픈 소스 파이썬 프로그래밍 언어를 사용하고
 개발하는 커뮤니티의 가장 큰 연례 행사입니다. 올해
 컨퍼런스는 3월 7-15일, 미국 캘리포니아주 산타 클라라에서 개최되었습니다.
 
