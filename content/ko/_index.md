@@ -6,44 +6,44 @@ title: SciPy
 
 [[item]]
 type = 'card'
-title = 'Fundamental algorithms'
+title = '기본 알고리즘'
 body = '''
-SciPy provides algorithms for optimization, integration, interpolation, eigenvalue problems, algebraic equations, differential equations, statistics and many other classes of problems.
+SciPy는 최적화, 적분, 보간, 고유값 문제, 대수 방정식, 미분 방정식, 통계 및 그 외 여러 종류의 문제에 대한 알고리즘을 제공합니다.
 '''
 
 [[item]]
 type = 'card'
-title = 'Broadly applicable'
+title = '폭넓은 활용성'
 body = '''
-The algorithms and data structures provided by SciPy are broadly applicable across domains.
+SciPy가 제공하는 알고리즘과 자료 구조는 다양한 분야에서 폭넓게 활용할 수 있습니다.
 '''
 
 [[item]]
 type = 'card'
-title = 'Foundational'
+title = '기반이 되는'
 body = '''
-Extends NumPy providing additional tools for array computing and provides specialized data structures, such as sparse matrices and k-dimensional trees.
+NumPy를 확장하여 배열 계산을 위한 추가 도구를 제공하며, 희소 행렬과 k차원 트리와 같은 특화된 자료 구조도 함께 제공합니다.
 '''
 
 [[item]]
 type = 'card'
-title = 'Performant'
+title = '고성능'
 body = '''
-SciPy wraps highly-optimized implementations written in low-level languages like Fortran, C, and C++. Enjoy the flexibility of Python with the speed of compiled code.
+SciPy는 Fortran, C, C++ 같은 저수준 언어로 작성된 고도로 최적화된 구현을 감싸서 제공합니다. 파이썬의 유연성과 컴파일된 코드의 속도를 동시에 누리실 수 있습니다.
 '''
 
 [[item]]
 type = 'card'
-title = '사용상 용이성'
+title = '사용하기 쉬운'
 body = '''
-사이파이의 고수준 문법은 여러 분야의 다양한 역량의 프로그래머들도 효율적으로 사용할 수 있습니다.
+SciPy의 고수준 문법 덕분에, 배경이나 경험 수준에 관계없이 누구나 쉽게 접근하고 생산적으로 사용할 수 있습니다.
 '''
 
 [[item]]
 type = 'card'
-title = 'Open source'
+title = '오픈 소스'
 body = '''
-Distributed under a liberal [BSD license](https://github.com/scipy/scipy/blob/main/LICENSE.txt), SciPy is developed and maintained [publicly on GitHub](https://github.com/scipy/scipy) by a vibrant, responsive, and diverse [community](/community).
+관대한 [BSD 라이선스](https://github.com/scipy/scipy/blob/main/LICENSE.txt)로 배포되며, 활기차고 반응이 빠르며 다양성을 갖춘 [커뮤니티](/community)가 [GitHub에서 공개적으로](https://github.com/scipy/scipy) 개발하고 유지·관리합니다.
 '''
 
 {{< /grid >}}
