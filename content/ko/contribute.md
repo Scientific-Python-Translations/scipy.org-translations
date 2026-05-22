@@ -1,77 +1,77 @@
 ---
-title: Contribute to SciPy
+title: SciPy에 기여하기
 sidebar: false
 ---
 
-The SciPy project welcomes your expertise and enthusiasm!
-Your choices aren't limited to programming, as you can
-see below there are many areas where we need **your** help.
+SciPy 프로젝트는 여러분의 전문성과 열정을 환영합니다!
+여러분이 선택할 수 있는 길은 프로그래밍에만 한정되지 않습니다.
+아래에서 보시는 것처럼, **여러분**의 도움이 필요한 영역은 매우 다양합니다.
 
-If you're unsure where to start or how your skills fit in, _reach out!_
-See the [community](/community) page.
+어디서부터 시작해야 할지, 또는 본인의 역량이 어디에 잘 맞을지 잘 모르시겠다면, _연락해 주십시오!_
+[커뮤니티](/community) 페이지를 참고해 주세요.
 
-Our community aspires to treat everyone equally and to value all contributions.
-We have a
-[Code of Conduct](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
-to foster an open and welcoming environment.
+우리 커뮤니티는 모든 사람을 동등하게 대하고 모든 기여를 소중히 여기는 것을 지향합니다.
+열린 환영의 분위기를 만들기 위해
+[행동 강령](https://docs.scipy.org/doc/scipy/dev/conduct/code_of_conduct.html)
+을 마련해 두었습니다.
 
-### Writing code
+### 코드 작성
 
-Programmers, this
-[guide](https://scipy.github.io/devdocs/dev/contributor/development_workflow.html#development-workflow)
-explains how to contribute to the codebase.
+프로그래머라면, 이
+[가이드](https://scipy.github.io/devdocs/dev/contributor/development_workflow.html#development-workflow)
+에서 코드베이스에 기여하는 방법을 확인하실 수 있습니다.
 
-### Reviewing pull requests
+### 풀 리퀘스트 리뷰
 
-The project has hundreds of open pull requests -- meaning many potential
-improvements and many open-source contributors waiting for feedback. If you're
-a developer who knows SciPy, you can help even if you're not familiar with the
-codebase. You can:
+본 프로젝트에는 수백 건의 열린 풀 리퀘스트가 있습니다 -- 이는 잠재적 개선 사항도
+많고, 피드백을 기다리는 오픈 소스 기여자들도 많다는 뜻입니다. SciPy를 잘 아시는
+개발자라면, 코드베이스에 익숙하지 않더라도 도움을 주실 수
+있습니다. 예를 들어 다음과 같은 일들이 있습니다:
 
-- summarize a long-running discussion
-- triage documentation PRs
-- test proposed changes
+- 오래 진행된 논의 요약하기
+- 문서 관련 PR 진단하기
+- 제안된 변경 사항 테스트하기
 
-### Developing educational materials
+### 교육 자료 개발
 
-SciPy's [User Guide](https://docs.scipy.org/doc/scipy/tutorial/index.html)
-deserves attention.
-We're in need of new tutorials, how-to's, and deep-dive explanations, and the
-site needs restructuring. Opportunities aren't limited to writers. We'd also
-welcome worked examples, notebooks, and videos.
+SciPy의 [사용자 가이드](https://docs.scipy.org/doc/scipy/tutorial/index.html)
+에는 더 많은 관심이 필요합니다.
+새로운 튜토리얼, 사용법(how-to), 심화 설명이 필요하고,
+사이트도 재구성이 필요한 상황입니다. 기여 기회는 글 쓰는 분들에게만 한정되지 않습니다. 실제 예제, 노트북,
+동영상도 환영합니다.
 
-### Issue triaging
+### 이슈 진단
 
-The [SciPy issue tracker](https://github.com/scipy/scipy/issues) has a _lot_
-of open issues. Some are no longer valid, some should be prioritized, and some
-would make good issues for new contributors. You can:
+[SciPy 이슈 트래커](https://github.com/scipy/scipy/issues)에는 _많은_
+열린 이슈가 있습니다. 더 이상 유효하지 않은 이슈도 있고, 우선순위를 높여야 할 이슈도 있으며,
+새로운 기여자에게 적합한 이슈도 있습니다. 예를 들어 다음과 같은 일들이 있습니다:
 
-- check if older bugs are still present
-- find duplicate issues and link related ones
-- add good self-contained reproducers to issues
-- label issues correctly (this requires triage rights -- just ask)
+- 오래된 버그가 여전히 존재하는지 확인하기
+- 중복된 이슈를 찾아 관련 이슈들을 연결하기
+- 이슈에 좋은 단독 실행 가능한 재현 예제 추가하기
+- 이슈에 올바른 라벨 붙이기 (진단 권한이 필요합니다 -- 요청만 해 주십시오)
 
-Please just dive in.
+편하게 뛰어들어 주십시오.
 
-### Website development
+### 웹사이트 개발
 
-We've just revamped our website, but we're far from done. If you love web
-development, these
-[issues](https://github.com/scipy/scipy.org/issues)
-list some of our unmet needs -- and feel free to share your own ideas.
+저희는 웹사이트를 새로 단장했지만, 아직 완성과는 거리가 멉니다. 웹 개발을
+좋아하시는 분이라면, 이
+[이슈 목록](https://github.com/scipy/scipy.org/issues)
+에서 아직 충족되지 못한 요구 사항들을 확인하실 수 있습니다 -- 또한 자유롭게 본인의 아이디어를 공유해 주십시오.
 
-### Graphic design
+### 그래픽 디자인
 
-We can barely begin to list the contributions a graphic designer can make here.
-Our docs are parched for illustration; our growing website craves images --
-opportunities abound.
+그래픽 디자이너가 이곳에서 기여할 수 있는 일들은 다 나열하기조차 어렵습니다.
+저희의 문서는 일러스트레이션에 목말라 있고, 성장 중인 웹사이트는 이미지를 갈망합니다 --
+기회는 곳곳에 열려 있습니다.
 
-### Fundraising
+### 모금
 
-SciPy was all-volunteer for many years, but as its importance grew it became
-clear that to ensure stability and growth we'd need financial support. This
-SciPy'19 talk explains how much
-difference that support has made. Like all the nonprofit world, we're
-constantly searching for grants, sponsorships, and other kinds of support. We
-have a number of ideas and of course we welcome more. Fundraising is a scarce
-skill here -- we'd appreciate your help.
+SciPy는 오랫동안 전적으로 자원봉사로 운영되어 왔지만, 그 중요성이 커짐에 따라
+안정성과 성장을 보장하려면 재정적 지원이 필요하다는 점이 분명해졌습니다. 이
+SciPy'19 발표에서 그러한 지원이
+얼마나 큰 차이를 만들어냈는지 설명하고 있습니다. 모든 비영리 단체와 마찬가지로, 저희도
+지원금, 스폰서십, 그 외 다양한 형태의 후원을 계속 찾고 있습니다. 저희에게도
+여러 아이디어가 있지만, 더 많은 의견을 환영합니다. 이곳에서 모금은 매우 부족한
+역량입니다 -- 여러분의 도움을 부탁드립니다.
