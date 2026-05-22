@@ -1,11 +1,9 @@
 ---
-title: Citing SciPy
+title: SciPy 인용하기
 sidebar: false
 ---
 
-If SciPy has been significant in your research, and you would like to
-acknowledge the project in your academic publication, we suggest citing the
-following paper:
+SciPy가 여러분의 연구에 의미 있는 역할을 했고 학술 논문에서 본 프로젝트를 언급하고자 한다면, 다음 논문을 인용하실 것을 권합니다:
 
 Pauli Virtanen, Ralf Gommers, Travis E. Oliphant, Matt Haberland, Tyler
 Reddy, David Cournapeau, Evgeni Burovski, Pearu Peterson, Warren
@@ -18,7 +16,7 @@ Archibald, Antônio H. Ribeiro, Fabian Pedregosa, Paul van Mulbregt, and
 SciPy 1.0 Contributors. (2020) **SciPy 1.0: Fundamental Algorithms for
 Scientific Computing in Python**. _Nature Methods_, 17(3), 261-272. DOI: [10.1038/s41592-019-0686-2](https://doi.org/10.1038/s41592-019-0686-2).
 
-Here\'s an example of a BibTeX entry:
+BibTeX 항목의 예시는 다음과 같습니다:
 
 ```
 @ARTICLE{2020SciPy-NMeth,
@@ -46,6 +44,4 @@ Here\'s an example of a BibTeX entry:
 }
 ```
 
-For any specific algorithm, also consider citing the original author\'s
-paper (this can often be found under the \"References\" section of the
-docstring).
+특정 알고리즘에 대해서는, 원저자의 논문도 함께 인용하시는 것을 고려해 주십시오 (해당 정보는 보통 docstring의 \"References\" 항목에서 확인하실 수 있습니다).
