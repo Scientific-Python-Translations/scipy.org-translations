@@ -3,7 +3,7 @@ title: SciPy 인용하기
 sidebar: false
 ---
 
-SciPy가 여러분의 연구에 의미 있는 역할을 했고 학술 논문에서 본 프로젝트를 언급하고자 한다면, 다음 논문을 인용하실 것을 권합니다:
+사이파이가 여러분의 연구에 의미 있는 역할을 했고 학술 논문에서 본 프로젝트를 언급하고자 한다면, 다음 논문을 인용하실 것을 권합니다:
 
 Pauli Virtanen, Ralf Gommers, Travis E. Oliphant, Matt Haberland, Tyler
 Reddy, David Cournapeau, Evgeni Burovski, Pearu Peterson, Warren
@@ -44,4 +44,4 @@ BibTeX 항목의 예시는 다음과 같습니다:
 }
 ```
 
-특정 알고리즘에 대해서는, 원저자의 논문도 함께 인용하시는 것을 고려해 주십시오 (해당 정보는 보통 docstring의 \"References\" 항목에서 확인하실 수 있습니다).
+특정 알고리즘에 대해서는, 원저자의 논문도 함께 인용하시는 것을 고려해 주십시오 (해당 정보는 보통 docstring 의 \"References\" 항목에서 확인하실 수 있습니다).
